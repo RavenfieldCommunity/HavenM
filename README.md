@@ -19,7 +19,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 - **Combat Behavior & Engagements**
   - AI **fires more aggressively**, reducing hesitation and making firefights more intense.
   - AI from **all skill levels can lean**.
-  - AI **hides behind cover when under fire**.
+  - AI **hides behind the cover when under fire**.
   - AI **provides suppressive fire** on known enemy positions.
   - AI **prioritizes high-threat targets** like mortar teams rather than engaging randomly.
   - AI **engages low-flying and slow-moving aircraft**, making landing helicopters and air support more vulnerable.
@@ -33,6 +33,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
   - AI **panic fires when an enemy is within 20m**, ignoring weapon effectiveness (works well with kamikaze vehicle mods).
   - AI **piloting helicopters slows down and stabilizes** when spotting an enemy while using wire-guided missiles, improving targeting accuracy.
   - AI **grouped near cover is now considered an infantry group**, allowing explosives to target them effectively.
+  - AI driver will halt when it has low or no passenger and the gunner is having a target
 
 ### New Game Mechanics
 - **Weapon Mounting System**
@@ -41,7 +42,10 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 - **Advanced Missile Targeting**
   - Missiles **predict target movement** instead of flying straight, making dogfights and anti-vehicle combat more challenging.
   - Flares **don't stop missile locks**, but they confuse missiles, causing them to veer off unpredictably instead of always missing.
-
+  
+- **Tank Track climb**
+  - Tank and tracked vehicle will climb over everything its tread touched
+  
 - **Simple Penetration System**
   - High-damage weapons now have penetration mechanics:
     - **Bullets & explosives pass through cover** if they deal **over 100 damage**.
@@ -51,13 +55,13 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 HavenM includes a **complete revamp** of the SpecOps mode, making it more dynamic and challenging:
 
 - **Dynamic enemy spawns**, ensuring unpredictable encounters.
-- **Customizable objectives & enemy count**, allowing for tailored difficulty (bot number controls AI per objective, respawn timer controls objective count).
+- **Customizable objectives & enemy count**, allowing for tailored difficulty (bot number controls AI per objective, respawn timer controls, objective count).
 - AI **exits vehicles** when the player is nearby to engage in direct combat.
 - AI **flanks and ambushes players** based on skill level.
   - **Normal & lower-skill bots** rush to the player's last known position.
   - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
 - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
-- AI **no longer needs direct line of sight to fire flares**—they react when alerted instead.
+- AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
 
 # Installation 
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter.
