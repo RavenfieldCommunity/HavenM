@@ -17,6 +17,8 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
   - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
   
 - **Combat Behavior & Engagements**
+  - Ai in vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
+  - Only veteran skill and Elite skill Ground vehicle driver can pop flare in response to lock on weapon tracking 
   - AI **fires more aggressively**, reducing hesitation and making firefights more intense.
   - AI from **all skill levels can lean**.
   - AI **hides behind the cover when under fire**.
