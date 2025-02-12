@@ -1,4 +1,6 @@
 # HavenM 
+![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Downloads&logo=GitHub&style=flat-square) 
+
 AI and Gameplay Overhaul for Ravenfield
 
 ## What is HavenM?
@@ -66,10 +68,10 @@ powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Tex
 ```
 It will install HavenM and create an Updater shortcut in Desktop.
 
-**YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [WINDOWS DENFENDER](windowsdefender://threat)’s Log FOR THE FIRST TIME!!!**
+**YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [Windows Denfender](windowsdefender://threat)'s log FOR THE FIRST TIME!!!**
 ## By yourself
-Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases):
+Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CHarp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
-Download the `Assembly-CHarp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
+Download the `HavenM.ACUpdater.dll` if you want your game to auto-update ( put it in `Ravenfield\BepInEx\plugins`)
 
-Download only the `HavenM.ACUpdater.dll` if you want your game to auto-update ( put it in `Ravenfield\BepInEx\plugins`)
+# Other Information	

@@ -1,6 +1,11 @@
+name: Discord Notice
+
 on:
   release:
-    types: [edited]
+    types: 
+      - edited
+      - published
+      - released
 
 jobs:
   github-releases-to-discord:
