@@ -1,5 +1,5 @@
 # HavenM 
-![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Currect version's downloads&logo=GitHub&style=flat-square) 
+![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Currect%20version's%20downloads&logo=GitHub&style=flat-square) 
 
 AI and Gameplay Overhaul for Ravenfield
 
