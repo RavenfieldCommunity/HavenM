@@ -1,5 +1,5 @@
 # HavenM 
-![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Downloads&logo=GitHub&style=flat-square) 
+![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Currect version's downloads&logo=GitHub&style=flat-square) 
 
 AI and Gameplay Overhaul for Ravenfield
 
@@ -61,6 +61,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
 
 # Installation 
+Re-installing enquals updating!
 ## By command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
@@ -75,3 +76,6 @@ Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Do
 Download the `HavenM.ACUpdater.dll` if you want your game to auto-update ( put it in `Ravenfield\BepInEx\plugins`)
 
 # Other Information	
+Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)
+
+This site not belong to this project.

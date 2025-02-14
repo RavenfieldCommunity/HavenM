@@ -13,6 +13,6 @@ jobs:
         uses: SethCohen/github-releases-to-discord@v1.16.2
         with:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
-          content: "||@everyone||"
+          content: "@standup cock slobber\nClick title for more info."
           footer_timestamp: true
           max_description: '8192'
