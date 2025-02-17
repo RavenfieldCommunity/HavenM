@@ -70,13 +70,13 @@ Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
-It will install HavenM and updater and create an Updater shortcut in Desktop.
+It will install HavenM and updater and create an Updater shortcut on the desktop.
 
 **YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [Windows Denfender](windowsdefender://threat)'s log FOR THE FIRST TIME!!!**
 ## By yourself
 Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
-Download the `HavenM.ACUpdater.dll` if you want your game to auto-update, it Require BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
+Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto-update when the latest version of HavenM came out, it Requires BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
 # Support Us
 
