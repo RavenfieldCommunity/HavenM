@@ -1,13 +1,14 @@
 # HavenM 
 ![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Currect%20version's%20downloads&logo=GitHub&style=flat-square) 
 
+![](https://img.shields.io/badge/dynamic/json?label=Lastest%20update%20(UTC)&logo=GitHub&style=flat-square&url=https%3A%2F%2Fapi.github.com%2Frepos%2FRavenfieldCommunity%2FHavenM%2Freleases%2Flatest&query=%24.assets%5B0%5D.updated_at)
+
 AI and Gameplay Overhaul for Ravenfield
 
-## What is HavenM?
+## Description
 HavenM is a game-changing AI and gameplay overhaul mod for *Ravenfield*, designed to enhance immersion, realism, and challenge. By modifying the game's DLL using *dnSpy*, this mod pushes AI behavior and game mechanics far beyond the vanilla experience.
 
-## Why Modify the Game DLL with dnSpy?
-Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
+Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created by modifying game dll through dnSpy to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
 
 ## Key Features & Changes
 - AI Improvements
@@ -62,20 +63,26 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 
 # Installation 
 Re-installing enquals updating!
+
+Run this command to get a full update from time to time!
 ## By command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
-It will install HavenM and create an Updater shortcut in Desktop.
+It will install HavenM and updater and create an Updater shortcut in Desktop.
 
 **YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [Windows Denfender](windowsdefender://threat)'s log FOR THE FIRST TIME!!!**
 ## By yourself
-Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CHarp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
+Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
 Download the `HavenM.ACUpdater.dll` if you want your game to auto-update ( put it in `Ravenfield\BepInEx\plugins`)
+
+# Support Us
+
+Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on github, thanks for support!
 
 # Other Information	
 Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)
 
-This site not belong to this project.
+This site does not belong to this project.
