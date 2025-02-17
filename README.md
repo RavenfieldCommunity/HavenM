@@ -76,7 +76,7 @@ It will install HavenM and updater and create an Updater shortcut in Desktop.
 ## By yourself
 Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
-Download the `HavenM.ACUpdater.dll` if you want your game to auto-update ( put it in `Ravenfield\BepInEx\plugins`)
+Download the `HavenM.ACUpdater.dll` if you want your game to auto-update, it Require BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
 # Support Us
 
