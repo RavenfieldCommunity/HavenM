@@ -19,8 +19,8 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
     - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
   - **Combat Behavior & Engagements**
-    - Ai in vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
-    - Only veteran skill and Elite skill Ground vehicle driver can pop flare in response to lock on weapon tracking 
+    - Ai in a vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
+    - Only veteran skill and Elite skill Ground vehicle drivers can pop flare in response to lock-on weapon tracking 
     - AI **fires more aggressively**, reducing hesitation and making firefights more intense.
     - AI from **all skill levels can lean**.
     - AI **hides behind the cover when under fire**.
@@ -29,7 +29,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **engages low-flying and slow-moving aircraft**, making landing helicopters and air support more vulnerable.
     - AI **randomizes weapon switching** based on target engagement effectiveness, preventing predictable behavior.
     - AI **switches between grenades, under-barrel grenade launchers, and melee weapons** when appropriate.
-    - Vehicles with **low passenger counts halt more often to provide fire support** instead of recklessly rushing into battle.
+    - Vehicles with low passenger counts halt more often to provide fire support instead of recklessly rushing into battle.
     - **Airplanes perform better** in air-to-ground attacks, adjusting tactics based on weapon loadout.
     - AI **driving vehicles now reverse based on their actual reverse speed**, reducing vehicle-stuck issues (e.g., T-72 tank).
     - AI **loadouts are randomized**.
@@ -37,7 +37,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **panic fires when an enemy is within 20m**, ignoring weapon effectiveness (works well with kamikaze vehicle mods).
     - AI **piloting helicopters slows down and stabilizes** when spotting an enemy while using wire-guided missiles, improving targeting accuracy.
     - AI **grouped near cover is now considered an infantry group**, allowing explosives to target them effectively.
-    - AI driver will halt when it has low or no passenger and the gunner is having a target
+    - AI driver will halt when it has low or no passengers and the gunner has a target
 - New Game Mechanics
   - **Weapon Mounting System**
     - Inspired by *Rising Storm: Vietnam*, players can now mount weapons on surfaces for improved accuracy and stability.
@@ -56,21 +56,23 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - **Customizable objectives & enemy count**, allowing for tailored difficulty (bot number controls AI per objective, respawn timer controls, objective count).
     - AI **exits vehicles** when the player is nearby to engage in direct combat.
     - AI **flanks and ambushes players** based on skill level.
+    - Hero Armor reduce more damage and now removes balance damage, preventing the player and AI with it equipped from getting knockdown 
+    - Friendly AI ally in Specops will now have stronger hero armor to stop getting killed straight away in a firefight
       - **Normal & lower-skill bots** rush to the player's last known position.
       - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
     - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
 
 # Installation 
-Re-installing enquals updating!
+Re-installing equals updating!
 
 Run this command to get a full update from time to time!
-## By command
+## By Command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
-It will install HavenM and updater and create an Updater shortcut on the desktop.
+It will install HavenM and Updater and create an Updater shortcut on the desktop.
 
 **YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [Windows Denfender](windowsdefender://threat)'s log FOR THE FIRST TIME!!!**
 ## By yourself
