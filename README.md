@@ -1,7 +1,7 @@
 # HavenM 
-![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/total.svg?label=Currect%20version's%20downloads&logo=GitHub&style=flat-square) 
+![](https://img.shields.io/discord/1132554570099343380.svg?label=Discord&logo=Discord&style=flat-square) ![](https://img.shields.io/github/downloads/RavenfieldCommunity/HavenM/latest/total.svg?label=Currect%20version%27s%20downloads&logo=GitHub&style=flat-square) 
 
-![](https://img.shields.io/badge/dynamic/json?label=Lastest%20update%20(UTC)&logo=GitHub&style=flat-square&url=https%3A%2F%2Fapi.github.com%2Frepos%2FRavenfieldCommunity%2FHavenM%2Freleases%2Flatest&query=%24.assets%5B0%5D.updated_at)
+![](https://img.shields.io/badge/dynamic/json?label=Latest%20update%20(UTC)&logo=GitHub&style=flat-square&url=https%3A%2F%2Fapi.github.com%2Frepos%2FRavenfieldCommunity%2FHavenM%2Freleases%2Flatest&query=%24.assets%5B0%5D.updated_at)
 
 AI and Gameplay Overhaul for Ravenfield
 
@@ -67,6 +67,8 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 Re-installing equals updating!
 
 Run this command to get a full update from time to time!
+
+Other Info like uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html) (this site does not belong to this project).
 ## By Command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
@@ -74,7 +76,9 @@ powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Tex
 ```
 It will install HavenM and Updater and create an Updater shortcut on the desktop.
 
-**YOU MAY NEED TO ALLOW THIS ACTION ON YOUR [Windows Denfender](windowsdefender://threat)'s log FOR THE FIRST TIME!!!**
+**You don't need to allow this action on Windows Defender(Not including other firewall).**
+
+**If you have any problem with this command, you can check the script which it's targeting, all the details are visible. Or install HavenM manually.**
 ## By yourself
 Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
@@ -83,8 +87,3 @@ Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto
 # Support Us
 
 Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on github, thanks for support!
-
-# Other Information	
-Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)
-
-This site does not belong to this project.
