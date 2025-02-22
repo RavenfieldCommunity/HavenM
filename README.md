@@ -69,17 +69,13 @@ Re-installing equals updating!
 
 Run this command to get a full update from time to time!
 
-Other Info like uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html) (this site does not belong to this project).
+**More info like uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
 ## By Command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
 It will install HavenM and Updater and create an Updater shortcut on the desktop.
-
-**You don't need to allow this action on Windows Defender(Not including other firewall).**
-
-**If you have any problem with this command, you can check the script which it's targeting, all the details are visible. Or install HavenM manually.**
 ## By yourself
 Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
