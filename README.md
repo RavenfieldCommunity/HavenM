@@ -65,22 +65,24 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
 
 # Installation 
-Re-installing equals updating!
+Re-installing equals updating or fix!
 
-Run this command to get a full update from time to time!
-
-**More info like uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
 ## By Command
 Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
 ```batch
 powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
 ```
 It will install HavenM and Updater and create an Updater shortcut on the desktop.
+
+Run this command to get a full update from time to time!
 ## By yourself
 Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Download the `Assembly-CSharp.dll` and put it in `Ravenfield\ravenfield_Data\Managed`
 
 Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto-update when the latest version of HavenM came out, it Requires BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
-# Support Us
+**More details like installing on mac, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
+# Q&A
+Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html).
 
+# Support Us
 Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on github, thanks for support!
