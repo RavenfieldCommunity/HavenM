@@ -10,6 +10,8 @@ HavenM is a game-changing AI and gameplay overhaul mod for *Ravenfield*, designe
 
 Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created by modifying game dll through dnSpy to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
 
+**↓↓↓ Read the content below carefully!!!**
+
 ## Key Features & Changes
 - AI Improvements
   - **Tactical Movement & Reactions**
@@ -80,7 +82,7 @@ Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Do
 
 Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto-update when the latest version of HavenM came out, it Requires BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
-**More details like installing on mac, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
+**More details like installing on mac and uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
 # Q&A
 Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html).
 
