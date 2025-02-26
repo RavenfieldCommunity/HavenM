@@ -74,7 +74,8 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - **Dynamic enemy health**, Skeleton spawn with randomized health between (30 and 100).
     - **Increased enemy count for each wave**, Increase challenges.
     - Skeleton **Can Run** after the player instead of walking slowly.
-    - Hero Armor is also added to player and their ally 
+    - Hero Armor is also added to player and their ally
+    - Skeleton no longer take cover when attacking player
 
 # Installation 
 Re-installing equals updating or fix!
