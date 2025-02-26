@@ -69,8 +69,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
       - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
     - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
-  - Overhauled SpecOps Game Mode
-   HavenM includes a **complete revamp** of the Haunted mode, making it also more dynamic and challenging:
+   **Partial revamp** of the Haunted mode, making it also more dynamic and challenging:
     - **Dynamic enemy health**, Skeleton spawn with randomized health between (30 and 100).
     - **Increased enemy count for each wave**, Increase challenges.
     - Skeleton **Can Run** after the player instead of walking slowly.
