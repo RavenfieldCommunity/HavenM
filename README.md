@@ -21,6 +21,10 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
     - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
     - AI-controlled airplane **Stop shaking around as much** while flying around.
+    - AI-Infantry **Get get out of vehicle path while it's moving**.
+    - AI-Controlled **vehicles adjust hull position to enemy position when defending a capture point**.
+    - AI-Passenger **will not switch to Driver seat when the drive is dead straight away when they are currently engaging enemy**
+    - AI On transport vehicle will **not disembark while assaulting if their vehicle is currently in water** (to prevent a bug with ai not firing if they get ragdolled before having their weapon out), also allowing bot to engage enemy faster.
   - **Combat Behavior & Engagements**
     - Ai in a vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
     - Only veteran skill and Elite skill Ground vehicle drivers can pop flare in response to lock-on weapon tracking 
@@ -65,6 +69,12 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
       - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
     - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
+  - Overhauled SpecOps Game Mode
+   HavenM includes a **complete revamp** of the Haunted mode, making it also more dynamic and challenging:
+    - **Dynamic enemy health**, Skeleton spawn with randomized health between (30 and 100).
+    - **Increased enemy count for each wave**, Increase challenges.
+    - Skeleton **Can Run** after the player instead of walking slowly.
+    - Hero Armor is also added to player and their ally 
 
 # Installation 
 Re-installing equals updating or fix!
