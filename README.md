@@ -10,6 +10,8 @@ HavenM is a game-changing AI and gameplay overhaul mod for *Ravenfield*, designe
 
 Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created by modifying game dll through dnSpy to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
 
+**↓↓↓ Read the content below carefully!!!**
+
 ## Key Features & Changes
 - AI Improvements
   - **Tactical Movement & Reactions**
@@ -19,6 +21,10 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
     - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
     - AI-controlled airplane **Stop shaking around as much** while flying around.
+    - AI-Infantry **Get get out of vehicle path while it's moving**.
+    - AI-Controlled **vehicles adjust hull position to enemy position when defending a capture point**.
+    - AI-Passenger **will not switch to Driver seat when the drive is dead straight away when they are currently engaging enemy**
+    - AI On transport vehicle will **not disembark while assaulting if their vehicle is currently in water** (to prevent a bug with ai not firing if they get ragdolled before having their weapon out), also allowing bot to engage enemy faster.
   - **Combat Behavior & Engagements**
     - Ai in a vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
     - Only veteran skill and Elite skill Ground vehicle drivers can pop flare in response to lock-on weapon tracking 
@@ -63,6 +69,13 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
       - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
     - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
     - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
+      
+- **Partial revamp of the Haunted mode**
+    - **Dynamic enemy health**, Skeleton spawn with randomized health between (30 and 100).
+    - **Increased enemy count for each wave**, Increase challenges.
+    - Skeleton **Can Run** after the player instead of walking slowly.
+    - Hero Armor is also added to player and their ally
+    - Skeleton no longer take cover when attacking player
 
 # Installation 
 Re-installing equals updating or fix!
@@ -80,7 +93,7 @@ Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Do
 
 Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto-update when the latest version of HavenM came out, it Requires BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
-**More details like installing on mac, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
+**More details like installing on mac and uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
 # Q&A
 Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html).
 
