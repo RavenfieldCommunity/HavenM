@@ -1,0 +1,32 @@
+# .github/workflows/update-changelog.yaml
+name: "Update Changelog"
+
+on:
+  release:
+    types: [edited]
+
+jobs:
+  update-changelog:
+    if: github.event.release.tag_name == 'Release'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update version
+        run: |
+          echo "
+          ## ${{ github.event.release.assets[0].updated_at }}
+          ${{ github.event.release.body }}
+          " >> 'CHANGELOG.md'
+
+      - name: Commit updated CHANGELOG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: ${{ github.event.release.target_commitish }}
+          commit_message: Update CHANGELOG
+          file_pattern: CHANGELOG.md
