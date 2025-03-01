@@ -17,3 +17,10 @@ Update 3/1/2025
 -Tweaked the AI mounted weapon firing code
 -Tweaked Ai further 
 
+
+## 2025-03-01T07:49:56Z
+Update 3/1/2025
+-Tweaked the AI mounted weapon firing code
+-Tweaked Ai further Now 
+-fixed some ai forgetting to shoot their weapons
+
