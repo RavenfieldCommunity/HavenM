@@ -19,6 +19,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI no longer **auto-crouches** but instead jogs to objectives when not under fire, improving pacing and movement fluidity.
     - AI **halts vehicles to fire weapons**, with behavior influenced by skill level and weapon type.
     - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
+    - AI will not halt on slope, uneven terrain
     - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
     - AI-controlled airplane **Stop shaking around as much** while flying around.
     - AI-Infantry **Get get out of vehicle path while it's moving**.
