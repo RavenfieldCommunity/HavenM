@@ -87,3 +87,19 @@ Update 3/1/2025
 
 
 
+
+## 2025-03-03T10:24:51Z
+Update 3/3/2025
+-tweak ai firing 
+-Fixing AI not firing in certain scenario
+Update 3/2/2025
+-Tweaking of AI firing variable
+-Remove ragdoll velocity Tweak (reason, no fall damage)
+Update 3/1/2025
+-REVERT update 
+-update the melee logic
+-Update ai weapon range ( remove some limit I added)
+
+
+
+
