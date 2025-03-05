@@ -266,3 +266,31 @@ Update 3/1/2025
 
 
 
+
+## 2025-03-05T11:32:52Z
+Update 3/5/2025
+-Removed Melee Switching and Subweapon switch on ai
+-Re-added vehicle falling /ragdolling but clamp the velocity at 15 
+-removed high speed ragdolling
+-Fix mortar infinite fire at some location
+-Remove more variables, for ai firing single shot weapons on foot 
+-Added Falling out of vehicle ( except aircraft like heli and airplane) if they are driving on the ground too fast , velocity over 15f, leaving will cause the actor(ai and player) to instantly ragdoll 
+-Remove some codes
+Update 3/4/2025
+- Tweaked ai variable
+- Allow Mortar bot to track target even without seeing them 
+Update 3/3/2025
+-Tweak, increase helicopter attack distance to be more inline with the TOW launcher firing behaviour
+-tweak ai firing 
+-Fixing AI not firing in certain scenario
+Update 3/2/2025
+-Tweaking of AI firing variable
+-Remove ragdoll velocity Tweak (reason, no fall damage)
+Update 3/1/2025
+-REVERT update 
+-update the melee logic
+-Update ai weapon range ( remove some limit I added)
+
+
+
+
