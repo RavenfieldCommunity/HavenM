@@ -140,3 +140,25 @@ Update 3/1/2025
 
 
 
+
+## 2025-03-05T02:05:42Z
+Update 3/5/2025
+-Remove some codes
+Update 3/4/2025
+- Tweaked ai variable
+- Allow Mortar bot to track target even without seeing them 
+Update 3/3/2025
+-Tweak, increase helicopter attack distance to be more inline with the TOW launcher firing behaviour
+-tweak ai firing 
+-Fixing AI not firing in certain scenario
+Update 3/2/2025
+-Tweaking of AI firing variable
+-Remove ragdoll velocity Tweak (reason, no fall damage)
+Update 3/1/2025
+-REVERT update 
+-update the melee logic
+-Update ai weapon range ( remove some limit I added)
+
+
+
+
