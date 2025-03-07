@@ -560,3 +560,42 @@ Update 3/1/2025
 
 
 
+
+## 2025-03-07T03:55:18Z
+Update 4/6/2025
+-Made it so that bot only run away from vehicle if their velocity is over 4f, and decreasing the distance and times when the bots run away from vehicle
+Update 3/6/2025
+-Removed Melee,Grenade,Subweapon switching on ai (For now) to fix the issue with ai not be able to fire after getting out of water 
+-Tweak the aim fire times so vehicle such as tank become more accurate at longer range 
+-Fixed driver in vehicle that has no one not continue driving (edited)
+-Added more checks like bellow
+-Add a check to avoid the game thinking the vehicle is stuck after reversing 
+-Added a new behaviour, allowing  ai to when reloading their weapon but taking fire, reverse their vehicle until either the firing stop or the weapon is fully reloaded
+-re added grenade launcher and melee switching to ensure integrity 
+Update 3/5/2025
+-removed ragdolling again
+-Removed Melee Switching and Subweapon switch on ai
+-Re-added vehicle falling /ragdolling but clamp the velocity at 15 
+-removed high speed ragdolling
+-Fix mortar infinite fire at some location
+-Remove more variables, for ai firing single shot weapons on foot 
+-Added Falling out of vehicle ( except aircraft like heli and airplane) if they are driving on the ground too fast , velocity over 15f, leaving will cause the actor(ai and player) to instantly ragdoll 
+-Remove some codes
+Update 3/4/2025
+- Tweaked ai variable
+- Allow Mortar bot to track target even without seeing them 
+Update 3/3/2025
+-Tweak, increase helicopter attack distance to be more in line with the TOW launcher firing behaviour
+-tweak ai firing 
+-Fixing AI not firing in certain scenarios
+Update 3/2/2025
+-Tweaking of AI firing variable
+-Remove ragdoll velocity Tweak (reason, no fall damage)
+Update 3/1/2025
+-REVERT update 
+-update the melee logic
+-Update ai weapon range ( remove some limit I added)
+
+
+
+
