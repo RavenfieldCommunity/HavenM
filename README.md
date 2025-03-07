@@ -36,7 +36,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - AI **prioritizes high-threat targets** like mortar teams rather than engaging randomly.
     - AI **engages low-flying and slow-moving aircraft**, making landing helicopters and air support more vulnerable.
     - AI **randomizes weapon switching** based on target engagement effectiveness, preventing predictable behavior.
-    - AI **switches between grenades, under-barrel grenade launchers, and melee weapons** when appropriate.
+    - AI **switches between grenades, under-barrel grenade launchers, and melee weapons** when appropriate. (REMOVED because of bug)
     - Vehicles with low passenger counts halt more often to provide fire support instead of recklessly rushing into battle.
     - **Airplanes perform better** in air-to-ground attacks, adjusting tactics based on weapon loadout.
     - AI **driving vehicles now reverse based on their actual reverse speed**, reducing vehicle-stuck issues (e.g., T-72 tank).
