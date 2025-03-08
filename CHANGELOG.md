@@ -1042,3 +1042,60 @@ This update log is cleaned up and formatted for easy readability before committi
 
 
 
+
+## 2025-03-08T14:41:37Z
+**Update 3/8/2025**
+- Added the projectile leading system to all vehicle ai firing behaviour except the wire-guided missile (TOW) weapon type.
+- Added avoidance path check so ai vehicle won't do combat reverse while near another vehicle to prevent them from getting stuck. 
+- Added a 20s timer to missile boat target tracking before dropping.
+- Fixed AI not getting into boats and vehicles in water under certain conditions.
+- Implemented a new prediction system for turret and non-driver gunner AI actors.
+- Introduced a new wire-guided missile system for AI in boats, ensuring they never drop their target and always aim at the ground their enemy is standing on. This improves SOFA's missile boat AI behavior.
+
+**Update 3/7/2025**
+- Added more instances of vehicle anti-stuck reverse to prevent issues caused by the new reverse system.
+- Reverted idle behavior changes.
+- Implemented an idle animation check to prevent soft locks when AI is entering a vehicle (e.g., SOFA's Archipelago map).
+- Adjusted AI behavior so that bots only run away from vehicles if their velocity is over 4f, reducing the distance and frequency of their fleeing behavior.
+
+**Update 3/6/2025**
+- Temporarily removed AI melee, grenade, and subweapon switching to fix issues preventing AI from firing after exiting water.
+- Adjusted aim fire timing to improve vehicle accuracy at long range (e.g., tanks).
+- Fixed an issue where vehicle drivers without passengers would stop driving.
+- Added additional checks:
+  - Preventing the game from falsely detecting a vehicle as stuck after reversing.
+  - Implemented new AI behavior: When reloading under fire, AI will reverse until either the enemy stops firing or the weapon is fully reloaded.
+- Re-added grenade launcher and melee switching to ensure system integrity.
+
+**Update 3/5/2025**
+- Removed ragdolling again.
+- Removed melee and subweapon switching for AI.
+- Reintroduced vehicle falling/ragdolling but clamped velocity at 15.
+- Disabled high-speed ragdolling.
+- Fixed an issue causing infinite mortar fire in certain locations.
+- Removed unnecessary AI variables related to single-shot weapon behavior on foot.
+- Added a mechanic where AI and players will fall out of non-aircraft vehicles if they exceed 15f velocity, triggering instant ragdolling.
+- Removed redundant code.
+
+**Update 3/4/2025**
+- Tweaked AI variables.
+- Allowed mortar bots to track targets even without line-of-sight.
+
+**Update 3/3/2025**
+- Increased helicopter attack distance to align with TOW launcher firing behavior.
+- Tweaked AI firing mechanics.
+- Fixed AI not firing in certain scenarios.
+
+**Update 3/2/2025**
+- Adjusted AI firing variables.
+- Removed ragdoll velocity tweaks due to the absence of fall damage.
+
+**Update 3/1/2025**
+- Reverted previous update.
+- Updated melee logic.
+- Adjusted AI weapon range, removing some previous limitations.
+
+---
+
+
+
