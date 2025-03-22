@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>HavenM.ACUpdater</AssemblyName>
+    <Description></Description>
+    <Version>0.3</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>D:\Program Files\pip3.7\steamapps\common\Ravenfield\BepInEx\plugins\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2020.3.48" IncludeAssets="compile" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+
+  <Reference Include="Assembly-CSharp">
+    <HintPath>..\lib\Assembly-CSharp.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  
+  <Reference Include="UnityEngine.UI">
+    <HintPath>..\lib\UnityEngine.UI.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+
+  </ItemGroup>
+</Project>

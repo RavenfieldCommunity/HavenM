@@ -1,0 +1,9 @@
+```powershell
+dotnet build;& "D:\Program Files\pip3.7\steamapps\common\Ravenfield\start.lnk";
+
+dotnet build;
+
+copy "D:\Program Files\pip3.7\steamapps\common\Ravenfield\BepInEx\plugins\net46\RFExtra.dll" "D:\Program Files\UnityProject\RFExtra\Assets\Scenes\Libs\RFExtra.dll";
+
+dotnet build;copy "D:\Program Files\pip3.7\steamapps\common\Ravenfield\BepInEx\plugins\net46\RFExtra.dll" "D:\Program Files\UnityProject\RFExtra\Assets\Scenes\Libs\RFExtra.dll";
+```

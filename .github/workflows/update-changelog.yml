@@ -21,10 +21,9 @@ jobs:
 
       - name: Update version
         run: |
-          echo "
-          ## ${{ github.event.release.assets[0].updated_at }}
+          echo "# HavenM Changelog
           ${{ github.event.release.body }}
-          " >> 'CHANGELOG.md'
+          " > 'CHANGELOG.md'
 
       - name: Commit updated CHANGELOG
         uses: stefanzweifel/git-auto-commit-action@v5
