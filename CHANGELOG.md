@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 3/23/2025**
+- Tweaked some halt maneuvering.
+- Limit the Combat reversing on vehicle to only activate when enemy distance is over 100m away to avoid (exposing weak points, crash into convoy).
+
 **Update 3/21/2025**
 -Tweaked, simplified leading fire.
 
