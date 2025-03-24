@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 3/24/2025**
+- Added a limit to lock on weapon to not lock on target beyond their effective range so you don't randomly have BVR battle on weapons that are not built around that by their respective modder, also affect AI.
+- Tweaked weapon switching to be more interesting.
+
 **Update 3/23/2025**
 - Fixed Mortar vehicle not moving.
 - Tweaked some halt maneuvering.
