@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 3/26/2025**
+- Reworked helicopter halting (allowing Heli to halt for passenger TOW missile passenger only when the driver isn't having a target, stop Heli from halting if their flight height is over the helicopter flight celling).
+- Tweaked Vehicle halting, increase near objective capture point so vehicle will not halt when they are within 20m of the capture point's capturing radius.
+- Reworked Airplane speed input (Should allow them to fly at full speed now).
+
 **Update 3/24/2025**
 - Added a limit to lock on weapon to not lock on target beyond their effective range so you don't randomly have BVR battle on weapons that are not built around that by their respective modder, also affect AI.
 - Tweaked weapon switching to be more interesting.
