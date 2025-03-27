@@ -1,5 +1,8 @@
 # HavenM Changelog
 **Update 3/26/2025**
+- Fixed specops not spawning extra patrol ( i forgor ).
+
+**Update 3/26/2025**
 - Reworked helicopter halting (allowing Heli to halt for passenger TOW missile passenger only when the driver isn't having a target, stop Heli from halting if their flight height is over the helicopter flight celling).
 - Tweaked Vehicle halting, increase near objective capture point so vehicle will not halt when they are within 20m of the capture point's capturing radius.
 - Reworked Airplane speed input (Should allow them to fly at full speed now).
