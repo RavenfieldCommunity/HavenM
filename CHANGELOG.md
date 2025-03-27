@@ -1,5 +1,7 @@
 # HavenM Changelog
-**Update 3/26/2025**
+**Update 3/27/2025**
+- Tweaked infantry avoiding vehicle system.
+- Improved anti friendly fire system.
 - Tweak the helicopter halting.
 - Fixed specops not spawning extra patrol ( i forgor ).
 
