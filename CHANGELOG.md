@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 3/28/2025**
+-  Added Airplane throttle speed change depends on the target it's targeting (if the target is ground based or a helicopter, they will pull their throttle down to the negative, else they will leave the throttle at 0f).
+- Reworked ground forces firing at aircraft system (if an aircraft flies low and slow, it turns into a ground vehicle) .
+
 **Update 3/27/2025**
 - Tweaked infantry avoiding vehicle system.
 - Improved anti friendly fire system.
@@ -27,7 +31,7 @@
 
 **Update 3/19/2025**
 - Reworked the entire vehicle halting system.
-- Vehicle only halt when spotted target with 50m radius.(Except TOW behavior, or when vehicle is set to never halt in combat)
+- Vehicle only halt when spotted target with 50m radius. (Except TOW behavior, or when vehicle is set to never halt in combat)
 - Everything else is dependence on the vehicle's targeting and engagement range set by the modder of the vehicle.
 - Reworked ai engagement range, now instead of dependence on the game difficulty, it depends on the bot skill level, Easy mode range was 50m is now apply to beginners, normal is 80m now apply to normal, Hard was 120m, now apply to Veteran and Elite. Creating more dynamic bot behavior
 - Added Mounted Gun signal halting to driver for Tow launcher, mortar and Automatic weapon that preferer aircraft that is currently shooting an aircraft.
