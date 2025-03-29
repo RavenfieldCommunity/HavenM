@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 3/29/2025**
+- Removed ai ability extend their landing gear while airbrake, only player driven aircraft do that now.
+
 **Update 3/28/2025**
 -  Added Airplane throttle speed change depends on the target it's targeting (if the target is ground based or a helicopter, they will pull their throttle down to the negative, else they will leave the throttle at 0f).
 - Reworked ground forces firing at aircraft system (if an aircraft flies low and slow, it turns into a ground vehicle) .
