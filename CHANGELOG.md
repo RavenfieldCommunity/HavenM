@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 3/30/2025**
+-Tweaked ai Air to Air missile tracking.
+-Tweaked Vehicle combat halting behavior so it more reactive.
+-Disable the auto avoidance code on vehicle after they finish reversing from a stuck location so the basic feature work without the avoidance thing mistakenly auto corrects the vehicle into stuck location, (3s cooldown)
+
 **Update 3/29/2025**
 - Removed ai ability extend their landing gear while airbrake, only player driven aircraft do that now.
 
