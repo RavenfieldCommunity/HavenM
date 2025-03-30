@@ -32,10 +32,10 @@
 - Limit the Combat reversing on vehicle to only activate when enemy distance is over 100m away to avoid (exposing weak points, crash into convoy).
 
 **Update 3/21/2025**
--Tweaked, simplified leading fire.
+- Tweaked, simplified leading fire.
 
 **Update 3/20/2025**
--Fixed some turret cause vehicle to halt when they are not supposed to (ex: Transport boat with Mounted gun).
+- Fixed some turret cause vehicle to halt when they are not supposed to (ex: Transport boat with Mounted gun).
 
 **Update 3/19/2025**
 - Reworked the entire vehicle halting system.
