@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 3/31/2025**
+- Implemented a system that dynamically adjusts the velocity of AI-thrown grenades based on the target's distance, enhancing accuracy. This feature was inspired by the grenade-throwing behavior of Combine soldiers in Half-Life 2.
+
 **Update 3/30/2025**
 - Tweaked ai Air to Air missile tracking.
 - Tweaked Vehicle combat halting behavior so it more reactive.
