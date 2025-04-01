@@ -1,5 +1,6 @@
 # HavenM Changelog
 **Update 4/1/2025**
+- Re added Sub weapon switching to ai, Ai will now switch to their sub weapon (if they have any) when they are not having any target.
 -   Added a velocity limit, aircraft ai must be over 50 unit of velocity for them to actively slow down, to prevent excessive slow down on aircraft when they are doing attack run .
 
 **Update 3/31/2025**
