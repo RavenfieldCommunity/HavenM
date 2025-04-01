@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 4/1/2025**
+-   Added a velocity limit, aircraft ai must be over 50 unit of velocity for them to actively slow down, to prevent excessive slow down on aircraft when they are doing attack run .
+
 **Update 3/31/2025**
 - Implemented a system that dynamically adjusts the velocity of AI-thrown grenades based on the target's distance, enhancing accuracy. This feature was inspired by the grenade-throwing behavior of Combine soldiers in Half-Life 2.
 
