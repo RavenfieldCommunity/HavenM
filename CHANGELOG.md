@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 4/3/2025**
+- Tweaked Tank behavior, re added always halt on normal and Beginner bots.
+- Tweaked the missile deviation speed from 1 to 0.2
+
 **Update 4/1/2025**
 - Allow ai to repair their vehicle if they are not currently spotting a target
 - Tweaked the velocity again for aircraft.
