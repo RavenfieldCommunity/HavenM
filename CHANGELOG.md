@@ -1,4 +1,11 @@
 # HavenM Changelog
+**Update 4/5/2025**
+- Fixed ai tracking while firing not take into account the target's velocity.
+- Re-enabled grenade and melee switching when the AI is not actively attacking a target:
+  -Grenade: The bot will switch if it senses an enemy between 10m and 40m.
+  -Melee: The bot will switch if an enemy is within 5m and it’s not already holding a melee weapon.
+ ==>Only applies when the AI is in a passive state and does not interfere with the existing weapon switching code used during active combat. It simply adds more flexibility based on proximity and awareness.
+
 **Update 4/3/2025**
 - Tweaked Tank behavior, re added always halt on normal and Beginner bots.
 - Tweaked the missile deviation speed from 1 to 0.2
