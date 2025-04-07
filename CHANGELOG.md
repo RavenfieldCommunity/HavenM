@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 4/7/2025**
+- Fixed missile flare path.
+
 **Update 4/5/2025**
 - Fixed ai tracking while firing not take into account the target's velocity.
 - Re-enabled grenade and melee switching when the AI is not actively attacking a target:
