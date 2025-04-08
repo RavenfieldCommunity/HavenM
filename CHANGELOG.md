@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 4/8/2025**
+
+- Fixed Heli in SpecOps extraction get stuck hovering—waiting for their gunner to finish engaging a target instead of proceeding to land and pick up the player.
+- Added a check so that bot ordered to move to a location doesn't halt to fire at target but instead keep moving.
+
 **Update 4/7/2025**
 - Fixed missile flare deviation path.
 - Added an experimental proximity tracking missile script: missiles explode within 20 meters of the target, but only for weapons with a child component named HavenM Missile Proximity Explosion. This serves as both a test of the custom DLL's modding capabilities and a flexible tool for modders to implement proximity-based behavior using the dll as a foundation. 
