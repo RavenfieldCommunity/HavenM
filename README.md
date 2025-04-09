@@ -99,4 +99,4 @@ Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto
 Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html).
 
 # Support Us
-Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on github, thanks for support!
+Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on GitHub, thanks for support!
