@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 4/11/2025**
+
+- Added a check to prevent vehicles from halting when observing enemy infantry not equipped with weapons capable of damaging armored targets. This allows tanks and APCs (that are immune to small arms) to prioritize high-risk threats they've detected, rather than stopping for low-threat infantry, and continue moving toward objectives like capture points.
+
 **Update 4/8/2025**
 
 - Fixed Heli in SpecOps extraction get stuck hovering—waiting for their gunner to finish engaging a target instead of proceeding to land and pick up the player.
@@ -7,7 +11,7 @@
 **Update 4/7/2025**
 - Fixed missile flare deviation path.
 - Added an experimental proximity tracking missile script: missiles explode within 20 meters of the target, but only for weapons with a child component named HavenM Missile Proximity Explosion. This serves as both a test of the custom DLL's modding capabilities and a flexible tool for modders to implement proximity-based behavior using the dll as a foundation. 
-- Example for the proximity explosion system working is here :[https://steamcommunity.com/sharedfiles/filedetails/?id=3458994412](url)
+- Example for the proximity explosion system working is here : https://steamcommunity.com/sharedfiles/filedetails/?id=3458994412]
 
 **Update 4/5/2025**
 - Fixed ai tracking while firing not take into account the target's velocity.
