@@ -1,7 +1,17 @@
 # HavenM Changelog
 **Update 4/11/2025**
 
-- Added a check to prevent vehicles from halting when observing enemy infantry not equipped with weapons capable of damaging armored targets. This allows tanks and APCs (that are immune to small arms) to prioritize high-risk threats they've detected, rather than stopping for low-threat infantry, and continue moving toward objectives like capture points.
+- Vehicles (Except aircraft) now only halt for infantry that pose an actual threat—those carrying heavy weapons or anti-tank gear.
+
+- Heavily armored vehicles will only react to anti-tank-wielding infantry.
+
+- Lighter vehicles that can be damaged by heavy arms will also be cautious of heavy armed weapon type on infantry such as HMG or modded weapon that can deal heavy arms damage and anti tank.
+
+- This prevents constant halting for non-threatening infantry, significantly improving game flow and reducing unnecessary delays.
+
+- Vehicles will now only halt at 50 meters from a threat.
+
+- If a target gets within 5 meters, the vehicle will resume moving—preventing it from getting stuck in close-range engagements.
 
 **Update 4/8/2025**
 
