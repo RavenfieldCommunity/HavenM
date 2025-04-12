@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 4/12/2025**
+
+- Tweaked the slope check so tank doesn't get stuck trying to shoot at target they can't aim at with their barrel because of factor such as (Depression, Slope and collision).
+
+
 **Update 4/11/2025**
 
 - Vehicles (Except aircraft) now only halt for infantry that pose an actual threat—those carrying heavy weapons or anti-tank gear.
