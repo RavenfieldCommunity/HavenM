@@ -1,6 +1,10 @@
 # HavenM Changelog
 **Update 4/12/2025**
 
+-Bots in vehicles with clamped or restricted turrets can now only detect and engage enemies within their turret’s firing arc — meaning AI awareness is limited to where their turret can aim.
+
+-Removed the behavior where casemate or clamped turret tank drivers would recklessly rush into capture points. These vehicles will now behave more cautiously, respecting their limited firing arcs and positioning accordingly.
+
 - Tweaked the slope check so tank doesn't get stuck trying to shoot at target they can't aim at with their barrel because of factor such as (Depression, Slope and collision).
 
 
