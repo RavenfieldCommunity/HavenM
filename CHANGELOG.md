@@ -1,4 +1,13 @@
 # HavenM Changelog
+**Update 4/14/2025**
+
+- Updated the maximum travel range for wire-guided missile weapons to match their configured effective range, instead of using a default 400 meters.
+
+- For wire-guided (TOW) weapons with a lower effective range, 400 meters is now the minimum travel range, ensuring existing weapon configurations are not broken.
+
+- Brought back the hidden code boolean that Steel (Ravenfield dev) had previously concealed, allowing the AI to now understand when their weapons cannot aim at a target. This improves targeting logic and ensures more accurate engagements.
+
+
 **Update 4/12/2025**
 
 - Bots in vehicles with clamped or restricted turrets can now only detect and engage enemies within their turret’s firing arc — meaning AI awareness is limited to where their turret can aim.
