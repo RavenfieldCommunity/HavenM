@@ -1,5 +1,6 @@
 # HavenM Changelog
 **Update 4/16/2025**
+-HotFix: tweaked the turning
 - Added Tank Hull Facing Behavior:
 
 - Separated Tank Hull Toward Target behavior into three types:
