@@ -1,4 +1,17 @@
 # HavenM Changelog
+**Update 4/16/2025**
+- Added Tank Hull Facing Behavior:
+
+- Separated Tank Hull Toward Target behavior into three types:
+
+- Clamped turret vehicles (Casemate): Turn their entire hull toward the target until the turret is within a 5-degree angle of the target.
+
+- Rotating turret vehicles: Rotate their hull only if their front armor is over 20 degrees off from the target’s direction.
+
+This system ensures Tracked (allowed for tank turning) armored vehicles keep their strongest armor facing their target for maximum protection.
+
+None of these vehicles will rotate while reversing or avoiding obstacles, maintaining sensible and safe movement behavior during combat.
+
 **Update 4/14/2025**
 
 - Updated the maximum travel range for wire-guided missile weapons to match their configured effective range, instead of using a default 400 meters.
