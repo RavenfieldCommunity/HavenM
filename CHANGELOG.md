@@ -1,6 +1,6 @@
 # HavenM Changelog
 **Update 4/18/2025**
-
+- Revert the not stuck state tweak
 - Added a time limit to the stuck-check code: vehicles tilted under 45 degrees will now only trigger the “not stuck” state for 3 seconds, instead of indefinitely.
 
 - Tweaked tank tilt threshold from 40 degrees to 45 degrees for cleaner and more consistent behavior.
