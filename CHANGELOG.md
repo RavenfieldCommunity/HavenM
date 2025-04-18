@@ -1,8 +1,15 @@
 # HavenM Changelog
 **Update 4/18/2025**
- - Expanded the Tank hull angle from 20 degree to 40 degree for rotating turret tank
- - Tweaked the tank hull toward target behavior , making it so the tank only does it to target over 50m away from it
- - Fixed the tow launcher leading fire being unstable(test code I forgot to remove)
+
+- Added a time limit to the stuck-check code: vehicles tilted under 45 degrees will now only trigger the “not stuck” state for 3 seconds, instead of indefinitely.
+
+- Tweaked tank tilt threshold from 40 degrees to 45 degrees for cleaner and more consistent behavior.
+
+- Expanded the hull rotation angle for rotating turret tanks from 20 degrees to 40 degrees, allowing for more natural and flexible hull alignment.
+
+- Adjusted hull-facing behavior so that tanks now only turn their hull toward targets that are over 50 meters away, preventing awkward or unnecessary close-range adjustments.
+
+- Fixed unstable TOW launcher leading fire behavior by removing leftover test code that was affecting accuracy.
  
 **Update 4/16/2025**
 
