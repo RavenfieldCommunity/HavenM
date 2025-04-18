@@ -1,5 +1,6 @@
 # HavenM Changelog
 **Update 4/18/2025**
+ - Expanded the Tank hull angle from 20 degree to 40 degree for rotating turret tank
  - Tweaked the tank hull toward target behavior , making it so the tank only does it to target over 50m away from it
  - Fixed the tow launcher leading fire being unstable(test code I forgot to remove)
  
