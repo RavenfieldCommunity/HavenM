@@ -1,4 +1,10 @@
 # HavenM Changelog
+ **Update 4/20/2025**
+
+- Added a reverse time limit check: vehicles will now always reverse for a minimum of 3 seconds before re-evaluating their movement.
+ - Tweaked hull-to-target timing: instead of a 3-second limit, vehicles will now continuously adjust their hull toward the target until their front is within 45 degrees of alignment.
+ - Added several checks for helicopter halting behavior, improving their ability to maintain movement and avoid getting stuck or unnecessarily hovering when engaging or moving to objectives.
+ 
 **Update 4/18/2025**
 - Revert the not stuck state tweak
 - Added a time limit to the stuck-check code: vehicles tilted under 45 degrees will now only trigger the “not stuck” state for 3 seconds, instead of indefinitely.
