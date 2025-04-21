@@ -1,6 +1,6 @@
 # HavenM Changelog
   **Update 4/21/2025**
-
+ - Fixed helicopter spinning out of control
  - Tweaked hull-to-target timing.
  - Added a check so that the hull toward target code will not activate if the vehicle velocity is over 5 velocity, allowing the vehicle to move normally.
  - Added a check so that vehicle that preferred infantry on their main gun will halt to fire at infantry when they are within 100m of the vehicle.
