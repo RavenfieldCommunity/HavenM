@@ -1,5 +1,11 @@
 # HavenM Changelog
- **Update 4/20/2025**
+  **Update 4/21/2025**
+
+ - Tweaked hull-to-target timing.
+ - Added a check so that the hull toward target code will not activate if the vehicle velocity is over 5 velocity, allowing the vehicle to move normally.
+ - Added a check so that vehicle that preferred infantry on their main gun will halt to fire at infantry when they are within 100m of the vehicle.
+ 
+**Update 4/20/2025**
 
 - Added a reverse time limit check: vehicles will now always reverse for a minimum of 3 seconds before re-evaluating their movement.
  - Tweaked hull-to-target timing: instead of a 3-second limit, vehicles will now continuously adjust their hull toward the target until their front is within 45 degrees of alignment.
