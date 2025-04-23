@@ -1,5 +1,10 @@
 # HavenM Changelog
-  **Update 4/21/2025**
+**Update 4/21/2025**
+ - Removed Weapon lead on helicopter halting.
+ - Tweaked hull-to-target calculation, improve the hull toward target detections system .
+ - Tweaked the halting cooldown code.
+   
+**Update 4/21/2025**
  - Fixed helicopter spinning out of control
  - Tweaked hull-to-target timing.
  - Added a check so that the hull toward target code will not activate if the vehicle velocity is over 5 velocity, allowing the vehicle to move normally.
