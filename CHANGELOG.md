@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 5/1/2025**
+ - Removed auto U-turn reload: aircraft will still perform U-turns, but will no longer auto-reload during the maneuver.
+- Added defensive behavior for transport vehicles: when within 60 meters of a capture point and taking fire, transports will now deploy smoke to improve infantry survivability.
+- Tweaked TOW launcher handling to make AI usage more responsive.
+- Added helicopter halting logic for target tracking and co-pilot targeting, improving engagement stability.
+- Adjusted aircraft attack distances for bullet- and rocket-based weapons (straight-shooting types), preventing aircraft from curving downward unnecessarily during attack runs.
+- Tweaked helicopter flight height and halting behavior: helicopters will now stop halting if they are over 150 meters above the ground, improving their flight consistency in high-altitude scenarios.
+
 **Update 4/21/2025**
  - Removed Weapon lead on helicopter halting.
  - Tweaked hull-to-target calculation, improve the hull toward target detections system .
