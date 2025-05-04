@@ -1,6 +1,11 @@
 # HavenM Changelog
+**Update 5/4/2025**
+- Added a code preventing Amphibious, normal vehicle and infantry from halting for target if they are in water.
+- Re added Switching grenade and melee for AI (yes, I finally fixed it).
+- Added some tweak to improve infantry ai behaviour in water, mostly to get infantry out of water as soon as possible.
+ 
 **Update 5/1/2025**
- - Removed auto U-turn reload: aircraft will still perform U-turns, but will no longer auto-reload during the maneuver.
+ - Removed auto U-turn reload aircraft will still perform U-turns but will no longer auto-reload during the maneuver.
 - Added defensive behavior for transport vehicles: when within 60 meters of a capture point and taking fire, transports will now deploy smoke to improve infantry survivability.
 - Tweaked TOW launcher handling to make AI usage more responsive.
 - Added helicopter halting logic for target tracking and co-pilot targeting, improving engagement stability.
