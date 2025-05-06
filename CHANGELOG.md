@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 5/6/2025**
+- Removed weapon leading for helicopter because some heli spin out of control because the ai is trying to lead fire the target under them.
+
 **Update 5/4/2025**
 - Added a code preventing Amphibious, normal vehicle and infantry from halting for target if they are in water.
 - Re added Switching grenade and melee for AI (yes, I finally fixed it).
