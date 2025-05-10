@@ -10,7 +10,9 @@ HavenM is a game-changing AI and gameplay overhaul mod for *Ravenfield*, designe
 
 Ravenfield's default AI often feels too predictable, lacking the tactical decision-making and combat awareness that could make battles more engaging. Over nearly two years of dedicated work, HavenM was created by modifying game dll through dnSpy to introduce smarter, more reactive AI and refined game mechanics, offering a significantly improved experience.
 
-**↓↓↓ Read the content below carefully!!!**
+> [!tip]
+>
+> **↓↓↓ Read the content below carefully!!!**
 
 ## Key Features & Changes
 - AI Improvements
@@ -79,13 +81,13 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - Skeleton no longer take cover when attacking player
 
 # Installation 
-Re-installing equals updating or fix!
+Re-installing equals updating or fixing!
 
+**DO NOT USE GAME'S BETA BRANCH!**
 ## By Command
-Copy this command, Win+R to open "Run" windows, paste it, and press Enter:
-```batch
-powershell -nop -c "$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;"
-```
+Copy the following command and open [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) or [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.5), paste it and press `Enter` to run:
+> `$w=(New-Object System.Net.WebClient);$w.Encoding=[System.Text.Encoding]::UTF8;iex($w.DownloadString('http://ravenfieldcommunity.github.io/static/get_havenm-utf8.ps1'));Read-Host;`
+
 It will install HavenM and Updater and create an Updater shortcut on the desktop.
 
 Run this command to get a full update from time to time!
@@ -94,9 +96,11 @@ Open [releases page](https://github.com/RavenfieldCommunity/HavenM/releases), Do
 
 Alternatively, Download the `HavenM.ACUpdater.dll` if you want your game to auto-update when the latest version of HavenM came out, it Requires BepInEx ( put it in `Ravenfield\BepInEx\plugins`)
 
-**More details like installing on mac and uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
+**More details like uninstalling, refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html)** (this site does not belong to this project).
 # Q&A
 Refer [Docs](https://ravenfieldcommunity.github.io/docs/en/Projects/havenm.html).
 
 # Support Us
 Give a `Like` in the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428665609) or a star on GitHub, thanks for support!
+
+You can also feedback any issues and suggestions on workshop!
