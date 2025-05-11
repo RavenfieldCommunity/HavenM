@@ -15,70 +15,94 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
 > **↓↓↓ Read the content below carefully!!!**
 
 ## Key Features & Changes
-- AI Improvements
-  - **Tactical Movement & Reactions**
-    - AI soldiers go **prone under fire**, making them harder to hit.
-    - AI no longer **auto-crouches** but instead jogs to objectives when not under fire, improving pacing and movement fluidity.
-    - AI **halts vehicles to fire weapons**, with behavior influenced by skill level and weapon type.
-    - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
-    - AI will not halt on slope, uneven terrain
-    - AI **exits vehicles when submerged** in water and leaves aircraft when stuck, preventing soft-lock situations.
-    - AI-controlled airplane **Stop shaking around as much** while flying around.
-    - AI-Infantry **Get get out of vehicle path while it's moving**.
-    - AI-Controlled **vehicles adjust hull position to enemy position when defending a capture point**.
-    - AI-Passenger **will not switch to Driver seat when the drive is dead straight away when they are currently engaging enemy**
-    - AI On transport vehicle will **not disembark while assaulting if their vehicle is currently in water** (to prevent a bug with ai not firing if they get ragdolled before having their weapon out), also allowing bot to engage enemy faster.
-  - **Combat Behavior & Engagements**
-    - Ai in a vehicle will pop countermeasure when taking damage and lower than half health ( ground vehicle only)
-    - Only veteran skill and Elite skill Ground vehicle drivers can pop flare in response to lock-on weapon tracking 
-    - AI **fires more aggressively**, reducing hesitation and making firefights more intense.
-    - AI from **all skill levels can lean**.
-    - AI **hides behind the cover when under fire**.
-    - AI **provides suppressive fire** on known enemy positions.
-    - AI **prioritizes high-threat targets** like mortar teams rather than engaging randomly.
-    - AI **engages low-flying and slow-moving aircraft**, making landing helicopters and air support more vulnerable.
-    - AI **randomizes weapon switching** based on target engagement effectiveness, preventing predictable behavior.
-    - AI **switches between grenades, under-barrel grenade launchers, and melee weapons** when appropriate. (REMOVED because of bug)
-    - Vehicles with low passenger counts halt more often to provide fire support instead of recklessly rushing into battle.
-    - **Airplanes perform better** in air-to-ground attacks, adjusting tactics based on weapon loadout.
-    - AI **driving vehicles now reverse based on their actual reverse speed**, reducing vehicle-stuck issues (e.g., T-72 tank).
-    - AI **loadouts are randomized**.
-    - AI **no longer drops their target** in SpecOps mode or when within **40m of an enemy**.
-    - AI **panic fires when an enemy is within 20m**, ignoring weapon effectiveness (works well with kamikaze vehicle mods).
-    - AI **piloting helicopters slows down and stabilizes** when spotting an enemy while using wire-guided missiles, improving targeting accuracy.
-    - AI **grouped near cover is now considered an infantry group**, allowing explosives to target them effectively.
-    - AI driver will halt when it has low or no passengers and the gunner has a target
-- New Game Mechanics
+
+- **AI Improvements**
+
+  ### Tactical Movement & Reactions
+  - AI soldiers go **prone under fire**, making them harder to hit.
+  - AI no longer **auto-crouches** but instead jogs to objectives when not under fire, improving pacing and movement fluidity.
+  - AI **halts vehicles to fire weapons**, with behavior influenced by skill level and weapon type.
+  - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
+  - AI vehicle will not halt on slope, uneven terrain.
+  - AI **exits vehicles when submerged** in water and leaves aircraft when stuck and not moving, preventing soft-lock situations.
+  - AI-Infantry **get out of vehicle path while it's moving**.
+  - AI on transport vehicles will **not disembark while assaulting if the vehicle is currently in water**, preventing combat delays an improving combat effectiveness.
+  - **Water navigation behavior** improved: amphibious units and infantry no longer stall in water and seek to exit when safe.
+  - **Helicopters ignore halt commands** at altitudes above 150m to maintain consistant flight height.
+  - **Amphibious Infantry & Vehicles in Water**: Infantry and amphibious vehicles that are not watercraft will no longer halt while in water, preventing them from becoming sitting ducks and improving survival in aquatic environments.
+  ### Combat Behavior & Engagements
+  - AI in a vehicle will **pop countermeasures** when damaged below 50% health (ground vehicles only).
+  - Only **Veteran and Elite skill vehicle drivers** pop flares against lock-on threats.
+  - AI **fires more aggressively**, reducing hesitation in firefights.
+  - AI from **all skill levels can lean**.
+  - AI **provides suppressive fire** on known enemy positions when not having a target.
+  - AI **prioritizes high-threat targets** like mortar teams.
+  - AI **engages low-flying/slow aircraft**, increasing threat to aircrafts in the sandbox.
+  - AI **randomizes weapon switching** to avoid predictability.
+  - AI **switches between grenades, UBGL, and melee** when appropriate.
+  - Vehicles with no passenger count **halt more** to offer fire support.
+  - **Airplanes perform better** in air-to-ground tactics based on loadout.
+  - AI **reverses based on the vehicle's actual reverse speed**, preventing stuck logic (e.g., T-72 tanks).
+  - AI **loadouts are now actually randomized**.
+  - AI **no longer drops targets** in SpecOps or at <40m range.
+  - AI **panic fires when enemies are within 20m**, enhancing close-quarters realism.
+  - Helicopter AI now **slows and stabilizes** for accurate wire guided missile use upon spotting enemies.
+  - **AI groups near cover** are now treated as infantry group for weapons targeting.
+  - AI **vehicle driver halts** if passenger count is low and gunner has a target.
+  - **Missile Lock-On Enforcement**: AI does not fire missiles beyond actual lock-on range.
+  - **Dynamic Leading**: AI leads shots based on target velocity for better realism in aircraft and AA.
+  - **Skill-Based Range Logic**: AI chooses engagement range based on individual skill, not global difficulty.
+  - **Weapon Preference Logic**: AI picks from available weapons randomly, factoring situation and effectiveness.
+  - AI with grenade weapons now adjusts **throw velocity based on target distance** improving tactical grenade usage.
+  - **Vehicle Gunner Logic**: Vehicles halt if the gunner is the only occupant and sees a valid target.
+  - **Driver Infantry Filter**: Transport Vehicle drivers will not halt to fire at infantry unless the infantry is carrying AT or operating static weapons.
+  - **Smoke and countermeasure Deployment for transport vehicle**: AI transport vehicles automatically deploy smoke when near capture zones under fire.
+  - **Halt Behavior Logic**: AI vehicles halt intelligently based on threat type, passengers, and cooldown logic.
+  - **Minimum Reversing Time**: AI reverses for at least 3 seconds when avoiding distant targets (>100m).
+  - **Fixed Turret Vision Limits**: AI in casemate/fixed weapons can only see within their arc.
+  - **Hull Rotation Rules**: Casemate vehicles always rotate until the target is targetable; turreted vehicles rotate hull only if target is 45°+ off so the tank strongest armor is facing the enemy direction.
+  - **Clamped Turret Behavior**: Limited-arc vehicles stay behind capture zones unless threats are directly ahead.
+
+- **New Game Mechanics**
+
   - **Weapon Mounting System**
     - Inspired by *Rising Storm: Vietnam*, players can now mount weapons on surfaces for improved accuracy and stability.
+
   - **Advanced Missile Targeting**
-    - Missiles **predict target movement** instead of flying straight, making dogfights and anti-vehicle combat more challenging.
-    - Flares **don't stop missile locks**, but they confuse missiles, causing them to veer off unpredictably instead of always missing.
-  - **Tank Track climb**
-    - Tank and tracked vehicle will climb over everything its tread touched
+    - Missiles **predict target movement** instead of flying straight.
+    - Flares **confuse missiles** with unpredictable deviations instead of outright misses.
+
+  - **Tank Track Climb**
+    - Tanks and tracked vehicles **climb over any obstacle** their tracks touch.
+    
+  - **Missile Target Tracking Range Limitation**  
+    - Target-tracking missiles will **not lock onto targets outside of their effective range**, ensuring 
+      more realistic engagements and enhancing the sandbox gameplay depth, also prevent RavenM long range 
+      spawn camping when in air to air match.
+  
   - **Simple Penetration System**
-    - High-damage weapons now have penetration mechanics:
-    - **Bullets & explosives pass through cover** if they deal **over 100 damage**.
-    - **Explosives ignore cover & explode** if their damage is over **900**.
-  - Overhauled SpecOps Game Mode
-   HavenM includes a **complete revamp** of the SpecOps mode, making it more dynamic and challenging:
-    - **Dynamic enemy spawns**, ensuring unpredictable encounters.
-    - **Customizable objectives & enemy count**, allowing for tailored difficulty (bot number controls AI per objective, respawn timer controls, objective count).
-    - AI **exits vehicles** when the player is nearby to engage in direct combat.
-    - AI **flanks and ambushes players** based on skill level.
-    - Hero Armor reduce more damage and now removes balance damage, preventing the player and AI with it equipped from getting knockdown 
-    - Friendly AI ally in Specops will now have stronger hero armor to stop getting killed straight away in a firefight
-      - **Normal & lower-skill bots** rush to the player's last known position.
-      - **Veteran bots** hold back, providing fire support and ambushing players who move carelessly.
-    - **Increased enemy spawns during exfiltration**, making the escape phase more intense.
-    - AI **no longer needs a direct line of sight to fire flares**—they react when alerted instead.
-      
-- **Partial revamp of the Haunted mode**
-    - **Dynamic enemy health**, Skeleton spawn with randomized health between (30 and 100).
-    - **Increased enemy count for each wave**, Increase challenges.
-    - Skeleton **Can Run** after the player instead of walking slowly.
-    - Hero Armor is also added to player and their ally
-    - Skeleton no longer take cover when attacking player
+    - Weapons **dealing over 100 damage penetrate cover**.
+    - Explosives **dealing 900+ damage ignore cover** and explode through it.
+  -  **Missile Proximity Detonation (Mod support feature)**  
+     - Missiles that modder allowed to have proximity Detonation will **detonate within 20m of the target**, providing more realistic impact behavior without adding more to the normal ravenfield experience.
+  - **Overhauled SpecOps Game Mode**
+    - **Dynamic enemy spawns** for varied combat.
+    - **Configurable objectives and bot count**, scaling challenge.
+    - AI **exits vehicles** to fight nearby players.
+    - AI **flanks and ambushes** based on skill.
+    - **Hero Armor** now negates balance knockdown and reduces damage.
+    - Friendly AI get **improved Hero Armor** to survive firefights.
+    - Low-skill AI **rush player location**; Veterans hold and support.
+    - **More enemy waves during exfil**, increasing tension.
+    - AI **reacts with flares** on alert—not just on visual contact.
+
+- **Partial Revamp of Haunted Mode**
+  - Skeletons now have **randomized health** (30–100).
+  - **Wave count increases** enemy spawns dynamically.
+  - Skeletons can now **run after players**, not just walk.
+  - Hero Armor **applies to player and allies**.
+  - Skeletons **no longer take cover**, improving pacing.
+
 
 # Installation 
 Re-installing equals updating or fixing!
