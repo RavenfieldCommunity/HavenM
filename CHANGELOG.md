@@ -1,4 +1,14 @@
 # HavenM Changelog
+**Update 5/20/2025**
+**Reworked AI Suppression Behavior:**
+- AI now starts a 10-second suppression timer after directly spotting an enemy.
+
+- During this period, they will continue firing at the enemy’s last known location, even if line of sight is lost.
+
+- This significantly improves AI responsiveness in low-visibility environments (e.g., smoke, particles, debris), enhancing both realism and gameplay flow.
+
+- Also improves aircraft bombing and helicopter attack runs, as AI can now sustain attacks based on brief target exposure.
+
 **Update 5/6/2025**
 - Removed weapon leading for helicopter because some heli spin out of control because the ai is trying to lead fire the target under them.
 
