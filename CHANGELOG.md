@@ -1,4 +1,17 @@
 # HavenM Changelog
+*Update 5/20/2025**
+-  tweaked target seeking missile so their first 15m of travel distance is a normal vanilla behavior so the missile has a chance to stabilize before active tracking  
+
+
+**Added a Hunter-Killer system for vehicle AI:**
+
+- When in combat but without a direct target, AI units mounted on a vehicle will now use the look direction of any other crew member who currently has a target.
+
+- This allows gunners and passengers to coordinate better by aligning their aim with active threats spotted by teammates.
+
+- For helicopters, the pilot will now turn the aircraft toward the position of the co-pilot's current weapon, significantly increasing combat effectiveness and coordination during engagements.
+
+
 **Update 5/20/2025**
 **Reworked AI Suppression Behavior:**
 - AI now starts a 10-second suppression timer after directly spotting an enemy.
