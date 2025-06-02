@@ -1,5 +1,5 @@
 # HavenM Changelog
-*Update 6/1/2025**
+**Update 6/1/2025**
 -  tweaked target seeking missile so their first 15m of travel distance is a normal vanilla behavior so the missile has a chance to stabilize before active tracking  
 
 
