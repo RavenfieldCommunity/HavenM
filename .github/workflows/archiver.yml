@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "yes=no" > $GITHUB_ENV
           secondHash="$(git log -2 --pretty=format:"%H" | tail -n 1)"
-          lastHash = "$(cat LASTCOMMIT_INFO | tail -n 2)"
+          lastHash="$(cat LASTCOMMIT_INFO | tail -n 2)"
           if [[ $secondHash != $lastHash ]]; then
             echo "Last second commit hash: $secondHash"
             echo "Recorded hash: $lastHash"
