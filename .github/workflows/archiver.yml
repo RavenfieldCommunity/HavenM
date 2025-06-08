@@ -20,7 +20,6 @@ jobs:
 
       - name: Update version
         run: |
-          echo "yes=no" > $GITHUB_ENV
           secondHash="$(git log -2 --pretty=format:"%H" | tail -n 1)"
           lastHash="$(cat LASTCOMMIT_INFO | tail -n 2)"
           if [[ $secondHash != $lastHash ]]; then
@@ -31,7 +30,6 @@ jobs:
             curl -L "https://github.com/RavenfieldCommunity/HavenM/releases/download/Release/Assembly-CSharp.dll" -o $targetname
             echo "name=$targetname" > $GITHUB_ENV
             echo "$(git log -1 --format="%H")" > LASTCOMMIT_INFO
-            echo "yes=yes" > $GITHUB_ENV
           fi
           echo "Statu: ${{env.yes}}"
           echo "File directory:"
