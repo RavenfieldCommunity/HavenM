@@ -1,0 +1,53 @@
+name: "Archive dll"
+
+on:
+  schedule:
+    - cron: "0 12 * * 6"
+  workflow_dispatch:
+
+jobs:
+  Archive_dll:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Update version
+        run: |
+          echo "yes=no" > $GITHUB_ENV
+          secondHash="$(git log -2 --pretty=format:"%H" | tail -n 1)"
+          lastHash = "$(cat LASTCOMMIT_INFO | tail -n 2)"
+          if [[ $secondHash != $lastHash ]]; then
+            echo "Last second commit hash: $secondHash"
+            echo "Recorded hash: $lastHash"
+            targetname="Assembly-CSharp-$(date +'%Y%m%d%H%M').dll"
+            echo "File name: $targetname"
+            curl -L "https://github.com/RavenfieldCommunity/HavenM/releases/download/Release/Assembly-CSharp.dll" -o $targetname
+            echo "name=$targetname" > $GITHUB_ENV
+            echo "$(git log -1 --format="%H")" > LASTCOMMIT_INFO
+            echo "yes=yes" > $GITHUB_ENV
+          fi
+          echo "Statu: ${{env.yes}}"
+          echo "File directory:"
+          ls
+
+      - name: Release
+        uses: softprops/action-gh-release@v2.2.2
+        with:
+          tag_name: Archive
+          files: ${{env.name}}
+
+      - name: Commit info
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: main
+          commit_message: Update LASTCOMMIT_INFO
+          file_pattern: LASTCOMMIT_INFO
+
+          
