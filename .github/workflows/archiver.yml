@@ -25,7 +25,7 @@ jobs:
           if [[ $secondHash != $lastHash ]]; then
             echo "Last second commit hash: $secondHash"
             echo "Recorded hash: $lastHash"
-            targetname="Assembly-CSharp-$(date +'%Y%m%d%H%M').dll"
+            targetname="Assembly-CSharp-$(date -u +'%Y%m%d%H%M').dll"
             echo "File name: $targetname"
             curl -L "https://github.com/RavenfieldCommunity/HavenM/releases/download/Release/Assembly-CSharp.dll" -o $targetname
             echo "name=$targetname" > $GITHUB_ENV
