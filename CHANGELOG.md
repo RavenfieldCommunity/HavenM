@@ -1,4 +1,12 @@
 # HavenM Changelog
+
+**Update 6/13/2025**
+
+-  Fixed Ai airplane overshooting their shots when in dog fight .
+-  Tweaked ai grenade throwing, this will make infantry using grenade more effectively, avoiding friendly fire and self damage with extra accuracy in the form of a new   Grenade homing system for ai only.
+-  Extra tweaks to the codes for Aircraft so they don't crash as often.
+- Removed some old left over suppression code .
+
 **Update 6/1/2025**
 -  tweaked target seeking missile so their first 15m of travel distance is a normal vanilla behavior so the missile has a chance to stabilize before active tracking  
 
