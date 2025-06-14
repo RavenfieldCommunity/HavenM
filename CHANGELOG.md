@@ -1,4 +1,6 @@
 # HavenM Changelog
+**Update 6/14/2025**
+- Tweaked the accuracy deviation code so it work better and more noticeable.
 
 **Update 6/13/2025**
 
