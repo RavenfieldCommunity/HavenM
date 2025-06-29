@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 6/29/2025**
+- All AI using wire-guided missile weapons now have zero infantry sway, overriding any modder-defined values, to significantly improve missile accuracy.
+- Tweaked AI prone behavior to eliminate movement while firing in prone, resulting in more stable combat animations and improved Ai performance.
+- Added a new mechanic for ground vehicles (excluding boats): if the vehicle has a driver and unfilled seats, and the squad can't fill them, the vehicle will now recruit nearby squads (within 100m) with the same or fewer members to seat ratio to fill the empty seats.
+- Added a squad member limit check to transport helicopter pickups to prevent helicopters from getting stuck on the ground when there's one extra infantry who can’t board because the Heli doesn't have enough seats.
+- Tweaked AI tank behavior so they no longer perform hull-down positioning (front toward enemy) for targets under 50m, preventing tanks from getting stuck in close-quarters environments.
+- Tweaked Ai airplane attack run slightly.
+
 **Update 6/14/2025**
 - Tweaked the accuracy deviation code so it work better and more noticeable.
 
