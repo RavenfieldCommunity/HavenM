@@ -1,6 +1,8 @@
 # HavenM Changelog
 **Update 6/30/2025**
+- Added a halt check so when Ai vehicle is picking up newly recruited squad, they will remained halted.
 - Fixed Ai airplane being lock at a certain velocity when flying.
+- Tweaked the suppression to stop in certain situation such as when Ai moving in and out of cover.
 
 **Update 6/29/2025**
 - All AI using wire-guided missile weapons now have zero infantry sway, overriding any modder-defined values, to significantly improve missile accuracy.
