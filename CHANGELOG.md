@@ -1,4 +1,6 @@
 # HavenM Changelog
+**Update 6/30/2025**
+- Fixed Ai airplane being lock at a certain velocity when flying.
 **Update 6/29/2025**
 - All AI using wire-guided missile weapons now have zero infantry sway, overriding any modder-defined values, to significantly improve missile accuracy.
 - Tweaked AI prone behavior to eliminate movement while firing in prone, resulting in more stable combat animations and improved Ai performance.
