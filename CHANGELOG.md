@@ -1,6 +1,7 @@
 # HavenM Changelog
 **Update 7/1/2025**
 -  Remove infantry flee from moving vehicle for now.
+
 **Update 6/30/2025**
 - Added a halt check so when Ai vehicle is picking up newly recruited squad, they will remained halted.
 - Fixed Ai airplane being lock at a certain velocity when flying.
