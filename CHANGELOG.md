@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 7/1/2025**
+-  Added a check for vehicle avoidance on bot to only avoid vehicles that are having a driver and the driver isn't picking up anyone
+
 **Update 6/30/2025**
 - Added a halt check so when Ai vehicle is picking up newly recruited squad, they will remained halted.
 - Fixed Ai airplane being lock at a certain velocity when flying.
