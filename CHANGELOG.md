@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 7/2/2025**
+-  Added a check so tank turning vehicle doesn't take into account animated driven vehicle unless the animated driven vehicle is also having a clamped turret, to prevent the jittering of animation driven vehicle.
+- Tweaked some ai weapon behavior.
+
 **Update 7/1/2025**
 -  Remove infantry flee from moving vehicle for now.
 
