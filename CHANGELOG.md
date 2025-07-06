@@ -1,4 +1,16 @@
 # HavenM Changelog
+**Update 7/6/2025**
+
+- Removed game-imposed AI turret speed buff: AI tank turrets now rotate based on modder-defined/default values, reducing jitter and unintended over-rotation.
+- Improved AI suppression behavior: AI will now stop suppressing if they are attacked during suppressive fire, allowing them to respond to immediate threats. This improves both AI survivability and gameplay flow. (Does not affect aircraft, wire-guided, or mortar weapons.)
+- SpecOps patrol behavior update: Patrol vehicles and their infantry now split into two separate squads during combat, enabling independent vehicle and infantry engagement against the player and allies.
+- Added dynamic disembark logic for player-commanded vehicles:
+  - If the player remains inside the vehicle, only non-gunner infantry will exit; gunners stay to provide fire support.
+  - If the player exits the vehicle, all AI will disembark when ordered.
+- Reverted and adjusted various weapon and vehicle attack run parameters for more consistent AI attack behavior.
+- Improved AI first-shot accuracy for single-fire, wire-guided, and target-tracking weapons. AI now reliably hits targets on initial acquisition.
+- Fixed erratic movement behavior in SpecOps AI, reducing jitter and improving pathing during engagements.
+
 **Update 7/2/2025**
 -  Added a check so tank turning vehicle doesn't take into account animated driven vehicle unless the animated driven vehicle is also having a clamped turret, to prevent the jittering of animation driven vehicle.
 - Tweaked some ai weapon behavior.
