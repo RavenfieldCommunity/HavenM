@@ -10,6 +10,7 @@
 - Reverted and adjusted various weapon and vehicle attack run parameters for more consistent AI attack behavior.
 - Improved AI first-shot accuracy for single-fire, wire-guided, and target-tracking weapons. AI now reliably hits targets on initial acquisition.
 - Fixed erratic movement behavior in SpecOps AI, reducing jitter and improving pathing during engagements.
+- Tweaked specops enemy behavior.
 
 **Update 7/2/2025**
 -  Added a check so tank turning vehicle doesn't take into account animated driven vehicle unless the animated driven vehicle is also having a clamped turret, to prevent the jittering of animation driven vehicle.
