@@ -1,6 +1,7 @@
 # HavenM Changelog
 **Update 7/7/2025**
-- Improved clamped turret vehicle
+- Improved clamped turret , tracked vehicle
+
 **Update 7/6/2025**
 
 - Removed game-imposed AI turret speed buff: AI tank turrets now rotate based on modder-defined/default values, reducing jitter and unintended over-rotation.
