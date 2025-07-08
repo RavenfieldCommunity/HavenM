@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 7/8/2025**
+- Improved Ai suppression code so vehicle doesn't stop suppressing from taking fire, only when they take large amount of damage.
+- Tweaked vehicle ai driver combat behavior.
+
 **Update 7/7/2025**
 - Improved clamped turret , tracked vehicle
 
