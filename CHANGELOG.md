@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 7/11/2025**
+- Improved Ai suppression code so vehicle stop suppression when their barrel is obstructed .
+- Tweaked aircraft  copilot mounted machine gunner so they perform better.
+- Tweaked Ai weapon retention code for wire guided missile.
+
 **Update 7/8/2025**
 - Improved Ai suppression code so vehicle doesn't stop suppressing from taking fire, only when they take large amount of damage.
 - Tweaked vehicle ai driver combat behavior.
