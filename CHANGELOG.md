@@ -3,7 +3,8 @@
 - Improved Ai suppression code so vehicle stop suppression when their barrel is obstructed .
 - Tweaked aircraft  copilot mounted machine gunner so they perform better.
 - Tweaked Ai weapon retention code for wire guided missile.
-- Tweaked Ai turret anti air movement speed 
+- Tweaked Ai turret anti air movement speed .
+- Improved WireGuidedMissile by removing AI weapon sway on all wireguidedMissile type.
 
 **Update 7/8/2025**
 - Improved Ai suppression code so vehicle doesn't stop suppressing from taking fire, only when they take large amount of damage.
