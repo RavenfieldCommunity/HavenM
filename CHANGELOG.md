@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 7/19/2025**
+- Localize codes.
+- Improved Aircraft/Air to Air and General weapon tracking for some weapons.
+
 **Update 7/11/2025**
 - Improved Ai suppression code so vehicle stop suppression when their barrel is obstructed .
 - Tweaked aircraft  copilot mounted machine gunner so they perform better.
