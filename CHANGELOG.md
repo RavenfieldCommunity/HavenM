@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 7/20/2025**
+- Reworked Ai airplane attack run behavior be more simplistic so ai have an easier time attacking their targets.
+
 **Update 7/19/2025**
 - Localize codes.
 - Improved Aircraft/Air to Air and General weapon tracking for some weapons.
