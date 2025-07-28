@@ -1,4 +1,24 @@
 # HavenM Changelog
+**Update 7/28/2025**
+
+- Removed AI vehicle speed limiter: AI vehicles are no longer restricted to 80% of their max speed. They now travel at full top speed, increasing the overall pace and intensity of sandbox battles.
+
+- Tweaked weapon leading mechanics for improved target prediction and firing accuracy.
+
+- **Added new AI squad flanking and ambushing behaviors**  
+  - Applies to both **Battle Mode** and **SpecOps**.
+
+  ### Flanking AI
+  - When an **attacking squad** in Battle Mode has a target near a capture point:
+    - The squad will split into **two elements**:
+      - One element will attempt to **flank** the enemy.
+      - The other will stay in cover and **provide suppressive fire**.
+
+  ### Ambushing AI
+  - When a **defending squad** spots a target and is near cover:
+    - They will reposition to **intercept the enemy’s path**, setting up an ambush.
+
+
 **Update 7/20/2025**
 - Reworked Ai airplane attack run behavior be more simplistic so ai have an easier time attacking their targets.
 
