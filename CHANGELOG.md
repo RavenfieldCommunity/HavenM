@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 8/2/2025**
+- Rewrote the entire AI system from scratch to fix SpecOps AI not shooting after leaving vehicles.
+-  Removed AI jogging behavior. ( It made ai too exposes while the boost in speed is minimal)
+- Removed forced halting for vehicles against low-threat enemies (like infantry that isn't having anti armor weapon). **reason: that code create some problem**
+- Improved flanking and ambush behavior to work better with the new system.
+- Ai infantry now if see falling bombs will try to run away to avoid them.
+- Some small features are not yet re-added. Will be added back over time.
+
 **Update 7/28/2025**
 
 - Removed AI vehicle speed limiter: AI vehicles are no longer restricted to 80% of their max speed. They now travel at full top speed, increasing the overall pace and intensity of sandbox battles.
