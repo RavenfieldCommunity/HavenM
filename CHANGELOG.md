@@ -1,6 +1,7 @@
 # HavenM Changelog
 **Update 8/3/2025**
 - localize some codes so the specops teammate not firing bug stop appearing.
+- Added a feature that make actors that are 30m from the ground will be considered as a helicopter target type to prevent ground unit from shooting far up into a skies at parachuting actor unless they are an anti air weapon (don't worry weapon can't lock on to infantry, yet).
 
 **Update 8/2/2025**
 - Rewrote the entire AI system from scratch to fix SpecOps AI not shooting after leaving vehicles.
