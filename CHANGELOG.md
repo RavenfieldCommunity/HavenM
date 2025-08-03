@@ -1,5 +1,8 @@
 # HavenM Changelog
 **Update 8/2/2025**
+- localize some codes so the specops teammate not firing bug stop appearing.
+
+**Update 8/2/2025**
 - Rewrote the entire AI system from scratch to fix SpecOps AI not shooting after leaving vehicles.
 -  Removed AI jogging behavior. ( It made ai too exposes while the boost in speed is minimal)
 - Removed forced halting for vehicles against low-threat enemies (like infantry that isn't having anti armor weapon). **reason: that code create some problem**
