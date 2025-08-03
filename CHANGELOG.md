@@ -1,5 +1,5 @@
 # HavenM Changelog
-**Update 8/2/2025**
+**Update 8/3/2025**
 - localize some codes so the specops teammate not firing bug stop appearing.
 
 **Update 8/2/2025**
