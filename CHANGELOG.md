@@ -1,6 +1,7 @@
 # HavenM Changelog
 **Update 8/4/2025**
 - Fixed specops vehicle spawning location and flare spamming
+- Fixed friendly ai in specops sometime stop firing entirely after leaving vehicle as well as improve Vehicle Ai anti friendly fire code
 
 **Update 8/3/2025**
 - localize some codes so the specops teammate not firing bug stop appearing.
