@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 8/10/2025**
+- Re added **Combat vehicle target halt priority system**: Vehicles now only stop for dangerous/seated infantry; will keep advancing if spotting infantry that can’t damage them.
+- Re added a code that forces AI and AI in vehicles (except boats) to not halt when touching water and to keep going.
+- Re added **Mortar halt to fire** behavior.
+- Flanking system refinements for more effective AI infantry maneuvers.
+- Added **Smart driver bail-out**: Exposed or lightly-armored drivers (with no mounted weapons, and not piloting aircraft or boats) will disembark with their squad.
+
+
 **Update 8/5/2025**
 - Fixed ai sometime getting stuck on ladder while going to ambush point.
 - Tweak ai accuracy to match with the old HavenM version.
