@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 8/13/2025**
+- Fixed Wireguided passenger gunner not halting and improved helicopter halting performance in battle
+
 **Update 8/10/2025**
 - Re added **Combat vehicle target halt priority system**: Vehicles now only stop for dangerous/seated infantry; will keep advancing if spotting infantry that can’t damage them.
 - Re added a code that forces AI and AI in vehicles (except boats) to not halt when touching water and to keep going.
