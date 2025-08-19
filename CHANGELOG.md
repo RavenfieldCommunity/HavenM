@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 8/19/2025**
+- Hotfix for repair behaviour.
+
 **Update 8/18/2025**
 - New Ai feature: Ai with wrench/repair tool will repair friendly vehicle that are under 50% health , the repair system started when a vehicle squad has their squad vehicle health goes bellow 50%, the squad then will ask other squad within 100m radius for anymember with a repair tool to fix them up.
 -  Tweaked other Ai feature to support the newly added repair feature .
