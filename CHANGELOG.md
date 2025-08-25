@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 8/25/2025**
+- Fixed ai not shooting after getting recruited into player's squad
+
 **Update 8/19/2025**
 - Hotfix for repair behaviour.
 
