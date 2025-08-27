@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 8/27/2025**
+- Tweaked Wire Guided missile behavior, improving their update rate and helicopter behavior, Fixed Specops helicopter exfil pilot and gunner not using the right team skin.
+
+- Allow ai to fire at target even if their weapon can't damage them/Fix projectile so the person impact mod now work
+
 **Update 8/25/2025**
 - Fixed ai not shooting after getting recruited into player's squad
 
