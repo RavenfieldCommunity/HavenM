@@ -1,6 +1,15 @@
 # HavenM Changelog
+**Update 8/31/2025**
+- Fixed airplanes stopping fire during attack runs.  
+- Overhauled obstruction detection system to prevent unintended problems.  
+- Improved seated AI weapon handling in close-range vehicle encounters.  
+- Refined airplane attack run behavior: planes now switch to a random effective weapon against the target before committing to an attack run.  
+- Improved wire-guided missile handling.  
+- Tweaked infantry cover system: now only activates if the squad leader requires it, making infantry support behind vehicles more situational and less disruptive to pacing.  
+
 **Update 8/27/2025**
-- Tweaked Wire Guided missile behavior, improving their update rate and helicopter behavior, Fixed Specops helicopter exfil pilot and gunner not using the right team skin.
+- Tweaked Wire Guided missile behavior, improving their update rate and helicopter behavior. 
+- Fixed Specops helicopter exfil pilot and gunner not using the right team skin.
 
 - Allow ai to fire at target even if their weapon can't damage them/Fix projectile so the person impact mod now work
 
