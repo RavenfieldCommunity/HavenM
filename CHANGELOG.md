@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 9/1/2025**
+- hot fix a code that causes vehicles such as rhib , jeep mg to no longer move.
+
 **Update 8/31/2025**
 - Fixed airplanes stopping fire during attack runs.  
 - Overhauled obstruction detection system to prevent unintended problems.  
