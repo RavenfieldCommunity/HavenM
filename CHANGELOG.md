@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 9/4/2025**
+- fixed ai in player squad not moving.
+- Tweaked wire guided missile ai targeting
+- Changed the weaponlead value so no random noise value will touch the wire guided missile guidance so the ai lead of the weapon will always be perfect
+
 **Update 9/1/2025**
 - hot fix a code that causes vehicles such as rhib , jeep mg to no longer move.
 
