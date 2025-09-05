@@ -1,5 +1,6 @@
 # HavenM Changelog
 **Update 9/5/2025**
+- Update to EA32 version.
 - fixed a problem with ai not able to hop on vehicle because of repair order.
 
 **Update 9/4/2025**
