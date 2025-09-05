@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 9/5/2025**
+- fixed a problem with ai not able to hop on vehicle because of repair order.
+
 **Update 9/4/2025**
 - fixed ai in player squad not moving.
 - Tweaked wire guided missile ai targeting
