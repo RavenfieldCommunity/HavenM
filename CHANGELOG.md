@@ -1,6 +1,7 @@
 # HavenM Changelog
 **Update 9/6/2025**
 - Fixed up some code and change how the repair system work and added a limit to how long a vehicle get repair to prevent ai getting stuck in spawn because they can't physically go to the vehicle location.
+
 **Update 9/5/2025**
 - Update to EA32 version.
 - fixed a problem with ai not able to hop on vehicle because of repair order.
