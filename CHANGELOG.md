@@ -1,4 +1,9 @@
 # HavenM Changelog
+**Update 9/7/2025**
+- Added a new feature which allow Mortar and Aircraft(airplane/helicopter) to acquire target from friendly squads that are engaging them.
+- For Specops mode, the feature above will be tie around the comm officer, if a squad with the comm officer spotted the player or their teammate, they can call in support from nearby mortar and aircraft (if you want to make this harder for yourself, add the Lt. infront of your bot names, allowing all unit in specops to able to receive constant supportive fire 
+- Fix some code logic to fix a bug involving transport boat.
+
 **Update 9/6/2025**
 - Fixed up some code and change how the repair system work and added a limit to how long a vehicle get repair to prevent ai getting stuck in spawn because they can't physically go to the vehicle location.
 
