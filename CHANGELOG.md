@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 9/9/2025
+- Updated repair vehicle behavior: AI repair units now stay behind the vehicle they are repairing, improving survivability and consistency.  
+- Added a new system for **wire-guided weapons and AI aircraft-mounted weapons**:  
+  - Removed offset and inaccuracy noise from missiles and flight paths.  
+  - Wire-guided users and AI aircraft weapons are now pinpoint accurate.  
+
 **Update 9/7/2025**
 - Added a new feature which allow Mortar and Aircraft(airplane/helicopter) to acquire target from friendly squads that are engaging them.
 - For Specops mode, the feature above will be tie around the comm officer, if a squad with the comm officer spotted the player or their teammate, they can call in support from nearby mortar and aircraft (if you want to make this harder for yourself, add the Lt. infront of your bot names, allowing all unit in specops to able to receive constant supportive fire 
