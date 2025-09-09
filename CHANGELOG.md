@@ -4,6 +4,7 @@
 - Added a new system for **wire-guided weapons and AI aircraft-mounted weapons**:  
   - Removed offset and inaccuracy noise from missiles and flight paths.  
   - Wire-guided users and AI aircraft weapons are now pinpoint accurate.  
+- Fixed repair loadout not spawning correctly .
 
 **Update 9/7/2025**
 - Added a new feature which allow Mortar and Aircraft(airplane/helicopter) to acquire target from friendly squads that are engaging them.
