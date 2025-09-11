@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 9/11/2025**
+- Updated to the latest update.
+
 **Update 9/9/2025**
 - Updated repair vehicle behavior: AI repair units now stay behind the vehicle they are repairing, improving survivability and consistency.  
 - Added a new system for **wire-guided weapons and AI aircraft-mounted weapons**:  
