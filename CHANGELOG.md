@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 9/16/2025**
+- Improved specops patrol spawning location.
+
 **Update 9/13/2025**
 - Updated to the latest version
 - Added a new behavior which allow all Ai in the same squad to share target with each other as long as they are not taking fire, Improving the infantry squad behavior( work for both vehicle and no foot, as long as they are in a squad).
