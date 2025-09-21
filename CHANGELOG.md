@@ -1,4 +1,16 @@
 # HavenM Changelog
+**Update 9/21/2025**
+- Tweaked **Specops helicopter patrol spawn locations** for better mission flow.  
+- Changed **AI squad target sharing**: no more than 2 squad members can focus on the same target at once, preventing tunnel vision.  
+- Added new **aircraft attack run targeting**:  
+  - If the target is within the reach of the aircraft’s active weapon (based on velocity/gravity), the aircraft can now perform very long-range attack runs. (Example : Helicopter rocket lobbing/lofting)
+  - Excludes guided missiles and target-seeking missile types.  
+- Tweaked **aircraft unarmored checks**:  
+  - Helicopters and airplanes are now separated into their own categories.  
+  - Slow-moving helicopters under 30m altitude are treated as unarmored ground vehicles.  
+  - Slow-moving airplanes  that are low to the ground are also treated as unarmored ground vehicles.  
+  - This separation prevents ground vehicles from incorrectly targeting airplanes.  
+
 **Update 9/16/2025**
 - Improved specops patrol spawning location.
 
