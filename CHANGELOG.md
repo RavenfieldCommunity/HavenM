@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 9/24/2025**
+- Updated to the latest version.
+- Tweaked Ai airplane behavior and removed certain clamps, allowing airplane to commit to attack run with less constrain when targeting airplane target.
+
 **Update 9/21/2025**
 - Tweaked **Specops helicopter patrol spawn locations** for better mission flow.  
 - Changed **AI squad target sharing**: no more than 2 squad members can focus on the same target at once, preventing tunnel vision.  
