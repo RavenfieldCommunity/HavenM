@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 9/30/2025**
+
+- Changed target-seeking missile: when the target uses countermeasures, the missile will just move forward to its last tracking position, only pulled down slightly by gravity.
+- Added Laser Guided Missile to the list of weapons that make AI actors stop and fire (this one uses a point-target system, not a normal lock-on — I missed it before because I thought it was wire-guided).
+- Reworked helicopter hovering: if a heli is hovering above 80 m, it will now lower its height automatically.
+- Removed rocket-lobbing for helicopters (artillery already covers that role, and the heli wasn’t moving forward enough anyway).
+- Took helicopters out of the target-sharing system — now only mortars and airplanes can receive shared targets.
+
 **Update 9/25/2025**
 - Updated to the latest version.
 - Tweaked target seeking missile behavior to be better.
