@@ -1,4 +1,10 @@
 # HavenM Changelog
+**Update 10/2/2025**
+- Fixed Helicopter not hoovering properly.
+- Improved Helicopter and any other weapon Laser Guided accuracy .
+
+
+
 **Update 9/30/2025**
 
 - Changed target-seeking missile: when the target uses countermeasures, the missile will just move forward to its last tracking position, only pulled down slightly by gravity.
