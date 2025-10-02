@@ -2,7 +2,7 @@
 **Update 10/2/2025**
 - Fixed Helicopter not hoovering properly.
 - Improved Helicopter and any other weapon Laser Guided accuracy .
-
+- Tweaked the Target seeking missile.
 
 
 **Update 9/30/2025**
