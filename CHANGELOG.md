@@ -1,5 +1,10 @@
 # HavenM Changelog
-**Update 10/2/2025**
+**Update 10/03/2025**
+- Fixed that one tracked vehicle from SOFA
+- Improved Airplane/Helicopter attack run accuracy now taken into account the aircraft's velocity, improving their attack run accuracy
+- Also added a 8 seconds cooldown to airplane target sharing so the aircraft can stabilize their flight height before commit to another target, also to avoid crashes and being target for ground units.
+
+**Update 10/02/2025**
 - Fixed Helicopter not hoovering properly.
 - Improved Helicopter and any other weapon Laser Guided accuracy .
 - Tweaked the Target seeking missile.
