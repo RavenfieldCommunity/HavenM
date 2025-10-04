@@ -3,6 +3,9 @@
 - Tweaked Helicopter halted behavior.
 - Further Tweaked Countermeasure(flare/chaff/vehicle smoke) effects on target seeking missile tracking so the missile fall off at longer range once the countermeasure is activated ( 300m from 100m ).
 - Overhauled the Top attack Target seeking missile, now they use a more realistic flight path so it behave like they usually do in real life instead of flying on top of the target and drop down when within 50m of the target.
+
+<img width=880 height=400 alt=1-27_Top_attack_flight_path src=https://github.com/user-attachments/assets/58d7bea8-fc81-4f32-8e7b-c7def41655c2 />
+
 - Also allow Ai to drop certain bomb from aircraft much sooner (For Vortex's f104 bombs)
 
 **Update 10/03/2025**
