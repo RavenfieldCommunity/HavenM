@@ -1,4 +1,10 @@
 # HavenM Changelog
+**Update 10/06/2025**
+- Improved AI accuracy when using weapons that can effectively hit their target.  
+- Reverted target-seeking missiles to their original behavior, with extra tweaks so they can still hit or miss naturally.  
+- Reworked AI sub-weapon usage: AI can now properly use sub-weapons such as **Under barrel grenade launchers, bayonets, and alternate fire modes**.  
+- Optimized **Specops mode**: the game now reuses dead soldiers on the map to spawn new vehicle and infantry reinforcements, only creating new units if there aren’t enough dead actors available to recycle.  
+
 **Update 10/04/2025**
 - Tweaked Helicopter halted behavior.
 - Further Tweaked Countermeasure(flare/chaff/vehicle smoke) effects on target seeking missile tracking so the missile fall off at longer range once the countermeasure is activated ( 300m from 100m ).
