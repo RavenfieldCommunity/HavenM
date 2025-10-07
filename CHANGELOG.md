@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 10/07/2025**
+- Fixing accuracy at really close distance Ai engagement .  
+
 **Update 10/06/2025**
 - Improved AI accuracy when using weapons that can effectively hit their target.  
 - Reverted target-seeking missiles to their original behavior, with extra tweaks so they can still hit or miss naturally.  
