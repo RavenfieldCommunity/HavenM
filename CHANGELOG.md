@@ -1,4 +1,16 @@
 # HavenM Changelog
+**Update 10/10/2025**
+- Tweaked Ai Accuracy again .
+- Ai helicopter now dynamically fill up their vehicle seat if they are missing any seat.
+- Improving vehicle driver behavior when capturing a point, vehicle driver will now only leave the vehicle if the vehicle it's driving isn't currently having any mounted gunner on it and the vehicle is also not heavily armored.
+- Fixed Target seeking missile not reverting back to their usual accuracy after getting countermeasured by a target ( I forgot to put in a reset code) .
+
+**Update 10/08/2025**
+- Now allow helicopter to pick up more troop if it's starting squad vehicle seats are not all taken without requiring the heli to fly straight into a capture point.
+- Smooth out airplane pitch input so it only use 85% of it's raw input power so ai controlled airplane fly smoother
+- Allowed airplane with semi/single shot weapon or weapon with only 1 ammo to not needing to slow down when going for an attack run.
+- Allowed airplane to go full throttle if it's current weapon is reloading while the airplane is committing attack run (so the aircraft can fly away quickly after unloading).
+
 **Update 10/07/2025**
 - Fixing accuracy at really close distance Ai engagement .  
 
