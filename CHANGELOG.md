@@ -1,4 +1,13 @@
 # HavenM Changelog
+**Update 10/12/2025**
+- Fixed point-target seeking missiles from swinging uncontrollably while flying toward their targets.  
+- Tweaked AI behavior when approaching vehicles: AI will no longer crouch while entering vehicles.  
+- Adjusted helicopter behavior:  
+  - Helicopters will now come to a full stop if either the pilot or any passenger with a **guided or tracking missile** has an active target.  
+  - For other weapon types, the pilot will slowly move the helicopter forward instead of staying completely still.  
+- Removed airplane pitch smoothing to prevent aircraft from crashing during flight.  
+
+
 **Update 10/10/2025**
 - Tweaked Ai Accuracy again .
 - Ai helicopter now dynamically fill up their vehicle seat if they are missing any seat.
