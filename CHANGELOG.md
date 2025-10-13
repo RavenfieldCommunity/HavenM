@@ -1,4 +1,13 @@
 # HavenM Changelog
+**Update 10/13/2025**  
+- Improved AI vehicle pickup behavior:  
+  - Ground vehicles can now refill their seats more easily with nearby infantry.  
+  - Helicopters now focus on transporting passengers from longer distances to capture points.  
+- Fixed an issue where some AI soldiers would fail to enter vehicles and get stuck outside.  
+- Added an improved **vehicle armor system**:  
+  - Vehicle destructible hitboxes now behave more realistically.  
+  - Certain hitboxes (e.g., **ERA**, **slat armor**) now act as an outer layer of protection, reducing damage taken by the main vehicle health.  
+
 **Update 10/12/2025**
 - Fixed point-target seeking missiles from swinging uncontrollably while flying toward their targets.  
 - Tweaked AI behavior when approaching vehicles: AI will no longer crouch while entering vehicles.  
