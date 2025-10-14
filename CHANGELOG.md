@@ -1,4 +1,13 @@
 # HavenM Changelog
+**Update 10/14/2025**  
+- Improved **helicopter halting behavior** with 3 new operation modes:  
+  1. **Guided Mode:** If the helicopter or any passenger has a **target-seeking, wire-guided, or laser-guided weapon** locked onto a target, the helicopter will come to a **complete stop** to ensure accurate firing.  
+  2. **Close-Target Mode:** If the same guided weapons are active but the target is **within 600 meters**, the helicopter will **slowly move forward** instead of fully stopping.  
+  3. **Normal Mode:** If there are **no guided weapons** or related squad behavior, the helicopter will **slowly drift toward the target** but at a **faster pace** than in Close-Target Mode, maintaining smoother and more dynamic flight movement.  
+- Added a system for **vehicle squads**:  
+  - If any members can’t enter the vehicle within **20 seconds** after receiving an “enter vehicle” order, the squad will automatically **drop those stranded members** and continue.  
+  - (Special thanks to *Steel* for the island map’s red-side spawn issue — it helped test this feature!)  
+
 **Update 10/13/2025**  
 - Improved AI vehicle pickup behavior:  
   - Ground vehicles can now refill their seats more easily with nearby infantry.  
