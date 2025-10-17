@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 10/17/2025**
+- Fixed Ai helicopter halting
+- Improved Ai vehicle stuck behavior 
+- improved ai halt context, now ai only halt if they are sure their gun can aim at their target.
+- Allow infantry in vehicle to react better once they left the vehicle
+- Fixed laser guided missile path so they should behave as normal.
+
+
 **Update 10/14/2025**  
 - Improved **helicopter halting behavior** with 3 new operation modes:  
   1. **Guided Mode:** If the helicopter or any passenger has a **target-seeking, wire-guided, or laser-guided weapon** locked onto a target, the helicopter will come to a **complete stop** to ensure accurate firing.  
