@@ -1,4 +1,18 @@
 # HavenM Changelog
+**Update 10/19/2025**  
+- Improved **Helicopter Halting Behavior** for smoother and more responsive control.  
+- Added a new feature for **Target-Seeking Missiles**:  
+  - They can now **track infantry or actor targets** if the weapon’s targeting configuration is set to **Preferred Infantry / Infantry Group**.  
+  - (Note: Target-Seeking Missiles can now also **lock onto parachuting infantry** if they are descending from a sufficient height.)  
+- Added **AI Aim Assist** for **Point-Target (Laser-Guided)** and **Wire-Guided Missiles**:  
+  - These missiles will now automatically **track the same target the AI is aiming at**, functioning as an *aim assist* for precision-guided systems.  
+- Introduced a new **Vehicle Ground Alignment System**:  
+  - Ground vehicles (including those with seated AI or drivers) can now **evaluate their slope angle and turret elevation** to determine if they can aim effectively.  
+  - Vehicles will decide whether to **halt and fire** or **keep moving** if their current angle would compromise aim or safety.  
+- **Aircraft Combat Improvements:**  
+  - Aircraft can now **attack from longer ranges**.  
+  - Added logic to let aircraft **TOSS bombs** when conditions and calculations are favorable, improving bombing flexibility and realism.  
+
 **Update 10/17/2025**
 - Fixed Ai helicopter halting
 - Improved Ai vehicle stuck behavior 
