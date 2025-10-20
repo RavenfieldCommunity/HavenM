@@ -1,4 +1,14 @@
 # HavenM Changelog
+**Update 10/20/2025**  
+- Tightened **AI Vehicle Slope Check**, allowing tanks to perform **hull-down maneuvers** more effectively.  
+- Fixed an issue where **vehicles would not halt** properly when **picking up infantry**.  
+- Added a new ability for **AI with repair tools** to automatically **repair nearby damaged vehicles** within a **100m radius**.  
+- Added a new behavior where **vehicles will halt** if **any squad member** is currently **repairing** them.  
+- Improved **Wire-Guided Missile behavior**:  .
+  - Missiles now **check their travel distance** against the **distance to the target**.  
+  - If the missile has traveled farther than the distance to its target, it **drops targeting**, effectively removing the **“boomerang” issue**.  
+- Added a **turn distance clamp** for AI missiles to make **missile steering smoother and more stable**.  
+
 **Update 10/19/2025**  
 - Improved **Helicopter Halting Behavior** for smoother and more responsive control.  
 - Added a new feature for **Target-Seeking Missiles**:  
