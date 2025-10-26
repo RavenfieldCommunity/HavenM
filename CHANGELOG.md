@@ -1,4 +1,20 @@
 # HavenM Changelog
+**Update 10/26/2025**  
+- Tweaked **AI Helicopter** and **Airplane flight altitude** so they no longer fly too close to the ground.  
+- Added a new **AI Vehicle Mounting System**:  
+  - AI will now **hop onto nearby vehicles** for **attack, defense, or hunting** purposes.  
+  - When attacking, if the target capture point is **over 200m away**, AI will board nearby vehicles to reach it faster.  
+  - When defending, AI will automatically **mount turrets or vehicles with mounted weapons** (including aircraft with driver-mounted guns) to protect their point.  
+- Improved **Wire-Guided Missile** accuracy and added a **velocity-based miss chance**, making high-speed targets harder to hit.  
+- Allowed **wheeled vehicles** to **rotate their hulls** toward the target, with special handling for vehicles that have **fixed turrets**.  
+- Tweaked **AI accuracy** for better overall balance.  
+- Improved **Helicopter AI thrust control**, enhancing **landing precision** and **combat handling**.  
+- Added a **5m random deviation** to **AI mortar fire**, combined with weapon spread values, to make indirect fire **less precise** and more **natural-looking**.  
+- Removed **AI infantry squad target sharing**.  
+- Reworked **AI infantry flanking behavior** so squads **spread and advance simultaneously** for better coordination.  
+- Added **Line-of-Sight accuracy checks** for **laser-guided weapons**, reducing precision when AI cannot directly see their target.  
+
+
 **Update 10/20/2025**  
 - Tightened **AI Vehicle Slope Check**, allowing tanks to perform **hull-down maneuvers** more effectively.  
 - Fixed an issue where **vehicles would not halt** properly when **picking up infantry**.  
