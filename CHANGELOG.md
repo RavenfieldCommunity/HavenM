@@ -1,4 +1,11 @@
 # HavenM Changelog
+**Update 10/27/2025**  
+- Added a new **GTA-style Wanted Flare System**:  
+  - Each flare now spawns **one patrol squad** at first.  
+  - The number of spawned squads **increases with each flare fired**, with **no limit** on how many can appear.  
+- Fixed an issue in **Specops mode** where AI would attempt to enter **destroyed target vehicles** that were **unenterable** by both player and AI, causing them to fail their actions.  
+
+
 **Update 10/26/2025**  
 - Tweaked **AI Helicopter** and **Airplane flight altitude** so they no longer fly too close to the ground.  
 - Added a new **AI Vehicle Mounting System**:  
