@@ -1,4 +1,8 @@
 # HavenM Changelog
+**Update 10/28/2025**  
+- fixed helicopter vehicle dropping their pilots out when picking up player in specops ( I forgot to exclude specops gamemode)
+- Improved defensive vehicle definition for ai auto get in nearby vehicle code.
+
 **Update 10/27/2025**  
 - Added a new **GTA-style Wanted Flare System**:  
   - Each flare now spawns **one patrol squad** at first.  
