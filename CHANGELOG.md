@@ -1,4 +1,11 @@
 # HavenM Changelog
+**Update 10/29/2025**  
+- Tweaked **AI flanking and ambushing behavior** for improved squad tactics.  
+- Added a new feature for **transport helicopters** set as **patrol vehicles** at map start:  
+  - If any squad member spots a target in **Specops mode**, the helicopter will **land at the nearest designated landing zone** near the player, **drop troops**, then **fly up and circle** the player to provide fire support.  
+- Tweaked **helicopter halting behavior** and **descent flight altitude** for smoother operations.  
+- Improved **AI targeting logic** for more consistent engagement.  
+
 **Update 10/28/2025**  
 - fixed helicopter vehicle dropping their pilots out when picking up player in specops ( I forgot to exclude specops gamemode)
 - Improved defensive vehicle definition for ai auto get in nearby vehicle code.
