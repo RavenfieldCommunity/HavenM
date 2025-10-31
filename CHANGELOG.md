@@ -1,4 +1,11 @@
 # HavenM Changelog
+**Update 11/01/2025**  
+- Added a **UI Team Preview Vehicle Cycle System**: now displays a randomly selected vehicle on the team preview screen.  
+- Improved **AI vehicle unstuck behavior**, making it activate more consistently.  
+- Added a new **line-of-sight check** for AI to determine if they can physically see a target position, improving **suppression behavior**.  
+- Enhanced **AI flanking system** with a dedicated **grenadier role** and more detailed role assignments during assaults.  
+- Updated AI **grenade usage logic** with a new **grenade slot finder system**, allowing AI to use grenades more effectively in combat.  
+
 **Update 10/29/2025**  
 - Tweaked **AI flanking and ambushing behavior** for improved squad tactics.  
 - Added a new feature for **transport helicopters** set as **patrol vehicles** at map start:  
