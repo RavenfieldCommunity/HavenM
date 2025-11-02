@@ -1,4 +1,10 @@
 # HavenM Changelog
+**Update 11/02/2025**  
+- Improved **AI transportation logic**: transport vehicles now only auto-pickup squads that are not assigned to defend a point.  
+- Added a **turret alignment system**: vehicles will move forward if they cannot aim at a target within 50m.  
+  *This system runs on a 5-second cooldown to prevent constant vehicle movement or “wiggling.”*  
+- Fixed an issue where **infantry jittered** due to conflicting movement orders between multiple objectives.  
+
 **Update 11/01/2025**  
 - Added a **UI Team Preview Vehicle Cycle System**: now displays a randomly selected vehicle on the team preview screen.  
 - Improved **AI vehicle unstuck behavior**, making it activate more consistently.  
