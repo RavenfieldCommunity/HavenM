@@ -1,4 +1,12 @@
 # HavenM Changelog
+**Update 11/03/2025**  
+- Fixed an issue where **tracked vehicles** would sometimes drive in circles.  
+- Removed **redundant ground vehicle AI code** to improve performance and stability.  
+- Separated **AI airplane behavior** into two distinct modes:  
+  - **Air-to-air combat:** uses the vanilla U-turn variable for smoother, shorter turns.  
+  - **Air-to-ground / air-to-helicopter combat:** uses Havenm’s extended U-turn distance for better attack positioning.  
+- Added additional tweaks to make **AI dogfights and aerial engagements** feel more natural and dynamic.  
+
 **Update 11/02/2025**  
 - Improved **AI transportation logic**: transport vehicles now only auto-pickup squads that are not assigned to defend a point.  
 - Added a **turret alignment system**: vehicles will move forward if they cannot aim at a target within 50m.  
