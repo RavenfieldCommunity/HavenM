@@ -6,6 +6,7 @@
   - **Air-to-air combat:** uses the vanilla U-turn variable for smoother, shorter turns.  
   - **Air-to-ground / air-to-helicopter combat:** uses Havenm’s extended U-turn distance for better attack positioning.  
 - Added additional tweaks to make **AI dogfights and aerial engagements** feel more natural and dynamic.  
+- Hotfix: I forgot to exclude mortar weapon for the turret alignment code. (fixed)
 
 **Update 11/02/2025**  
 - Improved **AI transportation logic**: transport vehicles now only auto-pickup squads that are not assigned to defend a point.  
