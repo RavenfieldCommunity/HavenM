@@ -1,4 +1,23 @@
 # HavenM Changelog
+**Update 11/16/2025**  
+- Fixed an issue where AI would sometimes stop firing their weapons.  
+- Resolved a Specops bug where respawning AI kept leftover cosmetic elements.  
+- Tweaked AI squad **flanking** and **ambushing** behavior for smoother coordination.  
+- Major overhaul to **AI Airplane / Helicopter / Anti-Air targeting**:  
+  - AI now leads shots in **full 3D** instead of the old 2D vanilla system.  
+  - Applied the same 3D leading logic to **ground-to-air** targeting (except for missiles and smart-weapon types).  
+  - Airplanes can now properly lead and track fast-moving aircraft targets, improving dogfights.  
+  - Air-to-ground strafing is noticeably more accurate.  
+  - Airplane now also turn tighter, improving airplane combat pacing.
+- Refined several **Specops infrastructure** systems.  
+- Localized additional internal code.  
+- Added a new missile behavior:  
+  - When targeting **aircraft**, if the target deploys flares, the missile records the last tracked position and chases that point until the flare particles stop.  
+  - After that, the missile returns to its original target with added deviation.  
+  - (Attempted a ground-vehicle version—results were… not fun to play against.)  
+- Many more small tweaks added during the 10-day break.  
+  *(Yes, Specops exfil helicopter—you’re next.)*  
+
 **Update 11/03/2025**  
 - Fixed an issue where **tracked vehicles** would sometimes drive in circles.  
 - Removed **redundant ground vehicle AI code** to improve performance and stability.  
