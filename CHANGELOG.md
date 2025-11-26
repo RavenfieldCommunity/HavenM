@@ -1,4 +1,17 @@
 # HavenM Changelog
+**Update 11/26/2025**  
+- Restored AI airplane pilot turning radius from **60** back to **40**.
+- Fixed AI helicopter pilots sometimes lowering altitude when flying over deep terrain holes.
+- Fixed AI occasionally not firing single-shot weapons; also resolved several heli and tank weapon issues.
+- Added a new AI grenade-throwing system to reduce grenade spam during combat.
+- Re-enabled AI infantry turret repairs when defending capture points.
+- Added slight deviation to AI-fired wire-guided missiles (they were too accurate).
+- Fixed AI vehicles sometimes failing to halt correctly.
+- Tweaked the AI vehicle driver muzzle-alignment system for more accurate targeting.
+- Adjusted AI handling of single-shot heavy weapons (e.g., SPG and tank rounds) when the AI is not the driver.
+- Improved Player Squad suppression behavior for more consistent reactions.
+- Fixed an oversight where AI would not drop airplane targets once acquired.
+
 **Update 11/16/2025**  
 - Fixed an issue where AI would sometimes stop firing their weapons.  
 - Resolved a Specops bug where respawning AI kept leftover cosmetic elements.  
