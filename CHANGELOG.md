@@ -1,4 +1,7 @@
 # HavenM Changelog
+**Update 11/27/2025**  
+- HotFix ai not repairing properly 
+
 **Update 11/26/2025**  
 - Restored AI airplane pilot turning radius from **60** back to **40**.
 - Fixed AI helicopter pilots sometimes lowering altitude when flying over deep terrain holes.
