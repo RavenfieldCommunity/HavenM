@@ -1,4 +1,39 @@
 # HavenM Changelog
+## Update 12/9/2025
+
+### Projectile Interactions
+- Projectiles can now destroy bombs and rocket-type projectiles from the opposing team.
+  - Bomb projectiles require Heavy Arms weapons to detonate.
+  - Rocket projectiles can be destroyed by any projectile type.
+  
+### AI Airplane Systems
+  - Extend airplane ground attack U turn distance by multiplying it with Airplane flight height to ensure that higher flying Aircraft fly a good distance away before doing a u turn so their next attack run has enough distance for the ai to aim and fire their weapons so such aircraft can remain combat effective after the first airstrike.
+  
+### AI Infantry Systems
+- Introduced a new Infantry Squad System:
+  - Low-member infantry squads now automatically regroup into larger squads.
+  - AI now exhibits dynamic regroup behavior, causing infantry to advance and fall back fluidly during combat.
+  - This creates more realistic power shifts and front-line movement in firefights.
+- Implemented an improved Grenade Throwing System for infantry AI:
+  - AI can now automatically fire grenades without switching to the grenade weapon slot.
+  - This significantly improves grenade usage effectiveness without reducing the AI’s combat readiness, unlike previous versions.
+
+### Armored Vehicle Improvements
+- Updated passenger behavior for Heavy Arms and Anti-Tank tier armored vehicles:
+  - Passengers are no longer knocked off their vehicles when hit by enemy projectiles.
+  - Resolves long-standing issues where open-top vehicles (e.g., M113, M3 Half-Track, commander MG positions) became ineffective due to constant forced ejections.
+  - While potentially controversial, HavenM AI targeting already allows AI to engage exposed passengers directly. Preventing involuntary ejection improves survivability and maintains gameplay balance.
+  - This change aims to strengthen the sandbox experience by ensuring open-top armored vehicles remain viable instead of being immediately neutralized despite their armor advantages.
+
+## BUG FIXES and TWEAKS:
+- Tweaked AI firing behavior so all weapon type are properly fired.
+- Improved AI hull toward target behavior  to prevent stuck as well a vehicle jittering around 
+- REMOVED AI FLANK and AMBUSH behavior since they cause ai to randomly fall to the ground because of  the navmesh not allowing for such behavior on ai actors
+- Fixed Mortar AI Targeting not working.
+- Fixed vehicle ai not stop halting if target is obstructed by friendly 
+- Fixed ai halting when in water.
+
+
 **Update 11/27/2025**  
 - HotFix ai not repairing properly 
 
