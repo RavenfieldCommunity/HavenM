@@ -1,4 +1,26 @@
 # HavenM Changelog
+## Update 12/14/2025
+
+### AI Infantry Behavior
+- Introduced a revised prone system:
+  - AI in attacking squads will no longer immediately go prone when taking fire if their capture objective is more than 200m away and no cover is available.
+  - Prevents prone behavior while AI is moving toward cover or positioned near cover, resulting in more deliberate and realistic movement under fire.
+- Improved grenade behavior:
+  - AI now randomizes grenade usage when possible, increasing unpredictability and tactical variety.
+  - AI grenade throws now properly consume grenade ammunition.
+- Updated targeting logic:
+  - AI can now target the player as part of an infantry group when the player is near a designated cover point.
+
+### Vehicle AI Improvements
+- Added a new creeping advance behavior for transport vehicles:
+  - Vehicles will now slowly advance toward enemy positions instead of coming to a complete halt, improving battlefield flow and reducing stagnation.
+- Turret vehicle AI (stationary turret only, not mounted on vehicle) will no longer attempt to target enemies outside of the turret’s rotation limits.
+
+### Combat Adjustments
+- Reverted AI aiming deviation:
+  - Addresses issues where AI struggled to reliably engage targets due to excessive aim variance.
+
+  
 ## Update 12/9/2025
 
 ### Projectile Interactions
