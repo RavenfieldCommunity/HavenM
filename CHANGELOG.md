@@ -3,7 +3,7 @@
 
 ### AI Infantry Behavior
 - Introduced a revised prone system:
-  - AI in attacking squads will no longer immediately go prone when taking fire if their capture objective is more than 200m away and no cover is available.
+  - AI in attacking squads will no longer immediately go prone when taking fire if their capture objective is more than 100m away and no cover is available.
   - Prevents prone behavior while AI is moving toward cover or positioned near cover, resulting in more deliberate and realistic movement under fire.
 - Improved grenade behavior:
   - AI now randomizes grenade usage when possible, increasing unpredictability and tactical variety.
