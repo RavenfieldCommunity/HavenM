@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 12/15/2025
+- Fixed the Spec Ops Helicopter Exfil.
 ## Update 12/14/2025
 
 ### AI Infantry Behavior
