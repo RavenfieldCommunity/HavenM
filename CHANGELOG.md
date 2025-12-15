@@ -1,6 +1,12 @@
 # HavenM Changelog
 ## Update 12/15/2025
-- Fixed the Spec Ops Helicopter Exfil.
+
+### Fixes & Improvements
+- Fixed an issue where the Spec Ops Helicopter exfiltration would not move after picking up all passengers.
+- Improved AI squad target sharing:
+  - When a squad shares a target, individual AI now select the closest valid target they can engage.
+- Fixed an AI grouping issue that occurred when the squad leader was repairing a vehicle or turret or entering one.
+
 ## Update 12/14/2025
 
 ### AI Infantry Behavior
