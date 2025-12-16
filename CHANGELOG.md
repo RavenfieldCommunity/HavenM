@@ -1,4 +1,11 @@
 # HavenM Changelog
+## Update 12/16/2025
+
+### Fixes & Improvements
+- Increased AI update tick rate from 50 to 120 for more responsive behavior.
+- Removed squad target sharing and restructured AI target acquisition order.
+- Added increased randomization to AI look direction when idle, improving target detection during combat.
+
 ## Update 12/15/2025
 
 ### Fixes & Improvements
