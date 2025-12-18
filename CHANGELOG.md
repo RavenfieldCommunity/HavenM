@@ -1,4 +1,14 @@
 # HavenM Changelog
+## Update 12/18/2025
+
+### Fixes & Improvements
+- Enhanced grenade behavior:
+  - AI now checks projectile arc and aligns with weapon lead direction before switching, improving accuracy and reducing misfires.
+- Improved vehicle AI hull turning:
+  - Fixed issue with vehicle not checking if they are stuck.
+  - Vehicles now turn their hull faster and more smoothly when aiming at targets, improving combat responsiveness.
+ - Improved Ai laser guided missile behavior with a new structure and function to prevent some rare instances of AI targeting non existence target on the map.
+
 ## Update 12/16/2025
 
 ### Fixes & Improvements
