@@ -1,4 +1,11 @@
 # HavenM Changelog
+## Update 12/20/2025
+
+### Fixes & Improvements
+- Removed the barrel-obstruction check from the AI  loop after it negatively impacted target acquisition and caused unreliable AI targeting behavior.
+- Reduced grenade throwing cooldown to compensate for reduced grenade usage caused by the new projectile arc checks.
+- Fixed an additional issue with tank stuck-detection logic.
+
 ## Update 12/18/2025
 
 ### Fixes & Improvements
