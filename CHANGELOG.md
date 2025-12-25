@@ -1,4 +1,27 @@
 # HavenM Changelog
+## Update 12/25/2025
+
+### Gameplay & AI Improvements
+- Added a new slow-motion system for Spectator Mode:
+  - Slow-motion value can be adjusted from 0.5 down to 0 by holding **Alt** and using the mouse scroll wheel.
+  - Spectator camera is unhooked from the game timescale.
+  - Camera movement speed is no longer affected while slow-motion is active.
+- Updated AI suppression logic:
+  - AI can now switch targets while suppressing if another visible target becomes available.
+  - Suppression remains a fallback behavior when no alternative targets are present.
+- Improved AI sprint and combat interaction:
+  - AI now slows or stops sprinting appropriately when engaging targets.
+  - Examples include slowing near cover to fire while advancing, stopping sprint when enemies are within ~20m, and avoiding sprinting when enemies are nearby.
+- Improved grenade throwing logic:
+  - Adjusted AI leading and aim angles for better accuracy.
+  - Removed AI ability to manually switch to hand-thrown grenade weapons.
+  - Grenade usage is now fully handled by the new grenade hot-swap system, significantly reducing friendly-fire incidents.
+- Added a 2–3 second delay before AI switches to the driver seat after a driver is killed.
+- Implemented a new penetration system:
+  - More reliable and less likely to break collider interactions.
+- Expanded helicopter AI roles:
+  - Helicopters can now engage high-priority targets such as player-designated enemies and active enemy mortar crews.
+
 ## Update 12/20/2025
 
 ### Fixes & Improvements
