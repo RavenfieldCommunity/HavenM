@@ -1,6 +1,12 @@
 # HavenM Changelog
-## Update 12/25/2025
+## Update 12/26/2025
 
+### Fixes & Improvements
+- Grenades can now be shot and blow up by other projectiles, including grenade launcher projectiles.
+- Improved AI grenade usage for better timing and effectiveness in combat.
+
+
+## Update 12/25/2025
 ### Gameplay & AI Improvements
 - Added a new slow-motion system for Spectator Mode:
   - Slow-motion value can be adjusted from 0.5 down to 0 by holding **Alt** and using the mouse scroll wheel.
