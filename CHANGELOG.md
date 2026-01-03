@@ -1,4 +1,12 @@
 # HavenM Changelog
+## Update 1/3/2026
+
+### Fixes & Improvements
+- Fixed an issue where helicopter AI behaved incorrectly when halting.
+- Target-seeking projectiles can now track and intercept rockets and bombs, provided the weapon can lock onto aircraft.
+- Improved AI handling of Wire-Guided and Laser-Guided Missiles for more reliable guidance and target tracking, without making them overpowered against AI or players.
+- Smoothed AI airplane movement by interpolating between previous and current movement directions and reducing micro-adjustments during steady flight. Aircraft still exhibit natural movement, but with significantly less erratic bouncing while remaining combat effective.
+
 ## Update 12/26/2025
 
 ### Fixes & Improvements
