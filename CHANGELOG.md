@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 1/4/2026
+
+### Fixes & Improvements
+- Prevented projectile colliders from blocking AI vision and interfering with target acquisition.
+
+
 ## Update 1/3/2026
 
 ### Fixes & Improvements
