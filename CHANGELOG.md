@@ -1,4 +1,16 @@
 # HavenM Changelog
+## Update 1/6/2026
+
+### Fixes & Improvements
+- Tweaked Wire-Guided Missile behavior again to improve handling for players and fix unintended issues affecting both player and AI.
+- Added AC-130–style airplane support behavior for AI:
+  - When an aircraft has no weapons, the pilot will circle a passenger-designated target instead of flying directly into the hot zone.
+- Unified infantry and infantry group effectiveness logic:
+  - Weapon effectiveness and difficulty now apply consistently whether the target is a lone infantry unit or an infantry group.
+  - Improves AI target selection and engagement reliability across different infantry states.
+- Improved AI infantry group designation by converting it to a boolean-based system.
+
+
 ## Update 1/4/2026
 
 ### Fixes & Improvements
