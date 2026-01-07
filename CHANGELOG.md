@@ -1,4 +1,15 @@
 # HavenM Changelog
+## Update 1/7/2026
+
+### Fixes & Improvements
+- Added a 25-second cooldown to helicopter AI:
+  - Helicopters will temporarily stop halting behavior if they take more than 10% damage to their current health.
+- Fixed an issue where vehicles would sometimes fail to halt for passengers attempting to board.
+- Further smoothed airplane AI movement for more natural flight behavior.
+- Improved AI squad vehicle coordination:
+  - Defensive vehicles missing weapon seats will now request nearby suitable infantry squads to fill empty weapon positions.
+
+
 ## Update 1/6/2026
 
 ### Fixes & Improvements
