@@ -1,5 +1,5 @@
 # HavenM Changelog
-## Update 1/7/2026
+## Update 1/8/2026
 
 - Fixed some weird issue with ai not firing when ordered to fire at targets by the player.
 
