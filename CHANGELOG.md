@@ -1,6 +1,10 @@
 # HavenM Changelog
 ## Update 1/7/2026
 
+- Fixed some weird issue with ai not firing when ordered to fire at targets by the player.
+
+## Update 1/7/2026
+
 ### Fixes & Improvements
 - Added a 25-second cooldown to helicopter AI:
   - Helicopters will temporarily stop halting behavior if they take more than 10% damage to their current health.
