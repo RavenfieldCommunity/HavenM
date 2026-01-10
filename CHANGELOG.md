@@ -1,7 +1,4 @@
 # HavenM Changelog
-## Update 1/10/2026
-- Fixed a rare bug which result in projectile from certain weapon Projectile blowing up after leaving the barrel. (M109A6, PzH2000, and PLZ05 )from the LETMS - Future Warfare Vehicle Pack
-
 ## Update 1/8/2026
 
 - Fixed some weird issue with ai not firing when ordered to fire at targets by the player.
