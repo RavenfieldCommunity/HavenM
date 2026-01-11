@@ -1,4 +1,14 @@
 # HavenM Changelog
+## Update 1/11/2026
+
+### Fixes & Improvements
+- Added logic to prevent drivers from halting when a vehicle has only a single AI actor operating a mounted weapon.
+  - Vehicles will now halt only if the weapon is properly aligned with the target, preventing driver behavior that blocks the sole gunner’s line of fire.
+- Implemented a new ground vehicle hull-control system:
+  - Prevents hull-orientation toward targets when an avoidance object is detected directly in front of the vehicle.
+  - Addresses rare navigation failures in forested terrain by allowing hull-toward-target behavior only when no frontal obstacle is present.
+- Fixed an issue where lock-on weapons would retain target lock after unscoping.
+
 ## Update 1/10/2026
 - Fixed a rare bug which result in projectile from certain weapon Projectile blowing up after leaving the barrel. (M109A6, PzH2000, and PLZ05 )from the LETMS - Future Warfare Vehicle Pack
 
