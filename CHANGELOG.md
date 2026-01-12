@@ -1,4 +1,9 @@
 # HavenM Changelog
+## Update 1/12/2026
+
+### Fixes & Improvements
+- Fixed an issue where AI would sometimes stop firing due to incorrect code execution order and conditional logic preventing weapon behavior updates.
+
 ## Update 1/11/2026
 
 ### Fixes & Improvements
