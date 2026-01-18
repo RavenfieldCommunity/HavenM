@@ -1,4 +1,22 @@
 # HavenM Changelog
+## Update 1/18/2026
+
+### Fixes & Improvements
+- Overhauled AI vehicle combat behavior:
+  - Vehicles with single-shot weapons and a driver will halt to fire unless reloading, unable to reach the target, or the target is within 100m; in those cases, the vehicle will creep forward instead.
+  - Vehicles with automatic weapons will no longer fully halt and will instead continuously creep forward during engagements.
+- Fixed an issue where laser-guided missiles were blocked by their own projectile colliders.
+- Improved accuracy and target leading for all seated AI gunners.
+- Adjusted AI squad recruitment logic:
+  - Vehicles will now recruit infantry while defending only if all weapon seats are not occupied.
+- Overhauled AI suppression behavior:
+  - AI will no longer track targets through walls and will instead fire at the last known position until visual contact is reestablished.
+- Tweaked AI airplane attack run behavior for more consistent engagements.
+- Fixed an issue where unarmored vehicle drivers would sometimes exit the vehicle near capture points.
+- Extended transport vehicle drop-off distance from capture points:
+  - Infantry now dismount earlier and can establish fire sooner, improving capture success and reducing clustered casualties from explosives.
+
+
 ## Update 1/12/2026
 
 ### Fixes & Improvements
