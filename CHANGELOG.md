@@ -1,4 +1,15 @@
 # HavenM Changelog
+## Update 1/22/2026
+
+### Fixes & Improvements
+- Tweaked AI vehicle squad-level orders to prevent vehicles from being assigned roles they are not suited for (e.g., APCs defending instead of capturing).
+- Refined AI vehicle combat behavior to resolve issues with halting and aiming.
+- Fixed projectile and infantry tracking issues.
+- Improved airplane and infantry target-type updates so helicopters and aircraft change it's target type more accurately based on their altitude and speed so other ai can target them at low altitude and speed.
+- Added a vehicle weapon-switching check to prevent AI from waiting indefinitely for weapon unholstering before firing.
+- Fixed an issue where AI would remain in a capture point after it was already secured.
+- Improved vehicle auto-recruitment and squad-merge behavior for greater consistency and bug fixes.
+
 ## Update 1/18/2026
 
 ### Fixes & Improvements
