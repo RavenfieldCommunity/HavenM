@@ -1,4 +1,22 @@
 # HavenM Changelog
+## Update 2/2/2026
+
+### Fixes & Improvements
+- Tweaked AI handling of ATGM wire-guided missiles for more reliable behavior.
+- General optimization of AI aiming and lead calculation logic.
+- Smoothed AI airplane flight control when not actively maneuvering or performing attack runs.
+- Added a restriction to AI gear switching to prevent it from interrupting vehicle reverse movement.
+- Further refined AI vehicle combat behavior:
+  - Improved movement decisions toward targets.
+  - Ensured vehicles better evaluate surrounding threats before committing to movement.
+- Added post-dismount behavior for AI infantry:
+  - After exiting a vehicle, infantry will move 6–7 meters in a random direction before resuming normal behavior.
+- Improved AI grenade handling:
+  - Fixed an overlooked weapon-switching case that still allowed AI to switch to grenade weapons.
+- Added a new helicopter retreat behavior:
+  - When taking fire near objectives or enemy targets, helicopters will disengage and retreat toward their spawn location until they are far from the objective and no longer under fire.
+
+
 ## Update 1/22/2026
 
 ### Fixes & Improvements
