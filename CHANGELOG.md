@@ -1,4 +1,8 @@
 # HavenM Changelog
+## Update 2/4/2026
+- Fixed certain transport helicopter retreating.
+- Tweaked helicopter retreating behavior activation.
+
 ## Update 2/2/2026
 
 ### Fixes & Improvements
