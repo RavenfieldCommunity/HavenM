@@ -1,6 +1,6 @@
 # HavenM Changelog
 ## Update 2/12/2026
-
+- Updated to EA33
 - New infantry tactic: AI repositions based on target location to gain better line of sight while maintaining capture orders. Infantry uses nearby cover and aligns to target LOS.
 - Improved attack helicopter disengagement (non-transport only):
   - Disengages when reloading non-guided weapons.
