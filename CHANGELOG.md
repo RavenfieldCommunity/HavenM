@@ -1,4 +1,16 @@
 # HavenM Changelog
+## Update 2/12/2026
+
+- New infantry tactic: AI repositions based on target location to gain better line of sight while maintaining capture orders. Infantry uses nearby cover and aligns to target LOS.
+- Improved attack helicopter disengagement (non-transport only):
+  - Disengages when reloading non-guided weapons.
+  - Disengages if guided targets are too close or at poor firing angles.
+  - Uses anchor logic: U-turn ~600m away or fly past anchor within 300m.
+  - Disabled for SpecOps and player-led squads.
+- Fixed AI getting stuck on ladders.
+- Improved AI order logic to prevent idle or lost objectives after squad splits/completion.
+- Enhanced vehicle stuck detection and helicopter pickup checks to prevent premature squad drop-off.
+
 ## Update 2/4/2026
 - Fixed certain transport helicopter retreating.
 - Tweaked helicopter retreating behavior activation.
