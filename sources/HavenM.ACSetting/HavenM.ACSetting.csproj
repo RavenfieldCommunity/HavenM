@@ -2,12 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
-    <AssemblyName>HavenM.ACUpdater</AssemblyName>
+    <AssemblyName>HavenM.ACSetting</AssemblyName>
     <Description></Description>
-    <Version>0.4</Version>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>0.0.1</Version>
     <LangVersion>latest</LangVersion>
-    <OutputPath>D:\Program Files\pip3.7\steamapps\common\Ravenfield\BepInEx\plugins\</OutputPath>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,15 +19,10 @@
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
 
-  <Reference Include="Assembly-CSharp">
-    <HintPath>..\lib\Assembly-CSharp.dll</HintPath>
-    <Private>false</Private>
-  </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   
-  <Reference Include="UnityEngine.UI">
-    <HintPath>..\lib\UnityEngine.UI.dll</HintPath>
-    <Private>false</Private>
-  </Reference>
-
   </ItemGroup>
 </Project>

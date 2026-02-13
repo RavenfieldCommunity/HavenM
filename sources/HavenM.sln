@@ -7,10 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HavenM.ACUpdater", "HavenM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HavenM", "HavenM\HavenM.csproj", "{595DB44A-A12F-49CE-95AA-E154FADAFE02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HavenM.ACSetting", "HavenM.ACSetting\HavenM.ACSetting.csproj", "{5735D35A-7055-4A19-8EDD-51BA8AD389D4}"
+EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -44,5 +43,20 @@ Global
 		{595DB44A-A12F-49CE-95AA-E154FADAFE02}.Release|x64.Build.0 = Release|Any CPU
 		{595DB44A-A12F-49CE-95AA-E154FADAFE02}.Release|x86.ActiveCfg = Release|Any CPU
 		{595DB44A-A12F-49CE-95AA-E154FADAFE02}.Release|x86.Build.0 = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|x64.Build.0 = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{5735D35A-7055-4A19-8EDD-51BA8AD389D4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
