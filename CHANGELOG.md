@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 2/13/2026
+- Removed Infantry squad merge behavior on Ai infantry squads to fix an issue with ai orders.
+- Remove the hard coded valentine mutator injection in game config on game launch.
 ## Update 2/12/2026
 - Updated to EA33
 - New infantry tactic: AI repositions based on target location to gain better line of sight while maintaining capture orders. Infantry uses nearby cover and aligns to target LOS.
