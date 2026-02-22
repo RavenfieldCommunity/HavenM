@@ -1,13 +1,20 @@
 # HavenM Changelog
 ## Update 2/22/2026
 
-- New vehicle combat system: improved hull/muzzle-on-target logic using navmesh-based repositioning instead of forced movement. Vehicles now micro-adjust (forward, reverse, strafe) to gain fire alignment. Reposition only triggers when not reversing, not in tight spaces, and not avoiding traffic. Reverse attempts (2–3 times) occur before abandon reset, keeping vehicles combat-effective longer.
-- Vehicles now check fire path and reposition if blocked.
-- Removed infantry ragdoll when fleeing grenades for consistency and clarity.
-- Tweaked AI weapon switching.
-- Improved AI aiming logic based on target stance, cover, and visibility (head targeting in cover, ground targeting for prone).
-- Refined vehicle halting/combat behavior and reduced halt delay after boarding.
-- Adjusted firing block and explosive penetration (AT-rated only).
+- Overhauled vehicle combat system:
+  - Replaced force-move logic with navmesh-based hull/muzzle-on-target repositioning.
+  - Vehicles now micro-adjust (forward, reverse, strafe) to gain fire alignment.
+  - Repositioning only occurs when not reversing, not in tight spaces, and not avoiding friendly traffic.
+  - Vehicles attempt 2–3 reverse recoveries before abandon logic resets, keeping them combat-effective longer.
+- Vehicles now check fire path before engaging and reposition if blocked.
+- Removed infantry ragdoll when fleeing grenades for better combat clarity.
+- Refined AI weapon switching.
+- Improved AI aim logic based on target stance and cover:
+  - Head targeting when enemy is behind cover.
+  - Ground targeting for prone enemies.
+  - Center mass otherwise.
+- Tweaked vehicle halting/combat behavior and reduced post-boarding halt delay.
+- Adjusted firing-block logic and explosive penetration (AT-rated only).
 - Defensive squads now send only capable units (AT/AA) against seated vehicle targets.
 
 ## Update 2/13/2026
