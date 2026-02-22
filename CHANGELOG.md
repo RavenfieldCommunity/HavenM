@@ -1,6 +1,6 @@
 # HavenM Changelog
 ## Update 2/22/2026
-
+- HOTFIX: Trying to fix an issue of vehicle infinitely reversing for a target.
 - Overhauled vehicle combat system:
   - Replaced force-move logic with navmesh-based hull/muzzle-on-target repositioning.
   - Vehicles now micro-adjust (forward, reverse, strafe) to gain fire alignment.
