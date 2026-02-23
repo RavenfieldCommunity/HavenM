@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 2/23/2026
+- Fixing an issue with vehicle just flipping their orientation when muzzle on target and refusing to go hull toward target
+
 ## Update 2/22/2026
 - HOTFIX: Trying to fix an issue of vehicle infinitely reversing for a target.
 - Overhauled vehicle combat system:
