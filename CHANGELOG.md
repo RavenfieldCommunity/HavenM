@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 2/24/2026
+- Change the system for vehicle combat movement (hull angling and muzzle on target) so they trigger more reliably for Ai as well as keeping them more manageable for me later on.
+
 ## Update 2/23/2026
 - Fixing an issue with vehicle just flipping their orientation when muzzle on target and refusing to go hull toward target
 
