@@ -1,5 +1,8 @@
 # HavenM Changelog
 ## Update 2/24/2026
+- Fixed Ai not melee charging at it's target because of the infantry combat reposition code.
+
+## Update 2/24/2026
 - Change the system for vehicle combat movement (hull angling and muzzle on target) so they trigger more reliably for Ai as well as keeping them more manageable for me later on.
 
 ## Update 2/23/2026
