@@ -1,5 +1,5 @@
 # HavenM Changelog
-## Update 2/24/2026
+## Update 2/25/2026
 - Fixed Ai not melee charging at it's target because of the infantry combat reposition code.
 
 ## Update 2/24/2026
