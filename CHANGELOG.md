@@ -1,6 +1,7 @@
 # HavenM Changelog
 ## Update 2/25/2026
 - Fixed Ai not melee charging at it's target because of the infantry combat reposition code.
+- Tweaked the vehicle sometime stay stuck infinitely if they get stuck in a location but also has a target and in combat, I added a cooldown to fix it.
 
 ## Update 2/24/2026
 - Change the system for vehicle combat movement (hull angling and muzzle on target) so they trigger more reliably for Ai as well as keeping them more manageable for me later on.
