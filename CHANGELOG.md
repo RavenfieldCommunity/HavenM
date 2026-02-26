@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 2/26/2026
+- Fixed ai not using Guided Projectile weapon more when on aircraft .
+
 ## Update 2/25/2026
 - Fixed Ai not melee charging at it's target because of the infantry combat reposition code.
 - Tweaked the vehicle sometime stay stuck infinitely if they get stuck in a location but also has a target and in combat, I added a cooldown to fix it.
