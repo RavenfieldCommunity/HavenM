@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 2/27/2026
+- Fixed ai not using melee weapon more once again (AUGHHHH) .
 ## Update 2/26/2026
 - Fixed ai not using Guided Projectile weapon more when on aircraft .
 
