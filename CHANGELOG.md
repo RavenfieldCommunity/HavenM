@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 2/28/2026
+- Update to EA33
 ## Update 2/27/2026
 - Fixed ai not using melee weapon once again (AUGHHHH) .
 
