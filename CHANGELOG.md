@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 3/1/2026
+- Improved vehicle squad pickup code so only squads with the same order can merge together.
 ## Update 2/28/2026
 - Update to EA33
 ## Update 2/27/2026
