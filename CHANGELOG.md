@@ -1,4 +1,9 @@
 # HavenM Changelog
+## Update 3/6/2026
+- Tweaked Vehicle behavior
+- Tweaked the helicopter retreat so it allow for the heli to tilt down more and gain more speed for when they fly through/Disengage from the battlefield.
+- Added the rest of the update I missed when converting to EA33.
+
 ## Update 3/1/2026
 - Improved vehicle squad pickup code so only squads with the same order can merge together.
 ## Update 2/28/2026
