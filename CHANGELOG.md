@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 3/9/2026
+- Updated to EA34
+- Arcade is now playable lmao
+- Tweaked the vehicle repositioning code
+- Optimized projectile tracking code.
+
 ## Update 3/6/2026
 - Tweaked Vehicle behavior
 - Tweaked the helicopter retreat so it allow for the heli to tilt down more and gain more speed for when they fly through/Disengage from the battlefield.
