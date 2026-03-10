@@ -1,4 +1,8 @@
 # HavenM Changelog
+## Update 3/10/2026
+- Update the spectator camera ( I forgot )
+- Tweaked Ai vehicle accuracy.
+
 ## Update 3/9/2026
 - Updated to EA34
 - Arcade is now playable lmao
