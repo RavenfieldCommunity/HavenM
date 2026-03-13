@@ -21,47 +21,42 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
   - Tactical Movement & Reactions
     - AI soldiers go **prone under fire**, making them harder to hit.
     - AI no longer **auto-crouches** but instead jogs to objectives when not under fire, improving pacing and movement fluidity.
-    - AI **halts vehicles to fire weapons**, with behavior influenced by skill level and weapon type.
+    - AI **halts vehicles to fire weapons**, with behavior influenced by weapon type and vehicle type, if the vehicle is a transport vehicle and they are not currently using a single shot or smart weapon (lock on/guided), the vehicle will likely go into a creeping mode in which they slow down and move slowly.
     - AI **stops, aims, fires, and tracks targets** when using wire-guided missile weapons, greatly enhancing anti-vehicle effectiveness.
-    - AI vehicle will not halt on slope, uneven terrain.
+    - AI vehicle will not halt if their weapon muzzle is not aiming straight at their target + leading angle to target position so vehicle doesn't get stuck on slopes and uneven terrain.
     - AI **exits vehicles when submerged** in water and leaves aircraft when stuck and not moving, preventing soft-lock situations.
-    - AI-Infantry **get out of vehicle path while it's moving**.
-    - AI on transport vehicles will **not disembark while assaulting if the vehicle is currently in water**, preventing combat delays an improving combat effectiveness.
-    - **Water navigation behavior** improved: amphibious units and infantry no longer stall in water and seek to exit when safe.
-    - **Helicopters ignore halt commands** at altitudes above 150m to maintain consistant flight height.
     - **Amphibious Infantry & Vehicles in Water**: Infantry and amphibious vehicles that are not watercraft will no longer halt while in water, preventing them from becoming sitting ducks and improving survival in aquatic environments.
   - Combat Behavior & Engagements
-    - AI in a vehicle will **pop countermeasures** when damaged below 50% health (ground vehicles only).
+    - AI in a vehicle will **pop countermeasures** when damaged below 50% health or when they are transporting infantry near target capture point and taking fire to support dismounting infantry (ground vehicles only).
     - Only **Veteran and Elite skill vehicle drivers** pop flares against lock-on threats.
-    - AI **fires more aggressively**, reducing hesitation in firefights.
+    - AI **fires more aggressively**, reducing hesitation in firefights as well giving ai a suppressive fire ability in general.
     - AI from **all skill levels can lean**.
-    - AI **provides suppressive fire** on known enemy positions when not having a target.
-    - AI **prioritizes high-threat targets** like mortar teams.
-    - AI **engages low-flying/slow aircraft**, increasing threat to aircrafts in the sandbox.
-    - AI **randomizes weapon switching** to avoid predictability.
+    
+    - AI **provides suppressive fire** on last known enemy positions when not having any other target nearby.
+    - AI Helicopter/airplane/mortar artillery unit **prioritizes high-threat targets** like enemy mortar teams.
+    - AI with mortar weapon will pick targets from other friendly squad that is currently engaging a target, allowing mortar unity to be a truely indirect fire unit instead of requiring direct visual sight on enemy target.
+    - Ai Airplane will also have the same target sharing ability similar to mortar AI so ai Airplane will always be engaging target on the sandbox.
+    - Ai heli will also have the same sharing code but only for high priority target.
+    - AI **engages (low-flying/slow/stucked) aircraft** as a ground target, increasing threat to aircrafts in the sandbox.
+    - AI **randomizes weapon switching** to allow for more diversity in combat.
     - AI **switches between grenades, UBGL, and melee** when appropriate.
-    - Vehicles with no passenger count **halt more** to offer fire support.
+    - Transport vehicles with no passenger count **halt more** to offer fire support.
     - **Airplanes perform better** in air-to-ground tactics based on loadout.
     - AI **reverses based on the vehicle's actual reverse speed**, preventing stuck logic (e.g., T-72 tanks).
-    - AI **loadouts are now actually randomized**.
-    - AI **no longer drops targets** in SpecOps or at <40m range.
-    - AI **panic fires when enemies are within 20m**, enhancing close-quarters realism.
-    - Helicopter AI now **slows and stabilizes** for accurate wire guided missile use upon spotting enemies.
+    - AI **loadouts are now actually randomized** and not distance based.
+    - AI **panic fires when enemies are within 20m**, enhancing close-quarters realism as well as allowing for vbied to work or just to simulate panic.
+    - Helicopter AI now **slows and stabilizes** for accurate guided missile use upon spotting enemies.
     - **AI groups near cover** are now treated as infantry group for weapons targeting.
     - AI **vehicle driver halts** if passenger count is low and gunner has a target.
     - **Missile Lock-On Enforcement**: AI does not fire missiles beyond actual lock-on range.
     - **Dynamic Leading**: AI leads shots based on target velocity for better realism in aircraft and AA.
     - **Skill-Based Range Logic**: AI chooses engagement range based on individual skill, not global difficulty.
     - **Weapon Preference Logic**: AI picks from available weapons randomly, factoring situation and effectiveness.
-    - AI with grenade weapons now adjusts **throw velocity based on target distance** improving tactical grenade usage.
-    - **Vehicle Gunner Logic**: Vehicles halt if the gunner is the only occupant and sees a valid target.
+    - AI with grenade weapons now auto throw their grenade without switching their weapon improving tactical grenade usage on AI.
+    - **Vehicle Gunner Logic**: Vehicles halt if the gunner is the only occupant and  the gunner sees a valid target with their gun muzzle on target.
     - **Driver Infantry Filter**: Transport Vehicle drivers will not halt to fire at infantry unless the infantry is carrying AT or operating static weapons.
-    - **Smoke and countermeasure Deployment for transport vehicle**: AI transport vehicles automatically deploy smoke when near capture zones under fire.
-    - **Halt Behavior Logic**: AI vehicles halt intelligently based on threat type, passengers, and cooldown logic.
-    - **Minimum Reversing Time**: AI reverses for at least 3 seconds when avoiding distant targets (>100m).
-    - **Fixed Turret Vision Limits**: AI in casemate/fixed weapons can only see within their arc.
+    - **Fixed Turret Vision Limits**: AI in casemate/fixed weapons can now see outside of their  limited arc.
     - **Hull Rotation Rules**: Casemate vehicles always rotate until the target is targetable; turreted vehicles rotate hull only if target is 45°+ off so the tank strongest armor is facing the enemy direction.
-    - **Clamped Turret Behavior**: Limited-arc vehicles stay behind capture zones unless threats are directly ahead.
 
 - **New Game Mechanics**
 
@@ -81,8 +76,7 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
       spawn camping when in air to air match.
   
   - **Simple Penetration System**
-    - Weapons **dealing over 100 damage penetrate cover**.
-    - Explosives **dealing 900+ damage ignore cover** and explode through it.
+    - Explosive Weapons **dealing over 100 damage and have higher than Heavy Arms damage type penetrate cover**.
   -  **Missile Proximity Detonation (Mod support feature)**  
      - Missiles that modder allowed to have proximity Detonation will **detonate within 20m of the target**, providing more realistic impact behavior without adding more to the normal ravenfield experience.
   - **Overhauled SpecOps Game Mode**
@@ -95,14 +89,6 @@ Ravenfield's default AI often feels too predictable, lacking the tactical decisi
     - Low-skill AI **rush player location**; Veterans hold and support.
     - **More enemy waves during exfil**, increasing tension.
     - AI **reacts with flares** on alert—not just on visual contact.
-
-- **Partial Revamp of Haunted Mode**
-  - Skeletons now have **randomized health** (30–100).
-  - **Wave count increases** enemy spawns dynamically.
-  - Skeletons can now **run after players**, not just walk.
-  - Hero Armor **applies to player and allies**.
-  - Skeletons **no longer take cover**, improving pacing.
-
 
 # Installation 
 Re-installing equals updating or fixing!
