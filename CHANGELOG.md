@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 3/17/2026
+- Fixed specops hunter team count, their max numbers will be 6 to 7
+- update screw up the specops so I just keep it vanilla
+- added some leniency for suppressive fire on ai( this to ensure they fire more with less accuracy).
+- Tweaked the helicopter disengage so heli ai fire more .
+
 ## Update 3/10/2026
 - Update the spectator camera ( I forgot )
 - Tweaked Ai vehicle accuracy.
