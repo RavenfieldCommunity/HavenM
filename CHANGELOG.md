@@ -1,4 +1,17 @@
 # HavenM Changelog
+## Update 3/31/2026
+
+### Fixes & Improvements
+- Restored and tweaked AI vehicle scavenger behavior.
+- Improved vehicle repositioning along with refinements to AI grenade usage and infantry reposition logic.
+- Added contextual leaning behavior for AI infantry during combat.
+- Fixed issues with laser-guided missiles failing to properly drop target lock.
+- Fixed AI tracking for parachuting actors.
+- Tweaked AI tracking for airplanes and helicopters.
+- Improved helicopter fly-pass and disengagement behavior.
+- Tweaked Airplane smoothing code so it doesn't affect airplane U turn behavior.
+- Simplified AI laser-guided missile behavior for better reliability.
+
 ## Update 3/17/2026
 - Fixed specops hunter team count, their max numbers will be 6 to 7
 - update screw up the specops so I just keep it vanilla
