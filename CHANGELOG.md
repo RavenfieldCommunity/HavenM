@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 4/2/2026
+- Update for the latest version 
+
 ## Update 4/1/2026
 Hotfix: fixed missile Hud not updating for laser guided weapons.
 
