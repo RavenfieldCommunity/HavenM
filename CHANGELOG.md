@@ -1,4 +1,9 @@
 # HavenM Changelog
+## Update 4/3/2026
+- Tweaked airplane u turn distance .
+- Allowed ai to switch weapon mid attack run as long as it is over 100m away from it's target.
+- Fixed lock on missile able to target (rocket and bomb) even if it can't lock on to Airplane(fast moving air).
+
 ## Update 4/2/2026
 - Update for the latest version 
 
