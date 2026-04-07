@@ -1,9 +1,9 @@
 # HavenM Changelog
 ## Update 4/7/2026
- - Tweaked player/Ai grouped flag
+ - Tweaked player/Ai grouped target flag
  - increasing the scramble distance from the vehicle upon leaving form APC/IFV/TransportVehicle
  - Tweaked ai movement graph
- - 
+ 
 ## Update 4/3/2026
 - Tweaked airplane u turn distance .
 - Allowed ai to switch weapon mid attack run as long as it is over 100m away from it's target.
