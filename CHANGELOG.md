@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 4/8/2026
+- Removed the April fool thing (it's annoying steel)
+- Tweaked target leading for ai for optimization 
+- Optimized the projectile code
+- Added an Inaccuracy state for Ai if they are taking fire as infantry so their sway is increased .
+
 ## Update 4/7/2026
  - Tweaked player/Ai grouped target flag
  - increasing the scramble distance from the vehicle upon leaving form APC/IFV/TransportVehicle
