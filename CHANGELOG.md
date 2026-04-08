@@ -4,6 +4,7 @@
 - Tweaked target leading for ai for optimization 
 - Optimized the projectile code
 - Added an Inaccuracy state for Ai if they are taking fire as infantry so their sway is increased .
+- Also Fixed an issue with ai squad staying still for a bit too long.
 
 ## Update 4/7/2026
  - Tweaked player/Ai grouped target flag
