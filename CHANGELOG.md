@@ -10,7 +10,7 @@
 - Preserved binary compatibility with existing public APIs of AiActorController and Weapon.
 - Reduced main‑thread AI update cost from several milliseconds to under 0.5 ms with 120+ active bots.
 - Improved frame‑rate stability and scalability in large‑scale combat scenarios.
-
+- Tweaked airplane for ai (Again)
 
 ## Update 4/10/2026
 - Smooth out Airplane movement 
