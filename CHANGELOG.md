@@ -1,5 +1,7 @@
 # HavenM Changelog
 ## Update 4/12/2026
+HOTFIX : updated the dll to the latest version of the game.
+
 - Offloaded movement speed, lean angle, stance decisions, and path look‑ahead calculations to a dedicated background thread.
 - Moved all weapon‑leading mathematics (first‑order intercept, ballistic trajectories, aim prediction) to a separate parallel worker thread.
 - Shifted weapon‑effectiveness evaluation, difficulty checks, and optimal weapon selection to a third background cache.
