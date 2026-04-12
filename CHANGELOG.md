@@ -1,4 +1,17 @@
 # HavenM Changelog
+## Update 4/12/2026
+- Offloaded movement speed, lean angle, stance decisions, and path look‑ahead calculations to a dedicated background thread.
+- Moved all weapon‑leading mathematics (first‑order intercept, ballistic trajectories, aim prediction) to a separate parallel worker thread.
+- Shifted weapon‑effectiveness evaluation, difficulty checks, and optimal weapon selection to a third background cache.
+- Implemented double‑buffered snapshots to eliminate data races between main and worker threads.
+- Used slot‑based indexing (0–511) with lock‑protected allocation for safe concurrent access.
+- Applied parallel processing (Parallel.For) to fully utilise multi‑core CPUs.
+- Maintained graceful fallbacks to original main‑thread logic when batch results are not yet ready.
+- Preserved binary compatibility with existing public APIs of AiActorController and Weapon.
+- Reduced main‑thread AI update cost from several milliseconds to under 0.5 ms with 120+ active bots.
+- Improved frame‑rate stability and scalability in large‑scale combat scenarios.
+
+
 ## Update 4/10/2026
 - Smooth out Airplane movement 
 - Tweaked Ai Airplane bombing so when an airplane drop their bomb load with more than 1 bomb, they will try to hit the target in the middle of the bombing run instead of hitting them in the first bomb of the volley
