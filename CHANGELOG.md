@@ -3,7 +3,7 @@
 - Smooth out Airplane movement 
 - Tweaked Ai Airplane bombing so when an airplane drop their bomb load with more than 1 bomb, they will try to hit the target in the middle of the bombing run instead of hitting them in the first bomb of the volley
 - Fixed Airplane not U-turn back the battlefield
-- Added a Multithreading Batching system so a few of the Ai actor calculation will be send out to be processed by another thread to keep the main thread clear and increase the game fps (currently the calculation that was sent to the other threads are the weapon leads calculation and combat vehicle muzzle alignment checker code) 
+- Added a Multithreading Batching system so a few of the Ai actor calculation will be send out to be processed by another thread to keep the main thread clear and increase the game fps (currently the calculation FOR INFANTRY AI ONLY) 
 
 ## Update 4/8/2026
 - Removed the April fool thing (it's annoying steel)
