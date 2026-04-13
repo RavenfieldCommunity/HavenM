@@ -1,6 +1,6 @@
 # HavenM Changelog
 ## Update 4/13/2026
-- Tweaked Airplane (again).
+- Tweaked Airplane (again,again).
 - Code localizing.
 - Fixed a problem with AI running calculation of grouped checking when they are not spawned, reducing fps even when AI is not spawned yet. 
 
