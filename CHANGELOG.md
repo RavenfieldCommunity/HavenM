@@ -1,12 +1,12 @@
 # HavenM Changelog
 ## Update 4/19/2026
--Fixed Target Tracker to stop tracking infantry when unintended.
--Smoothed AI airplane movement via PD controller.
--Reworked weapon switching and fixed subweapon use in multithreading.
--Improved attack runs vs helis/ground, tweaked prone behavior.
--Adjusted spawn loadouts: fewer long-range, more mid/short weapons.
--Aircraft now instantly attack-run if target is forward-facing.
--Performance boost via virtual override code optimizations.
+- Fixed Target Tracker to stop tracking infantry when unintended.
+- Smoothed AI airplane movement via PD controller.
+- Reworked weapon switching and fixed subweapon use in multithreading.
+- Improved attack runs vs helis/ground, tweaked prone behavior.
+- Adjusted spawn loadouts: fewer long-range, more mid/short weapons.
+- Aircraft now instantly attack-run if target is forward-facing.
+- Performance boost via virtual override code optimizations.
 ## Update 4/13/2026
 - Tweaked Airplane (again,again).
 - Code localizing.
