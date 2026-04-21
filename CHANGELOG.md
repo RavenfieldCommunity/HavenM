@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 4/21/2026
+- Fixed ai not following the player leader randomly in combat .
 ## Update 4/19/2026
 - Fixed Target Tracker to stop tracking infantry when unintended.
 - Smoothed AI airplane movement via PD controller.
