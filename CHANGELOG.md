@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 4/22/2026
+- Re added a bunch of feature I forgotten to put back in when I was debugging.
 ## Update 4/21/2026
 - Fixed ai not following the player leader randomly in combat .
 ## Update 4/19/2026
