@@ -1,6 +1,13 @@
 # HavenM Changelog
 ## Update 4/22/2026
 - Re added a bunch of feature I forgotten to put back in when I was debugging.
+- Tweaked some code to allow squad mate to reposition for their targets similar to other non player squad, Fixed an issue with the multithreading weapon code allow ai to switch to grenade again which result in ai throwing volley of grenades.
+- fixed an issue with ai given repair order
+- tweaked ai scavenger code so ai doesn't try to get on aircraft that are locked
+- now your teammate ai will auto react to enemy and get into cover automatically
+if you don't like it just hit the regroup order and they will group up back to you
+also I also added the disable button for suppressive fire order to regroup as well
+
 ## Update 4/21/2026
 - Fixed ai not following the player leader randomly in combat .
 ## Update 4/19/2026
