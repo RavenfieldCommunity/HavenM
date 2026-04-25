@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 4/25/2026
+- Fixed a problem with ai not using bomb weapon because of a mistake in the code logic
+- Added a code for ai to be able to target aircraft enemy if the enemy is near enough to the ground (for aircraft ai ) and near to the ground actor (Infantry and ground units) it's 30m vertical deviation, this system now replaced the aircraft target type change based on height as the targeting code also take into account the vehicle's armor type, all of this without affecting the lock on weapon behavior since it only affect weapon that doesn't require lock on.
+- Also I fixed a problem with lock on missile suddenly lock on to ground vehicle they are not meant to attack.
+<img width=1408 height=768 alt=Gemini_Generated_Image_e1vldbe1vldbe1vl src=https://github.com/user-attachments/assets/a3e65f07-ec78-4f41-8621-6cac84bd9d53 />
+
 ## Update 4/22/2026
 - Re added a bunch of feature I forgotten to put back in when I was debugging.
 - Tweaked some code to allow squad mate to reposition for their targets similar to other non player squad, Fixed an issue with the multithreading weapon code allow ai to switch to grenade again which result in ai throwing volley of grenades.
