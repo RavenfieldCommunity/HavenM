@@ -1,6 +1,7 @@
 # HavenM Changelog
 ## Update 4/26/2026
 - Fixed lock on flickering.
+- some code to fix target seeker locking on to stuff they shouldn't
 ## Update 4/25/2026
 - Fixed a problem with ai not using bomb weapon because of a mistake in the code logic
 - Added a code for ai to be able to target aircraft enemy if the enemy is near enough to the ground (for aircraft ai ) and near to the ground actor (Infantry and ground units) it's 30m vertical deviation, this system now replaced the aircraft target type change based on height as the targeting code also take into account the vehicle's armor type, all of this without affecting the lock on weapon behavior since it only affect weapon that doesn't require lock on.
