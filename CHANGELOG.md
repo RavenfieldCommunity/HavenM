@@ -1,6 +1,7 @@
 # HavenM Changelog
 ## Update 5/4/2026
-- fixed aircraft because of compiler error
+- Fixed aircraft because of compiler error
+
 ## Update 5/3/2026
 - Tweaked vehicle repositioning code.
 - Tweaked specops helicopter landing code.
