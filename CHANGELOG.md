@@ -1,15 +1,4 @@
 # HavenM Changelog
-## Update 5/3/2026
-- Tweaked vehicle repositioning code.
-- Tweaked specops helicopter landing code.
-- Tweaked some ai firing check.
-- Added Specops Ambush team : if you break your stealth , the a chance of a quick reaction force spawning in to hunt the player down , the chance is 50/50 after you break your stealth.
-- Added Specops Exfil assault enemy which(ground vehicle/infantry with airsupport) will spawn indefinitely and come after you if you completed specops without stealth and having helicopter exfil.
--  New behavior : when moving toward objective, will try to stay near cover when moving, making them bounding between cover when they are moving around.
-- New behavior: Ai will now try to switch to a gunner seat if the vehicle is missing a gunner seat.
-- New behavior: Specops patrol will now have a new system which is navmesh based, this new system will stop ai from patrolling in 1 single spot because of modder oversight, this will resulting ai patrol being more natural instead of weird looking and easy to kill off in 1 spot.
-- New behavior:  AI infantry when in cover, will check if it current enemy is behind or on the flank of it's current cover, if yes, the ai will reposition to another cover to avoid exposing themselves to enemy.
-
 ## Update 4/26/2026
 - Fixed lock on flickering.
 - some code to fix target seeker locking on to stuff they shouldn't
