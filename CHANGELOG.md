@@ -1,4 +1,12 @@
 # HavenM Changelog
+## Update 5/5/2026
+
+- Tweaked spec-ops enemy spawn distance.
+- Aircraft attack runs now fire more aggressively, ignoring strict muzzle alignment to increase fire volume on target.
+- Fixed an issue where a player’s spec-ops teammate would leave the squad when trying to board a transport vehicle with no available seats.
+- Friendly squad AI ordered to attack a target will now automatically reposition to establish line of sight, granting them more combat flexibility without reducing player control.
+- Vehicle disembarkation and airdrops now unload troops in a staggered sequence instead of all at once, preventing an entire squad from being wiped out by a single explosive. Airdropped soldiers also spread out more, avoiding concentrated landings in a kill zone.
+
 ## Update 5/4/2026
 - Fixed aircraft because of compiler error
 
