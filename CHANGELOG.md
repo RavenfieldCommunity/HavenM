@@ -1,4 +1,11 @@
 # HavenM Changelog
+## Update 5/11/2026
+
+- Tweaked spec-ops enemy spawn distance, again.
+- Tweaked Ai Aircraft attack run code , again.
+- Tweaked vehicle ai leading code when firing.
+- Fixed ai infantry sometime getting stuck when in water.
+
 ## Update 5/5/2026
 
 - Tweaked spec-ops enemy spawn distance.
