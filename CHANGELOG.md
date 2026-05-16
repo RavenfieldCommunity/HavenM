@@ -1,4 +1,13 @@
 # HavenM Changelog
+## Update 5/16/2026
+- Tweaked some code for ai halting and squad order changes
+- Increase actor spawn in specops , scale with difficulty
+- Added a new system for laser guided missile so Ai can guide them toward target better, work by using the missile last fired time + target position + target velocity and guided the missile in to the lead point, this improved laser guided missile by a lot
+- Fixed air to ground code, I use the air interception code which result in the ai unable to hit their target because the aircraft not taking into account the projectile gravity
+- Tweaked and remove some specops gamemode spawn behavior and balance out the spawning rate.
+- Tweaked the vehicle spawning distance in specops so it isn't so oppressive.
+- Fixed ai sometime staying in one place and spam an emote.
+
 ## Update 5/11/2026
 
 - Tweaked spec-ops enemy spawn distance, again.
