@@ -1,4 +1,11 @@
 # HavenM Changelog
+## Update 5/17/2026
+- Tweaked specops spawns.
+- Added a new survival section to specops if your cover is blown and exfil is coming for you while you try to stay alive against constant enemy reinforcement spawning in , the ETA time until exfil scale with the game length 
+-  Fixed Ai doing the zic zag movement too often in combat.
+- Tweaked specops dialog to reflect the changes.
+- Tweaked the missile muzzle alignment code to fix a problem with tube launched tanks/TOW APC missile weapon drivegetting stuck on slope because they think they can fire
+
 ## Update 5/16/2026
 - Tweaked some code for ai halting and squad order changes
 - Increase actor spawn in specops , scale with difficulty
