@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 5/18/2026
+- Improved Specops spawn positioning.
+- Added Boat and Rhib patrol spawn into specops mode for both flare and exfil survival wave.
+- Fixed ai spawning in the water in specops exfil waves.
+- Fixed ai sometime climb on top of smoke occluder layer.
+-  Improved helicopter landing and deploying enemy in specops.
 ## Update 5/17/2026
 - Tweaked specops spawns.
 - Added a new survival section to specops if your cover is blown and exfil is coming for you while you try to stay alive against constant enemy reinforcement spawning in , the ETA time until exfil scale with the game length 
