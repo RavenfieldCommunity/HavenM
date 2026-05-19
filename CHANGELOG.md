@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 5/19/2026
+- Fixed specops ai leaving vehicle for no reason.
+- stop scattering infantry in specops exfil spawn.
 ## Update 5/18/2026
 - Improved Specops spawn positioning.
 - Added Boat and Rhib patrol spawn into specops mode for both flare and exfil survival wave.
