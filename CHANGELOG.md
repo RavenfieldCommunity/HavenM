@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 5/24/2026
+- Added a new system for specops which have ai instead of homing to the player's position, they will converge on player's last know position, this allow for stealthy player to sneak pass exfil wave hunting party.
 - Improved stuck vehicle detection system.
 - Improved casemate vehicle ai so with a new system which support them better in combat.
 - Tweaked Vehicle repositioning code
