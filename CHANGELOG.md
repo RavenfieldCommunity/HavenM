@@ -1,4 +1,15 @@
 # HavenM Changelog
+## Update 5/24/2026
+- Improved stuck vehicle detection system.
+- Improved casemate vehicle ai so with a new system which support them better in combat.
+- Tweaked Vehicle repositioning code
+- Tweaked Ai movement code so ai doesn't suddenly climb on object they should not be able to climb on.
+- Tweaked order reassignment code so vehicle will be more proactive with their order.
+- Tweaked underwater stuck code
+- Added a code to allow for boat vehicle to turn their hull toward their target if they boat is using a mortar weapon so it make more sense.
+- Fixed ai suddenly stay still and spam an emote.
+- Tweaked ai effectiveness code so ai will not try to use their weapon against target when they physically can't (outside of stationary turret gun rotation arc/Swimming, can't shoot).
+
 ## Update 5/19/2026
 - Fixed specops ai leaving vehicle for no reason.
 - stop scattering infantry in specops exfil spawn.
