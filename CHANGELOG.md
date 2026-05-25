@@ -1,6 +1,7 @@
 # HavenM Changelog
 ## Update 5/25/2026
 -Removed safe check from attack order so Ai once captured a point will automatically get assign a new order instead of staying around the capture point and potentially stuck staying there
+- Tweaked stuck code so some transport vehicle ai can leave vehicle when stuck.
 ## Update 5/24/2026
 - Added a new system for specops which have ai instead of homing to the player's position, they will converge on player's last know position, this allow for stealthy player to sneak pass exfil wave hunting party.
 - Improved stuck vehicle detection system.
