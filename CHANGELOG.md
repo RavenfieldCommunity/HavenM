@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 5/26/2026
+- Improved ai  with a new overhauled system for combat vehicle repositioning/Hull to target  and changes to boats which allow boat to turn their hull/ gun toward target, so boat with fixed guns or no driver gun will turn to allow gunners to fire at target, else if the boat has mortar weapon, it will turn to face their target so it look more natural.
+
 ## Update 5/25/2026
 - Removed safe check from attack order so Ai once captured a point will automatically get assign a new order instead of staying around the capture point and potentially stuck staying there
 - Tweaked stuck code so some transport vehicle ai can leave vehicle when stuck.
