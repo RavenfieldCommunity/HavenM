@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 5/29/2026
+- fix boat ai trying to row on land.
+
 ## Update 5/26/2026
 - Improved ai  with a new overhauled system for combat vehicle repositioning/Hull to target  and changes to boats which allow boat to turn their hull/ gun toward target, so boat with fixed guns or no driver gun will turn to allow gunners to fire at target, else if the boat has mortar weapon, it will turn to face their target so it look more natural.
 
