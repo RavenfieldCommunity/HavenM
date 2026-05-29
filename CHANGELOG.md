@@ -1,6 +1,10 @@
 # HavenM Changelog
 ## Update 5/29/2026
-- fix boat ai trying to row on land.
+- fix boat ai trying to move on land.
+- Improve ai bombing behavior using a locked point with a reposition threshold so ai with bombing weapon will not have to calculate their target's pin point position for their bombing run an potentially stopping their attack run because fluctuating target position and velocity.
+- Added an ability for ai with auto repair weapon on to auto repair themself if they hasn't taken fire and will heal 30% health every 3 second, if taken fire during the healing period, the vehicle will have a 60s cooldown before they can start auto repair again.
+- Improved upon the last update capture point hoping code, is now improved so ai will now defend and counter attack more effectively in combat.
+
 
 ## Update 5/26/2026
 - Improved ai  with a new overhauled system for combat vehicle repositioning/Hull to target  and changes to boats which allow boat to turn their hull/ gun toward target, so boat with fixed guns or no driver gun will turn to allow gunners to fire at target, else if the boat has mortar weapon, it will turn to face their target so it look more natural.
