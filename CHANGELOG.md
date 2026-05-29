@@ -1,5 +1,7 @@
 # HavenM Changelog
 ## Update 5/29/2026
+- Updated to latest dll
+- Improved some ai behaviour with vehicle with ai now dynamicly leave the vehicle for capture point, depends on the ai's vehicle and mounted weapon.
 - Fixed infantry ai constantly switching weapons.
 - fixed boat ai trying to move on land.
 - Improved ai bombing behavior using a locked point with a reposition threshold so ai with bombing weapon will not have to calculate their target's pin point position for their bombing run and potentially stopping their attack run because fluctuating target position and velocity.
