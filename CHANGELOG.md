@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 5/30/2026
+- Fixed boat suddenly acting weird
 ## Update 5/29/2026
 - Updated to latest dll
 - Improved some ai behaviour with vehicle with ai now dynamicly leave the vehicle for capture point, depends on the ai's vehicle and mounted weapon.
