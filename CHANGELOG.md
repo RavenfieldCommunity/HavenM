@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 5/31/2026
+- Tweaked order code further + added a check so that the ai will respect player's battle plans before doing any objective hopping. 
 - Fixed driver ai sometime switch to  mounted weapon seat even itself has a weapon already.
 - Tweaked ai order code to be less jumpy with the order
 - Added a new ai system for ai to try and flank/ assault better, time will tell.
