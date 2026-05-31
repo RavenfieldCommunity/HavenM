@@ -1,4 +1,8 @@
 # HavenM Changelog
+## Update 5/31/2026
+- Fixed driver ai sometime switch to  mounted weapon seat even itself has a weapon already.
+- Tweaked ai order code to be less jumpy with the order
+- Added a new ai system for ai to try and flank/ assault better, time will tell.
 ## Update 5/30/2026
 - Fixed boat suddenly acting weird
 - Added some null check for the new vehicle exit codes
