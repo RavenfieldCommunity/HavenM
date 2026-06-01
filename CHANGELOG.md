@@ -1,6 +1,7 @@
 # HavenM Changelog
 ## Update 6/1/2026
 - Try to fix some issue with the camera for player when pressing f8
+- Fixed ai frequently going through walls
 ## Update 5/31/2026
 - Tweaked order code further + added a check so that the ai will respect player's battle plans before doing any objective hopping. 
 - Fixed driver ai sometime switch to  mounted weapon seat even itself has a weapon already.
