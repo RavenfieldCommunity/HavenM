@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 6/1/2026
+- Improved Ai flanking behavior
 - Try to fix some issue with the camera for player when pressing f8
 - Fixed ai frequently going through walls
 ## Update 5/31/2026
