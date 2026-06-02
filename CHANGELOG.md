@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 6/2/2026
+- Tweaked Ai order
+- Added a check when pressing f10 to check if HavenM is active on ai's head
 ## Update 6/1/2026
 - Improved Ai flanking behavior
 - Try to fix some issue with the camera for player when pressing f8
