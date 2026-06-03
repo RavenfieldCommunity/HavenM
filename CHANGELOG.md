@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/3/2026
+- Fixed vehicle not exploding in specops
 ## Update 6/2/2026
 - Tweaked Ai order
 - Added a check when pressing f10 to check if HavenM is active on ai's head
