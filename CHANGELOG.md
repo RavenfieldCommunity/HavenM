@@ -1,4 +1,20 @@
 # HavenM Changelog
+## Update 6/7/2026
+- **Airplane accuracy** – Adjusted for better balance and realism.
+- **AI objective selection** – Reworked AI order logic based on unit pathing. Only helicopters and aircraft can now randomly select objectives to attack.
+- **Leaning position** – Added a new feature (adapted from Panchuet) that dynamically changes player/AI position while leaning.
+- **Transport vehicle behavior** – AI in transport vehicles with a defend objective will now drop off passengers near the objective to improve defense, instead of remaining inside the vehicle.
+- **SpecOps spawning** – Adjusted spawning logic to prevent AI from appearing too close to the player.
+- **Dead body detection** – SpecOps patrol AI can now detect dead bodies (friendly or foe), triggering an alert state.
+- **Jitter fix** – Resolved an issue where AI would sometimes jitter due to a bug in the repositioning code.
+- **Repositioning behavior** – Refined AI repositioning based on objective type for more tactical movement.
+- **Action triggers** – Added checks to prevent new behaviors from activating while AI is performing certain actions.
+- **F10 diagnostic GUI** – Expanded F10 functionality with useful checks that display current AI actions in the GUI.
+- **Combat behavior** – Improved AI performance in combat, including better flanking maneuvers.
+- **Suppression & reload** – Tuned AI suppression mechanics and reload behavior.
+- **Leaning & reloading** – Improved AI coordination of leaning and reloading actions.
+- **SpecOps patrol fix** – Resolved a spawning issue caused by changes to the navmesh patrol code. Reverted that change and implemented a separate patrol system for standard infantry only.
+
 ## Update 6/3/2026
 - Slow down the ai when they are flanking so they doesn't flash step around their target and look goofy doing so.
 - Fixed vehicle not exploding in specops.
