@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/8/2026
+- localize codes, remove a code from the Update() and place it somewhere else.
 ## Update 6/7/2026
 - **Airplane accuracy** – Adjusted for better balance and realism.
 - **AI objective selection** – Reworked AI order logic based on unit pathing. Only helicopters and aircraft can now randomly select objectives to attack.
