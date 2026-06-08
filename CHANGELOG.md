@@ -1,5 +1,7 @@
 # HavenM Changelog
 ## Update 6/8/2026
+- Tweaked ai pressuring behavior
+- Change specops exfil from a wave survival into something more easier survival /play around.
 - localize codes, remove a code from the Update() and place it somewhere else.
 - Removed a code which restrict ai ability to target enemy  in the effectiveness check.
 ## Update 6/7/2026
