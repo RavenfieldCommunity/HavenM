@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/10/2026
+-
 ## Update 6/9/2026
 -
 ## Update 6/8/2026
