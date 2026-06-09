@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/9/2026
+-
 ## Update 6/8/2026
 - Tweaked ai pressuring behavior
 - Change specops exfil from a wave survival into something more easier survival /play around.
