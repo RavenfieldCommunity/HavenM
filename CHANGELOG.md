@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 6/10/2026
+- Improved ai reloading behaviour.
 - Tweaked ai Vehicle Repositioning code
 - Fixed ai order causing extra lag
 - Changed the specops exfil mode from a survival mode to hide and seek game instead with enemy roam around the map instead of going straight for the player position.
