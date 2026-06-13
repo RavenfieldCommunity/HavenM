@@ -1,11 +1,4 @@
 # HavenM Changelog
-## Update 6/13/2026
-- Tweaked Specops patrol distance as well as Specops Exfil hunting team hunting distance around the player so they become a big threat if they spot the player moving to exfil but not making them a constant wave like a survival mode.
-- Stopping ai from looking too much up or down when moving around because of their velocity.
-- Reworked the current Ai Tank control behavior and make ai drive tank like a car which is more consistent and actually make tank less likely to stuck now since the ai doesn't get stuck on their own hull automatically moving around toward their movement target, this change also improve Tank/Vehicle with neutral steering to work better in hull toward target, repositioning and Casemate tank weapon aiming.
-- Fixed an issue with ai not firing after exiting the vehicle.
--  Added a sanity check for ai which re check the ai state if they has a target and not reloading and not firing for over 5s, the ai coroutine will be reset so they ai lock in again for their behavior.
-
 ## Update 6/10/2026
 - Improved ai reloading behaviour.
 - Tweaked ai Vehicle Repositioning code
