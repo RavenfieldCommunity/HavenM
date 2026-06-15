@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 6/15/2026
+- Fixed an issue with ai spawning in location they can't leave.
 - Reverted Order code moddification, It causes too much headach for it worth and tbh kinda disrespectful of map maker and broke the game flow at best and at worse stagnate the game.
 ## Update 6/13/2026
 - Tweaked Specops patrol distance as well as Specops Exfil hunting team hunting distance around the player so they become a big threat if they spot the player moving to exfil but not making them a constant wave like a survival mode.
