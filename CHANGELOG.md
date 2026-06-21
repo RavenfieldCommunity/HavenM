@@ -1,4 +1,11 @@
 # HavenM Changelog
+## Update 6/21/2026
+- Fixed Airplane ai not aligning their muzzle on target properly.
+- Tweaked ai multithread system, mainly around the ai sprinting code.
+- Added a new code to independently track actor velocity improving ai leading accuracy ability on moving infantry and not shoot slightly off their infantry target .
+- Added a new indirect fire support capability for ai in vehicle with mounted weapon that can produce a distinct, high-arcing trajectory with Explosive projectile in a lobbed rainbow arc to target enemy from teammate just like a mortar weapon.
+- Tweaked Vehicle reposition code to support the new indirect fire system as well as improving the existing repositioning code which make ai vehicle more consistent in combat.
+
 ## Update 6/15/2026
 - Fixed an issue with ai spawning in location they can't leave.
 - Reverted Order code moddification, It causes too much headach for it worth and tbh kinda disrespectful of map maker and broke the game flow at best and at worse stagnate the game.
