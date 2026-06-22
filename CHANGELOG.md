@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/22/2026
+- Fixed a crashing issue revolving around the new infantry velocity tracking code.
 ## Update 6/21/2026
 - Fixed Airplane ai not aligning their muzzle on target properly.
 - Tweaked ai multithread system, mainly around the ai sprinting code.
