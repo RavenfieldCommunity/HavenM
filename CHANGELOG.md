@@ -1,5 +1,7 @@
 # HavenM Changelog
 ## Update 6/23/2026
+- Improved Ai Airplane awareness of it's environment via extra raycasts and Airplane ability to employ maneuver when flying around by forcing in under conditions instead of randomization, resulting in less airplane crashing into geometry overall .
+- Added a check to stop/prevent airplane from doing negative G maneuver when flying around. 
 - Updated to the latest patch 
 ## Update 6/22/2026
 - Fixed a crashing issue revolving around the new infantry velocity tracking code.
