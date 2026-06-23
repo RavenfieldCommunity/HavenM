@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 6/23/2026
+- Updated to the latest patch 
 ## Update 6/22/2026
 - Fixed a crashing issue revolving around the new infantry velocity tracking code.
 ## Update 6/21/2026
