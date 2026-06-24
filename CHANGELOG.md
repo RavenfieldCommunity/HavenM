@@ -1,4 +1,10 @@
 # HavenM Changelog
+## Update 6/24/2026
+- Improved Helicopter awareness of it's environment similar to Airplane 
+- Replace raycast with sphere cast to improve aircraft ability to detect thinner obstacle that raycast can miss 
+- Changed the checking cast from the aircraft nose to their velocity movement direction to accommodate helicopter
+- Increase cast check around the aircraft so they perform better in tighter location .
+
 ## Update 6/23/2026
 - Improved Ai Airplane awareness of it's environment via extra raycasts and Airplane ability to employ maneuver when flying around by forcing in under conditions instead of randomization, resulting in less airplane crashing into geometry overall .
 - Added a check to stop/prevent airplane from doing negative G maneuver when flying around. 
