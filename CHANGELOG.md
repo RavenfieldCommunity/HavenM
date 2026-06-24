@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 6/24/2026
+- Added an API system for modder to use and customize their vehicle (countermeasure for now)
 - Improved Helicopter awareness of it's environment similar to Airplane 
 - Replace raycast with sphere cast to improve aircraft ability to detect thinner obstacle that raycast can miss 
 - Changed the checking cast from the aircraft nose to their velocity movement direction to accommodate helicopter
