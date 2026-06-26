@@ -1,4 +1,7 @@
 # HavenM Changelog
+## Update 6/26/2026
+- Fixed API missile on ai because they flare when getting lock instead of when they are being track by a missile .
+
 ## Update 6/24/2026
 - Added an API system for modder to use and customize their vehicle (countermeasure for now)
 - Improved Helicopter awareness of it's environment similar to Airplane 
