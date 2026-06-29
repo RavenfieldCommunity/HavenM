@@ -1,4 +1,9 @@
 # HavenM Changelog
+## Update 6/29/2026
+- Improved Ai ground vehicle steering and obstacle dodging.
+- Fixed an Issue with ai not moving.
+- Fixed an Issue with ai leaving vehicle when they are not supposed to.
+- Improved ai flare behavior for the API.
 ## Update 6/26/2026
 - Fixed API missile on ai because they flare when getting lock instead of when they are being track by a missile .
 
