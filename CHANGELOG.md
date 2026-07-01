@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 7/1/2026
+- Fixed a weird issue with airplane not doing attack run properly.
 ## Update 6/29/2026
 - Improved Ai ground vehicle steering and obstacle dodging/reversing.
 - Fixed an Issue with ai not moving.
