@@ -1,4 +1,21 @@
 # HavenM Changelog
+## Update 7/12/2026 (HavenM 2.0)
+- Added a CIWS behavior which allows vehicles with anti-air targeting capabilities to shoot down incoming bomb and rocket-type projectiles (yes, they can also lock onto them). The AI will focus on projectiles coming toward them within a 35-degree angle.
+ - Improved AI infantry movement in combat.
+ - Improved AI boat movement (they dodge obstacles better now).
+ - Improved AI helicopter movement (they dodge obstacles better now).   
+- Tweaked AI look-around code so they scan more naturally when inside a vehicle.
+- Improved AI acquisition time so they react quicker to enemies.
+- Improved airplane and helicopter aiming with their mounted weapons.
+- Tweaked player squadmates so they stick to the player more often.
+- Further improved the vehicle movement system – AI now takes the vehicle's current gear into account.
+- Improved SpecOps spawning: when the map is small and there isn't enough space to spawn enemy squads during an exfil wave, enemies will now spawn at the capture point furthest from the player's current position.
+- Implemented a MUTATOR system which allows certain aspects of HavenM to be customizable via the mutator.
+  The mutator allows for:
+  - CIWS allowance for vehicles and turrets via their name.
+  - Previously untweakable hero armor – can now be edited and changed via the mutator as well.
+  - Many current SPECOPS variables are now customizable via the HavenMod mutator.
+
 ## Update 7/1/2026
 - Fixed a weird issue with airplane not doing attack run properly.
 ## Update 6/29/2026
