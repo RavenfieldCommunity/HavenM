@@ -1,5 +1,6 @@
 # HavenM Changelog
 ## Update 7/12/2026 (HavenM 2.0)
+-(hotfix)  Fixed an issue of heli doing infinite steering into a circle.
 - Added a CIWS behavior which allows vehicles with anti-air targeting capabilities to shoot down incoming bomb and rocket-type projectiles (yes, they can also lock onto them). The AI will focus on projectiles coming toward them within a 35-degree angle.
  - Improved AI infantry movement in combat.
  - Improved AI boat movement (they dodge obstacles better now).
