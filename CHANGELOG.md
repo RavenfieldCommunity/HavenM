@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 7/13/2026
+- Tweaked helicopter code so the heli descend when it flew too high outside of it's flight height.
 ## Update 7/12/2026 (HavenM 2.0)
 -(hotfix)  Properly update the Hero armor code with the mutator update ( I somehow forgot) .
 -(hotfix)  Properly update the CIWS code with the mutator ( I forgot) .
