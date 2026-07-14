@@ -1,4 +1,6 @@
 # HavenM Changelog
+## Update 7/14/2026
+- Updated more options for specops to be customized (enemy spawn distances and infinite ammo for teammate in specops).
 ## Update 7/13/2026
 - Tweaked helicopter code so the heli descend when it flew too high outside of it's flight height.
 ## Update 7/12/2026 (HavenM 2.0)
