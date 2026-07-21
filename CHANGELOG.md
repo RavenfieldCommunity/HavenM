@@ -1,8 +1,11 @@
 # HavenM Changelog
-
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+
+## Update 7/21/2026
+ - Improved specops spawning code / Tweaked for the latest mutator update.
+ 
 ## Update 7/19/2026
 - Improved ground vehicle ai steering .
 - Improved helicopter ai vehicle movement .
