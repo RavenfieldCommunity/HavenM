@@ -2,6 +2,8 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 7/23/2026
+- hotfix , projectile and proximity projectile not updated.
 ## Update 7/22/2026
  - Updated to the latest version.
  - Added a tweak to ensure that the mutator save to config
