@@ -2,6 +2,9 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 7/29/2026
+- Improved Penetration code .
+- Updated to the latest patch .
 ## Update 7/28/2026
 - Added a new melee system to enhance ai behavior when using melee weapons (taken from PAIO with permission + allow it to support melee subweapon like bayonet as well)
 - Reverted a few codes that no longer work or work but doesn't leave enough impact on the game (mainly around ai)
