@@ -3,7 +3,11 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update 7/28/2026
-- Reworked a few things .
+- Added a new melee system to enhance ai behavior when using melee weapons (taken from PAIO with permission + allow it to support melee subweapon like bayonet as well)
+- Reverted a few codes that no longer work or work but doesn't leave enough impact on the game (mainly around ai)
+- Added a code which allow ai driver to dynamicly switch to their empty mounted gun seat if it is the only member in the vehicle (the driver only switch to gunner if it is near an enemy and the vehicle is either defending or attacking a capture point and it get near enough so the driver would switch to mounted weapon when needed, only if the driver doesn't have a mounted weapon of it's own)
+- Removed ai taking cover restriction so ai go into cover more often (taken from PAIO with permission)
+- Tweaked the ai vision code so ai doesn't raycast it's eyes toward every enemy it can see and limit it to the nearest 12 enemy only, this Improve ai target acquisition so ai would focus on the nearest target first  and not on some far off enemy, this result in more successful ai assault and ai teammate coordination with the player.
 ## Update 7/23/2026
 - hotfix , projectile and proximity projectile and CIWS not updated.
 ## Update 7/22/2026
