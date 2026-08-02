@@ -6,7 +6,7 @@
 
 * Removed the requirement for AI ground vehicles to must have the same order as the nearby squad before picking up nearby squads up, allowing them to transport squads more naturally.
 * Tweaked various systems and implemented a new aggressive AI culling system. Actors now render only when visible to the player or spectator camera using frustum culling, occlusion raycasts, allocation-free , cached visibility checks, and vehicle support. Nearby AI skip expensive checks, reducing rendering overhead and improving performance in large battles while minimizing pop-in.
-* AI outside the player's view now skip tick updates. 
+* AI outside the player's view now skip tick updates(Except ai in combat or having a CIWS target). 
 * Fixed penetration settings only applying in Spec Ops. Penetration can now be customized correctly across all game modes.
 
 ## Update 7/30/2026
