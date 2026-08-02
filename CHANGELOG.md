@@ -4,7 +4,7 @@
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update 8/2/2026
 
-* Removed the requirement for AI ground vehicles to receive an order before picking up nearby squads, allowing them to transport squads more naturally.
+* Removed the requirement for AI ground vehicles to must have the same order as the nearby squad before picking up nearby squads up, allowing them to transport squads more naturally.
 * Tweaked various systems and implemented a new aggressive AI culling system. Actors now render only when visible to the player or spectator camera using frustum culling, occlusion raycasts, allocation-free , cached visibility checks, and vehicle support. Nearby AI skip expensive checks, reducing rendering overhead and improving performance in large battles while minimizing pop-in.
 * AI outside the player's view now skip tick updates. 
 * Fixed penetration settings only applying in Spec Ops. Penetration can now be customized correctly across all game modes.
