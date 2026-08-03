@@ -2,6 +2,8 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 8/3/2026
+- Fixed projectile interception not working.
 ## Update 8/2/2026
 
 * Removed the requirement for AI ground vehicles to must have the same order as the nearby squad before picking up nearby squads up, allowing them to transport squads more naturally.
