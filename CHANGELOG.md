@@ -2,6 +2,17 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+
+## Update 8/13/2026
+- Fixed up Airplane bombing run
+- Added a new Bombing / strafing system which allow ai to fire more accurately when they do attack run which involved using a more reliable spherecast system 
+- Fixed a few problem with Ai repair behaviour
+- Fixed up the culling code so ai doesn't get culled as much when looked at by player and Increased the culling distance to 6000 from 1200
+- Improved ai vehicle movement.
+- Fixed the boat code not working.
+- Added a new behavior which allow Ai infantry to get toward a nearby supply box and resupply.
+- Tweaked the ai update code.
+
 ## Update 8/3/2026
 - Fixed projectile interception not working.
 ## Update 8/2/2026
