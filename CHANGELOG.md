@@ -2,7 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
-
+## Update 8/16/2026
+- Added a new reposition and steering code for vehicle.
+- Removed the muzzle on target check for the halt in aitarget
+- Added seated exclusion for actor inside vehicle so that the explosive penetration doesn't damage them.
+- Added a projectile collider configuration support in accordance with the new mutator update which added the ability to do so.
 ## Update 8/13/2026
 - Fixed up Airplane bombing run
 - Added a new Bombing / strafing system which allow ai to fire more accurately when they do attack run which involved using a more reliable spherecast system 
