@@ -2,6 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 8/24/2026
+- Added a new system which force vehicle to hull turn so it's turret of slow speed can get on target faster .
+- Added a few code which will hopefully fix some weird issue with ai capturing and order movement    and should fix  a problem with ai leaning weirdly.
+- Fixed helicopter flying too high.
+- Fixed ai in the player squad not rotating their turret for combat when on a stationary turret vehicle.
 ## Update 8/16/2026
 - Added a new reposition and steering code for vehicle.
 - Removed the muzzle on target check for the halt in aitarget
