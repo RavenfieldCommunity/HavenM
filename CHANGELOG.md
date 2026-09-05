@@ -3,7 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update 9/5/2026
-- Removed the vehicle steering system for simplification of the ai behavior.
+- Removed the ground vehicle steering system (obstacle dodging behavior) for simplification of the ground ai vehicle behavior.
 - Fixed ai going full throttle when on casemate tank.
 - Change the heli movement code so that their general obstacle dodging/steering are only active when the heli is doing volatile movement such as attack run / disengaging.
 - Added a new system which have heli picking up their passenger if they somehow forget them when taking off.
