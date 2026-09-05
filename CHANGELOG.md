@@ -2,6 +2,13 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 9/5/2026
+- Removed the vehicle steering system for simplification of the ai behavior.
+- Fixed ai going full throttle when on casemate tank.
+- Change the heli movement code so that their general obstacle dodging/steering are only active when the heli is doing volatile movement such as attack run / disengaging.
+- Added a new system which have heli picking up their passenger if they somehow forget them when taking off.
+- Added few new code in the update() side so that aircraft when having target will always try to shoot more .
+
 ## Update 8/24/2026
 - Added a new system which force vehicle to hull turn so it's turret of slow speed can get on target faster .
 - Added a few code which will hopefully fix some weird issue with ai capturing and order movement    and should fix  a problem with ai leaning weirdly.
