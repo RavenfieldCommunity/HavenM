@@ -2,6 +2,9 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 9/7/2026
+- Added a clamp so that aircraft (heli and airplane)doesn't fire as soon as it's projectile and hit their target but only when within effective range (doesn't affect guided missile and lock on)  
+- Fixed airplane bombing check so they don't sometime fire when their target is behind them.
 ## Update 9/5/2026
 - Removed the ground vehicle steering system (obstacle dodging behavior) for simplification of the ground ai vehicle behavior.
 - Fixed ai going full throttle when on casemate tank.
