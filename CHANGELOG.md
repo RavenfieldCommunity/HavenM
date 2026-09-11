@@ -2,6 +2,13 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 9/11/2026
+- Fixed a weird issue with ai on horn/auto repair weapon keep trying to target enemy + some tweak to ai helicopter movement behavior 
+- Fixed heli take off too quick when getting boarded after spawning.
+- Fixed Ai sometime poke their body out of their seated vehicle.
+- Improved helicopter movement and behavior.
+- Fix up some code when it come to stuck checking of aircraft and vehicle that are getting stuck underwater.
+- UPDATED to the latest EA39
 ## Update 9/7/2026
 - Added a clamp so that aircraft (heli and airplane)doesn't fire as soon as it's projectile and hit their target but only when within effective range (doesn't affect guided missile and lock on)  
 - Fixed airplane bombing check so they don't sometime fire when their target is behind them.
