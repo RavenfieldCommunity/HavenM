@@ -3,6 +3,9 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update 9/16/2026
+- Improved Ai accuracy and lead behavior.
+- Improved ai prone behavior check.
+- Improve vehicle driving behavior (fixed ai getting stuck/ not reversing ), improved and simplified casemate/slowturret/normal armed vehicle behavior.
 - Fixed an issue where scripted turrets spawned with AI onboard would not function
 - Improved AI weapon-switching behavior for better responsiveness and reliability
 - Tweaked vehicle behavior for more natural and consistent handling
