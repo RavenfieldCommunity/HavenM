@@ -3,6 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update 9/16/2026
+- AI Squad Staging System: AI squads now gather and build up their numbers at their squad spawn position until enough units are present (2 or more squads) at the staging point. Once the threshold is met, they immediately advance to attack their capture point — creating a defend-and-attack system that improves both AI defensive and offensive capabilities.
 - Improved Ai accuracy and lead behavior.
 - Improved ai prone behavior check.
 - Improve vehicle driving behavior (fixed ai getting stuck/ not reversing ), improved and simplified casemate/slowturret/normal armed vehicle behavior.
