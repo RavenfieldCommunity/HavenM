@@ -6,8 +6,7 @@
 - Fixed an issue where scripted turrets spawned with AI onboard would not function
 - Improved AI weapon-switching behavior for better responsiveness and reliability
 - Tweaked vehicle behavior for more natural and consistent handling
-
-Fixed and improved code related to AI vehicle reversing
+- Fixed and improved code related to AI vehicle reversing
 ## Update 9/11/2026
 - Fixed a weird issue with ai on horn/auto repair weapon keep trying to target enemy + some tweak to ai helicopter movement behavior 
 - Fixed heli take off too quick when getting boarded after spawning.
