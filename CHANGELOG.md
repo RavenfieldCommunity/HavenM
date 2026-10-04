@@ -2,6 +2,13 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 10/4/2026
+- Redo the entire code + updated it to the latest version
+- Optimized some existing code (helicopter raycast, ai combat decision and weapon switching)
+- Improved ai Airplane flying ability allowing ai when dogfight do better maneuver and smoother combat movement.
+- Improved ai ability to track and lead their target when intercepting aircraft and projectile target.
+- Rework the staging attack code so ai start attack after a set time limit is finish so they don't stay still forever.
+
 ## Update 9/18/2026
 - Tweaked helicopter ai movement.
 - tweaked mortar targeting.
