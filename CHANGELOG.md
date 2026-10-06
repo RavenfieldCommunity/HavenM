@@ -2,6 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 10/6/2026
+- Changed Ai tank driving behavior
+- Made a new system for enemy ai infantry in specops mode
+- Tweaked Ai leading code so they scale with the game time so slow motion doesn't mess up the ai leading.
+
 ## Update 10/4/2026
 - Redo the entire code + updated it to the latest version
 - Optimized some existing code (helicopter raycast, ai combat decision and weapon switching)
