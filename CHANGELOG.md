@@ -2,6 +2,16 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update 10/17/2026
+- Improved AI vehicle driving/halted movement and casemate tank aiming; unarmed drivers now turn toward gunner targets when halted. Re-added single-operator AI behavior (driver switches to gunner when target is near, or exits unarmed vehicle to engage nearby enemies).
+- Added ground-AI tick reduction when no active target (aircraft excluded) for performance.
+- Tweaked armed-vehicle AI scavenging, AI repair distance/movement, AI aiming/update rate, and AI weapon switching for easier future expansion (AI/subweapon).
+- Added a skill-scaled delay before AI throws grenades after spotting targets.
+- Tweaked AI suppression to skip targets more than 20m from last seen position.
+- Fixed AI grouped targeting not activating; optimized AI aircraft/projectile targeting.
+- CIWS now off by default unless the mutator is active/loaded with HavenM; improved SpecOps AI patrol behavior.
+- Significantly improved AI leading against ground targets and fixed AI update/respawn reset issues.
+- Reworked SpecOps to work better; tweaked helicopter AI movement and attack-run distance.
 ## Update 10/6/2026
 - Changed Ai tank driving behavior
 - Made a new system for enemy ai infantry in specops mode
