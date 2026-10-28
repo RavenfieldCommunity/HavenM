@@ -2,6 +2,33 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 10/28/2026
+
+### AI Commander
+- Added a Commander AI for both teams in all modes **except SpecOps and SpookOps**.
+- The commander nudges and directs AI squads toward its agenda based on the active gamemode.
+- Currently, the commander prioritizes getting vehicles out and running so AI don’t sit idle.
+- The AI commander “thinks out loud” while directing. You can toggle this on or off in the new mutator config.
+
+### Vehicles
+- Fully implemented the gear system into AI vehicle code.
+- AI are now more proficient at using vehicles that have a gear system.
+
+### Fixes
+- Fixed camera and rigid body updating. This should nearly eliminate the rubberbanding effect, where a moving object appears jittery when the player camera moves at the same speed as the object.
+
+### AI Behavior
+- Tweaked AI weapon-switching behavior and grenade danger zone checks.
+- Tweaked helicopter AI.
+- Tweaked AI helicopter code so helicopters no longer wobble when attacking ground targets.
+  - Helicopters may still lean/roll into attacks when engaging aircraft, but that’s the only case.
+  - AI helicopters should now have better flight and attack-run performance.
+- Added a quick throw system for smoke and supply packs, similar to grenade behavior, so AI can throw them more easily.
+- Tweaked Ai center position so instead of pointing at their stomach, it point toward the actor chest and neck position so AI can have a better chance at fighting target in cover overall.
+- Tweaked some melee movement code.
+
+### Cleanup
+- Removed and disabled the staging attack code. It is now redundant and should be removed.
 ## Update 10/17/2026
 - Improved AI vehicle driving/halted movement and casemate tank aiming; unarmed drivers now turn toward gunner targets when halted. Re-added single-operator AI behavior (driver switches to gunner when target is near, or exits unarmed vehicle to engage nearby enemies).
 - Added ground-AI tick reduction when no active target (aircraft excluded) for performance.
