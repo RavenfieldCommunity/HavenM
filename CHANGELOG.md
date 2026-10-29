@@ -2,6 +2,10 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 10/29/2026
+ - Tweaked AI movement
+ - Tweaked Missile movement.
+ - Tweaked Ai weapon effectiveness switching.
 ## Update — 10/28/2026
 
 ### AI Commander
