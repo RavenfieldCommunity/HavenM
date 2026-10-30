@@ -2,6 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 10/30/2026
+- Added A shooting currently held weapon ability when swimming so both ai and player can enable this via the mutator which remain off by default.                                  
+- Added some tweak to ai movement and pathfinding so the Ai should move more smartly in different situation.
+- Tweaked some aiming behavior and added the ability for ai to target other location on their target vehicle if they can't aim directly at the vehicle driver.
+
 ## Update — 10/29/2026
  - Tweaked AI movement
  - Tweaked Missile movement.
