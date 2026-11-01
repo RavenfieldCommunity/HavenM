@@ -4,6 +4,9 @@
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/1/2026
 - Added an optional modifier which stop actor from spawning in capture point that are under attack/contested
+- Tweaked helicopter ai movement code when taking off
+- Tweaked actor movement code.
+- Removed AI lower update rate when taking fire.
 ## Update — 10/31/2026
 - Tweaked Helicopter behavior.
 ## Update — 10/30/2026
