@@ -3,6 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/2/2026
+- Added a tweak to prevent ai rarely just allow to use mounted weapon when they are not even seated on a vehicle.
 - Added a safe guard for LETMS type vehicle sometime just loose their barrel and become useless ( the game auto destroy the vehicle with that issue )
 ## Update — 11/1/2026
 - Added an optional modifier which stop actor from spawning in capture point that are under attack/contested
