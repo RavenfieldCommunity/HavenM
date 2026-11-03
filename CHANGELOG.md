@@ -4,6 +4,7 @@
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/3/2026
 - Tweaked the contested spawning code so the ai properly get blocked from spawning.
+- Fixed a problem with the ai on one side not spawning when enabled the contested spawning blocker when in spectator mode
 ## Update — 11/2/2026
 - Added a tweak to prevent ai rarely just allow to use mounted weapon when they are not even seated on a vehicle.
 - Added a safe guard for LETMS type vehicle sometime just loose their barrel and become useless ( the game auto destroy the vehicle with that issue )
