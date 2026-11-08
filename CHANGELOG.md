@@ -2,6 +2,19 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/8/2026
+- Added Indirect target acquiring for ai with weapon capable of doing that. 
+- Tweaked Indirect firing arc and tweak the indirect firing weapon type detector + hull movement code to support it
+- Tweaked Helicopter so they don't stop checking their terrain when approaching their landing zone and result in a crash within 250m of their landing zone, but they only stop checking and land when they are on top of their landing zone
+- Added some changes to the Ai actor update which should fix the ai follower not following their leaders, 
+- Tweaked some more expensive void so they only active when needed, 
+- Tweaked movement update code on the actor side so they only active on movement of the actor 
+- Tweaked some bool check for ai and actor side so they are not firing all the time ,  even footstep are now optimized. 
+-Added a new hitbox system which closely follow the human anatomy rather than just (the higher you hit on the body the higher the damage) 
+- Improved the ragdoll system and fixed a weird player ragdoll snapping bug 
+- Added some detail improvement to the based system to showcase more consequences  
+- Fixed a weird problem with grenade where they explode twice when hit by another projectile.
+
 ## Update — 11/3/2026
 - Tweaked the contested spawning code so the ai properly get blocked from spawning.
 - Fixed a problem with the ai on one side not spawning when enabled the contested spawning blocker when in spectator mode
