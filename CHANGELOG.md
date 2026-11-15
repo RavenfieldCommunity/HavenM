@@ -2,6 +2,16 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/16/2026
+- Added a new system which force the actor seated center position to be in the vehicle center mass , if they actual actor seat is not actually inside the vehicle but in an invisible and unable to fire at by other team ai.
+- Tweaked repair movement for ai
+- Added a few more friendly fire check for ai so Ai doesn't fire at their target if factors such as splash damage , self damage range is too near, or there a risk of friendly fire if the ai projectile path goes inside another friendly vehicle.
+- Removed the FOV requirement for Ai to detect grenade projectile, so they avoid them faster.
+- Tweaked aiming system so the ai when force aim firing (the system which activate for 6 to 10 seconds in vanilla that stop ai from firing unless they are pinpoint accurate) , will deactivate itself to allow ai to fire their projectile instantly if their weapon are aiming correctly at their target which should improve vehicle ai aim and fire time in combat.
+- Tweaked ai commander spawning so contested spawn block make the ai commander switch the spawn position correctly so there will be a constant flow of ai moving toward their target 
+-  Fixed an issue with some ai infantry weapon be come indirect fire weapon when the actor is seated on a vehicle with their personal weapon out
+- Fixed a weird bug which make infantry not properly  aiming at their air target.
+- Fixed a problem with rocket type projectile when destroyed mid air by another projectile doesn't properly turn off their light.
 ## Update — 11/8/2026
 - Added Indirect target acquiring for ai with weapon capable of doing that. 
 - Tweaked Indirect firing arc and tweak the indirect firing weapon type detector + hull movement code to support it
