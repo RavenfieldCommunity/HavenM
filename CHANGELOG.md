@@ -3,6 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/16/2026
+- Added a fix for some attack + transport heli not landing properly.
 - Added a new system which force the actor seated center position to be in the vehicle center mass , if they actual actor seat is not actually inside the vehicle but in an invisible and unable to fire at by other team ai.
 - Tweaked repair movement for ai
 - Added a few more friendly fire check for ai so Ai doesn't fire at their target if factors such as splash damage , self damage range is too near, or there a risk of friendly fire if the ai projectile path goes inside another friendly vehicle.
