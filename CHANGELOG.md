@@ -2,6 +2,15 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/18/2026
+- Tweaked the damage zone system currently existing in the game so that damage zone from weapon will not go through vehicle armor and damage the actor inside the the vehicle armor is rated heavy arm or Anti Tank level, allow damage zone to damage unarmored vehicle but will not damage the actor inside if their seat is enclosed. this make damage zone weapon less op but still have their niche against thin skin vehicle and infantry.
+- Removed diving feature from ai movement system update
+- Added a flee from zone on damage zone and scripted damage zone so ai will properly avoid the damage zone location in addition to their existing flee from behavior when it come to grenade.
+- Tweaked suppression so ai doesn't do that when fleeing
+- Tweaked ai line of fire for optimization reason
+-  Re added the vision check for both grenade .
+- Changed the team commander dialog so there more variant with dialog coming from the grunt on the ground as well, tweaked team commander fire support system so aircraft and mortar get used more by the system when needed.
+- reduce the repair distance multiplier from 0.5f to 0.1f
 ## Update — 11/16/2026
 - Added a fix for some attack + transport heli not landing properly.
 - Added a new system which force the actor seated center position to be in the vehicle center mass , if they actual actor seat is not actually inside the vehicle but in an invisible and unable to fire at by other team ai.
