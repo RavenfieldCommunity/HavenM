@@ -5,6 +5,7 @@
 ## Update — 11/19/2026
 - Optimized of the helicopter ai terrain scan system .
 - fix ai not reseting their flee behavior.
+- Tweaked the flee from damage range code so ai doesn't flee from damage zone that are under them or far above them , I forgot to add that check and ai start fleeing from the damage zone under them especially on mountain range map
 ## Update — 11/18/2026
 - Tweaked the damage zone system currently existing in the game so that damage zone from weapon will not go through vehicle armor and damage the actor inside the the vehicle armor is rated heavy arm or Anti Tank level, allow damage zone to damage unarmored vehicle but will not damage the actor inside if their seat is enclosed. this make damage zone weapon less op but still have their niche against thin skin vehicle and infantry.
 - Removed diving feature from ai movement system update
