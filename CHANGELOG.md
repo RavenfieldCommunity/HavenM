@@ -4,6 +4,7 @@
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/19/2026
 - Optimized of the helicopter ai terrain scan system .
+- fix ai not reseting their flee behavior.
 ## Update — 11/18/2026
 - Tweaked the damage zone system currently existing in the game so that damage zone from weapon will not go through vehicle armor and damage the actor inside the the vehicle armor is rated heavy arm or Anti Tank level, allow damage zone to damage unarmored vehicle but will not damage the actor inside if their seat is enclosed. this make damage zone weapon less op but still have their niche against thin skin vehicle and infantry.
 - Removed diving feature from ai movement system update
