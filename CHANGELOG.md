@@ -2,6 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/20/2026
+- Fixed decal on vehicle not being properly disabled 
+- Added a new system for ai using mounted weapon which allow ai to essentially cheat weapon switching system to allow ai to  be more effective without taking away modder limit and intention , 
+- Added new option for c4 which allow them to still be detonate if the owner die, and allow them c4 to be detonate if hit with a projectile (don't use them as ERA).
+- Tweaked the team commander so they align more and not bypass mapper intended objective movement + added extra dialogs 
 ## Update — 11/19/2026
 - Optimized of the helicopter ai terrain scan system .
 - fix ai not reseting their flee behavior.
