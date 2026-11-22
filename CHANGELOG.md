@@ -2,6 +2,11 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/22/2026
+- Allowed C4(remote detonate weapon) to be used by Ai 
+- Added a ability for ai to use remote detonated projectile weapon (C4), Ai deployed C4 will become a proximity trap which explode upon enemy team actor come close to it.
+- Fixed an issue with Ai  firing and moving while prone.
+- Added proper kill and damage credit if one actor destroy an explosive projectile/grenade/c4 and that thing ended up killing or harming another actor .
 ## Update — 11/20/2026
 - Fixed decal on vehicle not being properly disabled 
 - Added a new system for ai using mounted weapon which allow ai to essentially cheat weapon switching system to allow ai to  be more effective without taking away modder limit and intention , 
