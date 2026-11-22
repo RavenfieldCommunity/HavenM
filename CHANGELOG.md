@@ -3,6 +3,8 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/22/2026
+- Fixed a problem with Ai sometime using vehicle weapon when outside of the vehicle 
+-  Added fix to player order sometime stop working
 - Allowed C4(remote detonate weapon) to be used by Ai 
 - Added a ability for ai to use remote detonated projectile weapon (C4), Ai deployed C4 will become a proximity trap which explode upon enemy team actor come close to it.
 - Fixed an issue with Ai  firing and moving while prone.
