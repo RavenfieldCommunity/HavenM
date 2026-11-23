@@ -2,6 +2,12 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/23/2026
+- Added a radius for aircraft so they drop their passenger around the capture point when within 30m radius of it.
+- Improved helicopter steering system  so they fly better smoother
+- Added general improvement to the Ai performance, optimize existing behavior so the ai call certain code a few time rather than always everyframe.
+- Removal of the exposed vehicle aiming code which result in major fps drop + fixes to repair ai and friendly fire check.
+- Fixed a weird issue with ai not repairing their vehicle correctly resulted from the friendly fire check.
 ## Update — 11/22/2026
 - Fixed a problem with Ai sometime using vehicle weapon when outside of the vehicle 
 -  Added fix to player order sometime stop working
