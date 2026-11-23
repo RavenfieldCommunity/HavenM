@@ -3,6 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/23/2026
+- Added a periodic check for ai so they can properly transition their pathing type when needed.
 - Fixed an issue with Ai amphibious vehicle and watercraft pathing not transitioning correctly.
 - Added a radius for aircraft so they drop their passenger around the capture point when within 30m radius of it.
 - Improved helicopter steering system  so they fly better smoother
