@@ -3,6 +3,7 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/24/2026
+- Fixed a camera issue compatibility for vehicle spawner mutator on spectator mode. 
 - Added a whole new system entirely for Ai pathfinding transition so vehicle now have a better time moving in amphibious pathing maps.
 - Fixed ai dismount system bug.
 - Optimized the c4 proximity code.
