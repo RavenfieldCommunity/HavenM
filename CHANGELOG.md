@@ -2,6 +2,9 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/25/2026
+- Fixed helicopter vehicle start swing around like a grand father clock (only on sofa heli)
+- Fixed capture point aircraft drop not correctly scale with the capture radius.
 ## Update — 11/24/2026
 - Re added spectator mode freeze via scroll wheel 
 - Fixed a problem with ai squad suddenly given new order by the  team commander when they are capturing a point
