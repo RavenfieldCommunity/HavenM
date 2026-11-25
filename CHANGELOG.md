@@ -2,6 +2,8 @@
 > [!tip]
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
+## Update — 11/26/2026
+- Fixed slow motion not working
 ## Update — 11/25/2026
 - Tweaked helicopter pick up behavior.
 - Added proper interpolation on vehicle corpse .
