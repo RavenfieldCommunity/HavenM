@@ -3,6 +3,10 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/25/2026
+- Tweaked helicopter pick up behavior.
+- Added proper interpolation on vehicle corpse .
+- Revert some code from team commander so their dialog comeback
+- Removed a ridgid body code which result in vehicle bouncing aroud 
 - Tweaked general targeting position.
 - Fixing the smart weapon switch system to prevent a bug which suddenly allow ai to double fire a tank round
 - Added a new system which allow Ai to detect incoming guided (guided/lock on) missile and react to them, Vehicle activate countermeasure to block incoming wire guided/laser guided missile. 
