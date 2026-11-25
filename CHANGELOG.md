@@ -3,13 +3,8 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/25/2026
-- Tweaked general targeting position.
-- Fixing the smart weapon switch system to prevent a bug which suddenly allow ai to double fire a tank round
-- Added a new system which allow Ai to detect incoming guided (guided/lock on) missile and react to them, Vehicle activate countermeasure to block incoming wire guided/laser guided missile. 
-- Remove ai from automatically pop countermeasure for incoming lock on missile if the vehicle themselves doesn't have a missile warning component on them, forcing the ai to relies on the new visual detection system (using their eyes) to detect incoming missile and pop countermeasure.
 - Fixed helicopter vehicle start swing around like a grand father clock (only on sofa heli)
 - Fixed capture point aircraft drop not correctly scale with the capture radius.
-
 ## Update — 11/24/2026
 - Re added spectator mode freeze via scroll wheel 
 - Fixed a problem with ai squad suddenly given new order by the  team commander when they are capturing a point
