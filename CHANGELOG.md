@@ -6,6 +6,7 @@
 - Fixed slow motion not working
 - Fixed Amphibious vehicle not landing correctly.
 - Improved RTS commander system.
+- Fixed player unable to use weapon when enabled ai can use weapon underwater.
 ## Update — 11/25/2026
 - Tweaked helicopter pick up behavior.
 - Added proper interpolation on vehicle corpse .
