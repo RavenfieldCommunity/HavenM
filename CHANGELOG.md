@@ -5,7 +5,8 @@
 ## Update — 11/28/2026
 - Latest EA (I might miss something) 
 - Fixed a weird bug with the smart ai switching behavior that affect auto firing Mounted weapon vehicles 
-- Added better interpolation checker so certain aircraft doesn't explode when spawned under the new interpolate system
+- Added better interpolation checker so certain aircraft doesn't explode when spawned under the new interpolate system .
+- Removed a watch dog which auto destroy certain scripted vehicle because it check for turret integrity from another bug .
 
 ## Update — 11/26/2026
 - Fixed slow motion not working
