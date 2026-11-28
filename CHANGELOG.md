@@ -3,7 +3,9 @@
 >
 > For history changelogs, check [Page 1](https://github.com/RavenfieldCommunity/HavenM/blob/26628c863f99de628b9c0bedaf1bd393366aa81c/CHANGELOG.md)
 ## Update — 11/28/2026
-Latest EA (I might miss something) 
+- Latest EA (I might miss something) 
+- Fixed a weird bug with the smart ai switching behavior that affect auto firing Mounted weapon vehicles 
+- Added better interpolation checker so certain aircraft doesn't explode when spawned under the new interpolate system
 
 ## Update — 11/26/2026
 - Fixed slow motion not working
